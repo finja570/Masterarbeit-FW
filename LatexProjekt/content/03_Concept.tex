@@ -1,0 +1,418 @@
+\chapter{Konzeption}
+
+TO DO Kapiteleinleitung!
+
+
+Die Konzeption der Interaktionen erfolgt in vier Schritten: 
+
+\begin{itemize}
+    \item Definition des Design Space 
+    \item Erarbeitung konkreter Ausprägungen der Interaktionsaufgaben und Komponenten
+    \item Bewertung und Einordnung der erarbeiteten Interaktionsaufgaben und Komponenten anhand der definierten Parameter
+    \item Ableitung und Darstellung der finalen Konzepte 
+
+\end{itemize}
+
+Im ersten Schritt erfolgt die Definition des Design Space der Interaktionen. Dazu werden zunächst die für die Erreichung der Zielsetzung der vorliegenden Arbeit erforderlichen Interaktionsaufgaben abgeleitet. Darüber hinaus erfolgt eine Identifikation von Komponenten und Parametern auf Basis des aktuellen Forschungsstands. Im zweiten Schritt erfolgt die Spezifikation konkreter Ausprägungen der Interaktionsaufgaben sowie der Komponenten. Im dritten Schritt erfolgt eine Einordnung und Bewertung der erarbeiteten Optionen hinsichtlich der zuvor definierten Parameter. Im letzten Schritt werden aus den zuvor erarbeiteten Resultaten zwei finale Konzepte abgeleitet, welche anschließend im Rahmen des zu erstellenden Prototyps implementiert werden.  
+
+\section{Definition des Design Space}
+
+Die Beschreibung des Design Space für binäre Interaktionen in PaneoVR erfolgt auf Basis einer dreiteiligen, hierarchischen Struktur. Die grundlegende Ebene wird durch die Interaktionsaufgaben definiert. In diesem Kontext erfolgt eine Beschreibung der für die Nutzung der Anwendung erforderlichen Interaktionsarten. Die zweite Ebene umfasst die Komponenten. Diese definieren spezifische Teilaspekte der Interaktion. Die unterste Ebene bilden die Parameter. Parameter beschreiben in diesem Kontext Designüberlegungen, anhand derer die Interaktionstechniken und -ausprägungen evaluiert werden. Die definierten Parameter beeinflussen das gesamte VR-Erlebnis \citep{10.1145/3441852.3471230}.
+
+{\normalfont \bfseries Interaktionsaufgaben:}  
+
+Die Nutzung der mittels PaneoVR erstellten Trainings basiert auf zwei grundlegenden Interaktionsaufgaben. Dies umfasst die Selektion von Interaktionselementen innerhalb der Szene, d. h. von Elementen wie bspw. Wegpunkten oder Dialogfeldern sowie von UI-Elementen innerhalb des Menüs. Die zweite Interaktionsaufgabe besteht in der Navigation innerhalb der Szene. Dies umfasst die Änderung der Blickrichtung innerhalb der Szene. Da PaneoVR keinen dreidimensionalen Navigationsraum bereitstellt, sondern lediglich 360°-Videos präsentiert, ist keine klassische Navigation im 3D-Raum erforderlich. Stattdessen genügt eine Rotation der Szene, um die Blickrichtung zu ändern und somit innerhalb der virtuellen Welt zu navigieren. Unter Berücksichtigung der Tatsache, dass davon auszugehen ist, dass Nutzende Kopfbewegungen nicht frei und ohne Einschränkungen ausführen können, ist die Entwicklung einer alternativen Interaktionsform unabdingbar. 
+
+{\normalfont \bfseries Komponenten:} 
+
+In Bezug auf die Interaktionen in PaneoVR lassen sich insgesamt vier verschiedene Komponenten identifizieren, deren konkrete Ausgestaltung einen direkten Einfluss auf die Erfahrung nimmt. 
+
+Die Komponente Display definiert die Ebene der Szene, auf der das Interaktionsverfahren stattfindet und visualisiert wird. Im Rahmen der Festlegung der Interaktionskomponente ist insbesondere zu bestimmen, ob sich die Interaktion lediglich auf das Sichtfeld des Nutzenden beschränkt. Die Relevanz dieser Komponente zeigt sich insbesondere in Kontexten, in denen die Nutzenden ihren Kopf bewegen können und somit eine Verschiebung des Sichtfelds unabhängig von der binären Interaktionsschnittstelle umsetzen können. 
+
+Eine weitere zu berücksichtigende Komponente stellt die Transition dar. Diese ist insbesondere bei der Realisierung einer Navigation von Relevanz. Die Transition definiert den Übergang von der Ausführung der Interaktion zur Navigation hin zur gewählten neuen Blickrichtung. In diesem Zusammenhang wird definiert, wie die Rotation der First-Person-Kamera erfolgt. 
+
+Eine weitere Komponente stellt die Bestätigung dar. In diesem Kontext wird definiert, ob eine Eingabe durch den Nutzenden unmittelbar zur Ausführung der Interaktion führt oder ob diese zusätzlich bestätigt werden muss, bspw. in Form einer weiteren Eingabe.
+
+Die letzte relevante Komponente ist die Initialisierung. Diesbezüglich erfolgt die Definition, ob das gewählte Selektionsverfahren jederzeit aktiv ist oder vom Nutzenden zunächst durch eine Interaktion initialisiert werden muss. 
+
+{\normalfont \bfseries Parameter:} 
+
+Die Entwicklung und Bewertung von Interaktionen basiert in der Regel auf der Berücksichtigung verschiedener Parameter, welche das Gesamterlebnis einer VR-Anwendung maßgeblich beeinflussen \citep{10.1145/3441852.3471230}. Die relevanten Parameter für die Interaktionen in PaneoVR werden auf Basis vorangegangener Forschungsarbeiten identifiziert. Da die Gewährleistung einer guten Usability das primäre Ziel der Gestaltung von Interaktionen in VR darstellt \citep{dorner_virtual_2019}, werden die Parameter Effizienz \citep{noauthor_din_nodate-1}, Effektivität \citep{noauthor_din_nodate-1}, Erlernbarkeit \citep{noauthor_din_nodate} sowie Robustheit \citep{noauthor_din_nodate} definiert. Darüber hinaus werden die Parameter Geschwindigkeit \citep{cook_chapter_2015}, Realismus \citep{jerald_vr_2015}, Komfort \citep{jerald_vr_2015} sowie Visuelle Komplexität \citep{steriadis_designing_2003} berücksichtigt. 
+
+\textit{Effizienz} beschreibt das Verhältnis zwischen den eingesetzten Ressourcen und dem damit erreichten Ziel. Im Anwendungskontext ist  insbesondere der benötigte Aufwand als relevante Ressource zu betrachten.
+
+\textit{Effektivität} bezeichnet die Genauigkeit und Vollständigkeit, mit der Benutzer ihre Ziele erreichen. Sie beschreibt, inwieweit die tatsächlichen Ergebnisse mit den angestrebten übereinstimmen. Je nach Kontext kann die Genauigkeit entweder anhand der Korrektheit eines Ergebnisses oder anhand des Erreichens eines akzeptablen Grads der Übereinstimmung mit dem Ziel bewertet werden.
+
+\textit{Erlernbarkeit} beschreibt das Ausmaß, in dem eine Interaktion ohne vorherige Einarbeitung verstanden und genutzt werden kann. In diesem Kontext ist von Relevanz, dass insbesondere ein hoher Wiedererkennungswert der Interaktion eine einfache und intuitive Bedienbarkeit bedingt. \citep{jerald_vr_2015}.
+
+\textit{Robustheit} beschreibt die Fähigkeit eines Systems, auf Fehler von Nutzenden angemessen zu reagieren. Im Rahmen dieser Betrachtung wird untersucht, welche Maßnahmen ergriffen werden, um das Auftreten von Fehlern zu verhindern und inwiefern eine Korrektur von Fehlern möglich ist.
+
+\textit{Geschwindigkeit} beschreibt die notwendige Zeit, die zur versuchten Erreichung eines Ziels aufgewendet wird. Somit wird die Zeitspanne betrachtet, die für die Durchführung einer Interaktion benötigt wird. Im Rahmen dieser Betrachtung wird insbesondere die während der Interaktion entstehende Wartezeit analysiert. 
+
+\textit{Realismus} beschreibt die wahrgenommene Nähe der Interaktion zur Realität. Dies ist von entscheidender Bedeutung, da eine realitätsnahe Interaktion das Gefühl von Presence bei Nutzenden potenziell verstärken kann, was wiederum das Gesamterlebnis in VR beeinflusst.  
+
+\textit{Komfort} bezeichnet die Wahrnehmung der Nutzenden bezüglich der Angenehmheit der Interaktion. In diesem Kontext ist insbesondere die Wahrscheinlichkeit für das Auftreten von Motion Sickness von entscheidender Bedeutung. Des Weiteren werden Faktoren wie Ermüdung oder gesteigerte Konzentration in die Bewertung miteinbezogen.
+
+\textit{Visuelle Komplexität} beschreibt das Ausmaß, in welchem eine Interaktion bzw. deren Darstellung visuell fordernd für die Nutzenden ist. Es ist anzustreben, die visuelle Komplexität auf ein Minimum zu reduzieren, um eine Ablenkung oder Störung der nutzenden Personen zu vermeiden \citep{steriadis_designing_2003}. 
+
+\section{Ausprägungen der Interaktionsaufgaben und Komponenten}
+
+Folgend werden mögliche Ausprägungen zur Implementierung der zuvor beschriebenen Interaktionsaufgaben und Komponetnen erörtert.
+
+{\normalfont \bfseries Interaktionsaufgaben}  
+
+1. Selektion: 
+
+Die Realisierung einer binären Interaktion erfordert die Implementierung einer indirekten Selektionsmethode. In diesem Zusammenhang sind Scanning-Verfahren eine der am weitesten verbreiteten Methoden \citep{cook_chapter_2015}. Folgende Scanning-Verfahren können für den Einsatz in PaneoVR in Betracht gezogen werden: 
+
+\begin{itemize}
+    \item Continueous Cartesian Scanning 
+    \item Automatic Item Scanning
+    \item Step Item Scanning mit Dwell Selection 
+\end{itemize}
+
+2. Navigation:
+
+Im Hinblick auf eine konsistente Gestaltung sollte die Art der Interaktion bei der Navigation einheitlich mit derjenigen bei der Selektion sein. Dadurch soll erreicht werden, dass das System sich für Nutzende möglichst Erwartungskonform verhält. In dieser Konsequenz bedingt sich die Wahl der Ausprägungen gegenseitig. Der Einsatz von Continuous Cartesian Scanning als Selektionsverfahren eröffnet zwei Optionen für die Gestaltung der Navigation: 
+
+\begin{itemize}
+    \item Direkte Navigation: Wird während des Scannings ein Punkt gewählt, auf dem kein Interaktionselement liegt, erfolgt eine Drehung der First-Person-Kamera, sodass der gewählte Punkt den neuen Mittelpunkt des Sichtfelds bildet.
+    \item Navigations- und Selektionsmodus: Es besteht die Möglichkeit, zwischen zwei verschiedenen Modi zu wechseln. Es stehen ein Navigationsmodus sowie ein Selektionsmodus zur Verfügung. Wird im Selektionsmodus ein Punkt im Raum selektiert, auf dem sich kein Interaktionselement befindet, erfolgt keine Aktion und der Scan wird erneut gestartet. Der Navigationsmodus hingegen zeigt das gleiche Verhalten wie zuvor bezüglich der direkten Navigation beschrieben, wobei jedoch eine Rotation der Kamera auch dann möglich ist, wenn der Schnittpunkt auf ein Interaktionselement gesetzt wird. Dies impliziert, dass im Selektionsmodus keine Navigation und im Navigationsmodus keine Selektion möglich ist. 
+\end{itemize}
+
+Bei der Auswahl eines Item-Scanning-Verfahrens für die Selektion besteht die Möglichkeit, die Navigation über ein zusätzliches Navigationsmenü zu implementieren. Innerhalb des Menüs wird für jede mögliche Navigationsrichtung ein entsprechender Button bereitgestellt. In Bezug auf die Funktionsweise der Buttons lassen sich wiederum zwei mögliche Ausprägungen unterscheiden. 
+
+\begin{itemize}
+    \item Schrittweise Rotation: Die Selektion eines Buttons bewirkt eine Rotation um einen festen Winkel. Um eine größere Rotation zu erzielen, ist eine wiederholte Selektion des entsprechenden Buttons erforderlich.
+    \item Kontinuierliche Rotation: Die Selektion eines Buttons initiiert eine kontinuierliche Rotation in die vom Nutzenden gewählte Richtung. Durch eine erneute Selektion des entsprechenden Buttons kann die Rotation jederzeit gestoppt werden. Ein vergleichbares Prinzip wurde bspw. von \citet{10.1145/2159365.2159386} entwickelt und evaluiert. 
+\end{itemize}
+
+{\normalfont \bfseries Komponenten}  
+
+1. Display:
+
+HIER FEHLT NOCH NE KURZE EINLEITUNG 
+
+\begin{itemize}
+    \item Fixiert im Sichtfeld: Das Scanning-Verfahren ist wie ein HUD im Sichtfeld des Nutzenden fixiert. Dies impliziert, dass lediglich Elemente selektiert werden können, die sich auch im Sichtfeld des Nutzenden befinden. Eine Rotation des Kopfes hat demnach unmittelbaren Einfluss auf die Selektion. Im Rahmen eines Cartesian Scannings besteht dadurch die Möglichkeit, die aktuelle Position des Scans durch eine Kopfbewegung zu beeinflussen. Im Rahmen des Item Scannings besteht die Möglichkeit, die Reihenfolge der Elemente zu modifizieren.
+    \item In der gesamten Szene: Das Scanning-Verfahren stellt einen integralen Bestandteil der Szene dar. Dies bedeutet, dass sich der Scan bei einer Rotation nicht aktiv mitdreht und impliziert, dass stets die vollen 360° der Szene abgedeckt werden. Folglich werden auch Interaktionselemente hervorgehoben, die sich außerhalb des Sichtfelds der nutzenden Person befinden. Somit hat eine mögliche Bewegung des Kopfes keinerlei Einfluss auf den Verlauf des Scans.
+    \item Beschränkt auf das Sichtfeld mit Unterbrechung des Scans: Im Rahmen dieser Option findet eine Beschränkung des Scanning-Verfahrens auf das Sichtfeld des Nutzenden statt. Allerdings wird der Scan-Vorgang unterbrochen, sobald der Kopf des Nutzers eine Rotation vollzieht. Mit erneutem Innehalten der Kopfbewegung wird ein neuer Scan initiiert. 
+\end{itemize}
+
+2. Transition: 
+
+Die Rotation der Kamera kann auf unterschiedliche Arten realisiert werden. In der Literatur (vgl. \citet{10.1145/3441852.3471230, 10.1007/s10055-020-00425-x, 8797722}) werden insbesondere die beiden folgenden Optionen diskutiert, die auch in der Praxis Anwendung finden: 
+
+\begin{itemize}
+    \item Direkte Rotation: Bei der direkten Rotation erfolgt eine unmittelbare Rotation der Kamera um einen vorgegebenen Winkel ohne intermediäre Schritte. 
+    \item Kontinuierliche Rotation: Die zweite Option umfasst eine kontinuierliche Bewegung der Kamera. In diesem Fall erfolgt eine fließende Drehung der Szene um den Nutzenden, wodurch eine natürliche Kopfbewegung simuliert wird. 
+\end{itemize}
+
+3. Bestätigung 
+
+HIER FEHLT NOCH NE KURZE EINLEITUNG
+
+\begin{itemize}
+    \item Keine Bestätigung: Eine zusätzliche Bestätigung der Interaktion ist nicht erforderlich. Die Reaktion der Anwendung erfolgt unmittelbar nach Betätigung des Schalters.
+    \item Pop-Up-Menü: Bei Betätigung des Schalters wird ein Pop-Up-Menü angezeigt, welches dem Nutzenden die Möglichkeit bietet, eine Bestätigung der zuvor ausgelösten Interaktion vorzunehmen oder diese abzubrechen. 
+    \item Bestätigungszeit: Wird durch Betätigung des Schalters eine Interaktion initialisiert, ist innerhalb eines vorgegebenen Zeitintervalls eine weitere Betätigung desselben Schalters erforderlich, um die zuvor initiierte Auswahl zu bestätigen und die entsprechende Funktion zu aktivieren. Eine Nicht-Wiederholung der Interaktion führt zur Nicht-Ausführung der Interaktion. 
+\end{itemize}
+
+4. Initialisierung 
+
+HIER FEHLT NOCH NE KURZE EINLEITUNG
+
+\begin{itemize}
+    \item Automatisch: Das Scanning-Verfahren wird automatisch aktiviert und lässt sich auch nicht durch den Nutzenden deaktivieren. Das Verfahren läuft kontinuierlich durch die Szene sowie die gesamte Anwendung hindurch.
+    \item Ein-/Ausschaltbares Scanning: Das Scanning-Verfahren muss durch eine initiale Betätigung des Schalters aktiviert werden. Des Weiteren existiert ein UI-Element in der Szene, welches eine Deaktivierung bzw. eine Pausierung des Scanning-Verfahrens ermöglicht. 
+\end{itemize}
+
+\section{Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}
+
+{\normalfont \bfseries Interaktionsaufgaben}  
+
+1. Selektion
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c|c}
+ Parameter & Cartesian & Automatic & Step \\
+ \hline
+ Effizienz & Hoch & Hoch & Gering-Mittel\\
+ Effektivität & Mittel & Hoch & Hoch\\
+ Erlernbarkeit & Hoch & Hoch & Hoch\\
+ Robustheit & Mittel & Mittel & Hoch\\
+ Geschwindigkeit & Mittel & Langsam & Mittel\\
+ Realismus & - & - & - \\
+ Komfort & Mittel & Mittel & Gering \\
+ Visuelle Komplexität & Mittel & Mittel & Gering
+ \end{tabular}
+ \caption{Parameterbewertung Selektion}
+ \label{tab:Selektion}
+\end{table}
+
+\textit{Effizienz:}
+Eine effiziente binäre Interaktionsmethode für PaneoVR zeichnet sich durch eine möglichst geringe Anzahl an erforderlichen Aktivierungen des Schalters aus. Beim Cartesian Scanning sind grundsätzlich zwei Aktivierungen erforderlich, um eine gewünschte Interaktion auszuführen. Folglich kann die Effizienz dieser Selektionsmethode als hoch eingestuft werden. Demgegenüber weist das Automatic Item Scanning lediglich eine geringfügig höhere Effizienz auf. Die Selektion eines Elements erfolgt durch einmalige Aktivierung des Schalters. Eine Gruppierung der Elemente, etwa mit dem Ziel einer Erhöhung der Interaktionsgeschwindigkeit, bedingt eine größere Anzahl an Interaktionen, was zu einer leichten Reduzierung der Effizienz führt. Das Step Item Scanning zeigt die geringste Effizienz, da mehrere Aktivierungen erforderlich sind, um ein Element gezielt auszuwählen. Eine Gruppierung der Elemente kann in diesem Fall die Effizienz der Selektionsmethode erhöhen, da insbesondere bei einer großen Anzahl an Interaktionselementen in der Szene die Anzahl der erforderlichen Interaktionen deutlich verringert werden kann.
+
+\textit{Effektivität:}
+Die Effektivität des Cartesian Scanning wird insgesamt als mittel bewertet. Das Timing spielt eine entscheidende Rolle bei der Auswahl des gewünschten Interaktionselements. Ein Verfehlen des Elements ist insbesondere bei ungenauem Timing eine potenzielle Gefahr. Demgegenüber weist das Item Scanning eine leicht höhere Effektivität auf, da ausschließlich interaktive Elemente selektiert werden können und keine leeren Eingaben möglich sind. Beim Automatic Item Scanning ist jedoch auch ein gutes Timing von entscheidender Bedeutung, um das gewünschte Element nicht zu verpassen. Insgesamt weist das Step Item Scanning die höchste Effektivität auf, da den Nutzenden hier die größte Kontrolle über das Timing und die Auswahl gegeben ist \citep{cook_chapter_2015}.
+
+\textit{Erlernbarkeit:}
+Personen, die bereits Erfahrung mit Schaltersteuerungen an anderen Geräten gesammelt haben, dürften alle beschriebenen Scanning-Verfahren als vertraut wahrnehmen, da sie bspw. in gängigen Betriebssystemen Anwendung finden. Die Verfahren sind sowohl in den Betriebssystemen iOS und macOS von Apple \citep{apple_einfuhrung_2024} als auch in Android \citep{noauthor_tips_nodate} integriert. Daher wird die Erlernbarkeit aller drei Verfahren als hoch bewertet.
+
+\textit{Robustheit:}
+Der Einsatz von Scanning-Verfahren kann zu Fehlern führen, sofern die Scan Rate nicht den individuellen Bedürfnissen des jeweiligen Nutzenden entspricht. Diesbezüglich ist insbesondere eine zu hohe Scan-Rate problematisch, da den Nutzer:innen keine ausreichende Zeit zur Verfügung steht, um eine präzise Auswahl zu treffen \citep{cook_chapter_2015}. Dies trifft insbesondere auf die Optionen des Cartesian Scanning sowie des Automatic Item Scanning zu. Um dem zuvor beschriebenen Problem entgegenzuwirken, sollte den Nutzenden die Möglichkeit gegeben werden, die Scan Rate individuell einzustellen, um sie somit an die spezifischen Bedürfnisse anzupassen. 
+Demgegenüber bietet das Step Item Scanning den Vorteil, dass die Scan Rate jederzeit von den Nutzenden kontrolliert werden kann, wodurch das Auftreten von Fehlern vermieden werden kann \citep{cook_chapter_2015}. Daher wird die Robustheit dieser Option als am höchsten eingestuft. 
+Des Weiteren können beim Item Scanning Fehler auftreten, wenn die Reihenfolge der Elemente nicht nachvollziehbar ist und ein anderes Interaktionselement hervorgehoben wird, als von den Nutzenden erwartet. Um diesem Umstand entgegenzuwirken, wird empfohlen, die Reihenfolge der Elemente so nachvollziehbar wie möglich zu gestalten sowie eine deutliche Visualisierung zu wählen, die bereits Hinweise auf das jeweils nächste Element liefert.
+Als weitere Maßnahme zur Erhöhung der Robustheit kann die Implementierung eines Toleranzbereichs für das Cartesian Scanning in Erwägung gezogen werden. Dadurch können geringe Ungenauigkeiten von der Anwendung toleriert und die Intentionen der Nutzenden möglichst exakt interpretiert werden.
+
+\textit{Geschwindigkeit:}
+Scanning-Verfahren führen im Vergleich zu direkten Interaktionsmethoden in der Regel zu einer langsameren Interaktion \citep{cook_chapter_2015}. Es ist zu berücksichtigen, dass die folgenden Bewertungen lediglich einen Vergleich der verschiedenen Scanning-Methoden darstellen. Auch ein schnelles Scanning-Verfahren weist grundsätzlich eine geringere Geschwindigkeit auf als eine direkte Interaktion.
+In Bezug auf die Interaktionsgeschwindigkeit lassen sich Unterschiede zwischen Cartesian Scanning und Item Scanning hinsichtlich der Anzahl der Interaktionselemente in einer Szene feststellen. Insbesondere bei einer geringen Anzahl an Interaktionselementen in einer Szene ist die Interaktionsgeschwindigkeit beim Cartesian Scanning vergleichsweise langsam. Die Dauer des Scan-Vorgangs ist insbesondere davon abhängig, an welcher Stelle sich das gesuchte Element innerhalb der Szene befindet. Es kann zu einer gewissen Verzögerung kommen, bis die Scanning-Linie die gewünschte Position des Interaktionselements erreicht. In diesem Fall erweist sich die Selektion mittels Item Scanning als schneller. Bei einer hohen Anzahl an Interaktionselementen ist das Item Scanning hingegen relativ langsam.  Die Anzahl der in einer Szene enthaltenen Interaktionselemente wirkt sich direkt auf die Geschwindigkeit des Scans aus. Mit einer größeren Anzahl von Elementen muss eine entsprechend größere Anzahl von Elementen während des Scans durchlaufen werden, was zu einer Verlangsamung der gesamten Interaktionsgeschwindigkeit führt. Eine Maßnahme, um diesem Umstand entgegenzuwirken, besteht in der Gruppierung räumlich oder semantisch zusammenliegender Elemente. Die Geschwindigkeit des Item Scannings lässt sich dadurch deutlich erhöhen \citep{cook_chapter_2015}. Das Step Item Scanning kann insgesamt als schneller bewertet werden als das Automatic Item Scanning, da die Nutzenden hier schneller zum Zielobjekt gelangen und überflüssige Wartezeiten umgehen können \citep{cook_chapter_2015}.  
+
+\textit{Realismus:} In Bezug auf die Selektion ist der Parameter Realismus als unerheblich zu betrachten. Insgesamt weisen Scanning-Verfahren im Vergleich zu direkten Interaktionsmethoden einen geringen Realismus auf. In Bezug auf den Grad des Realismus zeigen sich zwischen den einzelnen Scanning-Verfahren lediglich geringfügige Unterschiede. 
+
+\textit{Komfort:} 
+In Hinsicht auf den Komfort der Selektion ist insbesondere die Wahrscheinlichkeit für das Auftreten einer motorischen Ermüdung zu betrachten. Des Weiteren findet die erforderliche Konzentration des Nutzenden zur korrekten Ausführung der Selektion Berücksichtigung. Das Cartesian Scanning erfordert eine geringe Anzahl an Aktivierungen des Schalters durch den Nutzenden. Daher kann das Risiko einer motorischen Ermüdung als relativ gering eingestuft werden. Von entscheidender Bedeutung für das Scanning-Verfahren ist jedoch ein exaktes Timing. Daher wird die erforderliche Konzentration als erhöht angenommen. 
+Beim Automatic Item Scanning sind wenige Aktivierungen des Schalters erforderlich, sodass die Wahrscheinlichkeit für das Auftreten von motorischer Ermüdung als gering bewertet werden kann. Allerdings ist hier eine hohe visuelle Aufmerksamkeit sowie ein exaktes Timing erforderlich, was eine gesteigerte Konzentration erfordert. Beim Step Item Scanning ist die Anzahl der erforderlichen Aktivierungen gegenüber den anderen Scanning-Verfahren um ein Vielfaches höher. Infolgedessen wird der physische Aufwand als hoch bewertet, was zu einer raschen motorischen Ermüdung führen kann. Dafür ist der Aufwand an visueller Aufmerksamkeit seitens des Nutzenden gering und die erforderliche Konzentration niedriger \citep{cook_chapter_2015}. 
+
+\textit{Visuelle Komplexität:}
+Die visuelle Komplexität der Szene wird durch den Einsatz eines Scanning-Verfahrens insgesamt erhöht. Die Erhöhung der visuellen Komplexität erfolgt beim Item Scanning durch das kontinuierliche Hervorheben von Interaktionselementen, beim Cartesian Scanning hingegen durch die Bewegung der Scanning-Linie. Das Step Item Scanning weist die geringste visuelle Komplexität auf, da den Nutzenden hier die größte Kontrolle über das Scanning gegeben ist und der Wechsel der Hervorhebungen eigenständig gesteuert werden kann.
+
+2. Navigation 
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c|c|c} 
+ Parameter & Cartesian Scanning & Modi & Menü Schritte & Menü Kontin.\\
+ \hline
+ Effizienz & Hoch & Hoch & Mittel & Mittel\\
+ Effektivität & Mittel & Hoch & Gering & Hoch\\
+ Erlernbarkeit & hhh & hhh & hhh & ?\\
+ Robustheit & Gering & Hoch & Hoch & Hoch\\
+ Geschwindigkeit & Schnell & Schnell & Mittel & Mittel\\
+ Realismus & Mittel & Mittel & Gering & Mittel \\
+ Komfort & Mittel & Mittel & Hoch & Mittel\\
+ Visuelle Komplexität & Gering & Gering-Mittel & Gering-Mittel & Gering-Mittel
+ \end{tabular}
+ \caption{Parameterbewertung Navigation}
+ \label{tab:Navi}
+\end{table}
+
+\textit{Effizienz:}
+Es kann festgehalten werden, dass die Optionen mit Moduswechsel oder zusätzlichem Menü eine geringere Effizienz aufweisen als die Option ohne. Dies ist darauf zurückzuführen, dass in diesen Fällen jeweils ein Zwischenschritt erforderlich ist, um die Navigation auszuführen. Die Menüoption mit festen Rotationsschritten erweist sich als zunehmend ineffizient, je größer der gewünschte Rotationswinkel ist. Mit steigendem Rotationswinkel sind entsprechend mehr Interaktionen erforderlich, um diesen zu erreichen. Um die Effizienz dieser Option zu erhöhen, wäre es in der Implementierung erforderlich, das Menü nach einer Interaktion geöffnet zu lassen und eine kurze Pause im Scanning anzusetzen. Dadurch wird es den Nutzenden erleichtert, denselben Button problemlos mehrfach hintereinander auszuwählen, sodass keine zusätzlichen Wartezeiten entstehen. Bei einer gewünschten Rotation um beide Achsen weisen die auf dem Cartesian Scanning basierenden Optionen eine höhere Effizienz auf, da hier eine simultane Rotation um beide Achsen möglich ist.
+
+\textit{Effektivität:}
+In Bezug auf die Effektivität der Navigation wird betrachtet, in welchem Umfang die Navigation kontrolliert werden kann und inwiefern der Rotationswinkel durch den Nutzenden exakt bestimmt werden kann. Diesbezüglich erweisen sich sowohl der Interaktionsmodus als auch das Navigationsmenü mit kontinuierlicher Rotation als die flexibelsten Optionen, was eine hohe Effektivität gewährleistet \citep{10.1145/2159365.2159386}. Die Effektivität der Navigation, die auf dem Cartesian Scanning basiert, ist durch die Lage und Anzahl der Interaktionselemente eingeschränkt. Die Effektivität der Navigation ist umso geringer, je mehr Interaktionselemente sich in der Szene befinden. Dies ist darauf zurückzuführen, dass die Punkte im Raum, an denen sich die Elemente befinden, nicht gewählt werden können. Im Falle des Rotationsmenüs, welches eine schrittweise Rotation vorsieht, ist der Rotationswinkel vorgegeben. In der Konsequenz ist lediglich eine begrenzte Anzahl an Rotationswinkeln möglich, wodurch die angestrebte Position ggf. nicht exakt erreicht werden kann \citep{10.1145/2159365.2159386}.
+
+\textit{Erlernbarkeit:} TO DO! 
+
+\textit{Robustheit:}
+Hinsichtlich der Robustheit erweisen sich Optionen, welche eine Abgrenzung zwischen Selektions- und Navigationsaufgabe schaffen, als vorteilhafter. Eine fehlende Abgrenzung kann insbesondere bei einer Vielzahl an Interaktionselementen innerhalb einer Szene oder bei einem ungenauen Timing zu Verwechselungen und ungewollten Reaktionen des Systems führen, was die Robustheit der Interaktion beeinträchtigt. Eine Trennung in Form eines separaten Modus oder Menüs kann derartige Fehler vermeiden. Bei der Implementierung einer Modus-Option ist jedoch von essenzieller Bedeutung, dass der aktuelle Modus für den Nutzenden deutlich erkennbar ist. In diesem Kontext erweist sich eine aussagekräftige Visualisierung als maßgeblich. Die Menü-Optionen bieten die umfassendste Kontrolle über die Navigation, insbesondere hinsichtlich der Rotationsachsen. Dadurch kann einer Fehlerentstehung effektiv vorgebeugt werden. 
+
+\textit{Geschwindigkeit:}
+Die höchste Geschwindigkeit bei der Navigation wird durch die Option auf Grundlage des Cartesian Scanning erzielt, da keine Zwischenschritte in der Interaktion erforderlich sind und der Rotationswinkel beliebig groß gewählt werden kann. Infolgedessen kann die gewünschte Position durch eine einzige Auswahl erreicht werden. Die Geschwindigkeit ist jedoch bei einer hohen Anzahl an Interaktionselementen in einer Szene limitiert, da dies die Möglichkeiten für auswählbare Nutzereingaben einschränkt. 
+Die Option, die zwei Interaktionsaufgaben in verschiedenen Modi auszuführen, bedingt einen zusätzlichen Zwischenschritt in Form eines Modus-Wechsels. Dies resultiert in einer geringfügigen Verlangsamung der Geschwindigkeit. Demgegenüber stellt die Anzahl der Interaktionselemente für die Geschwindigkeit der Interaktion keinen Einfluss dar. Die Vorteile, die sich aus einem beliebig großen Rotationswinkel ergeben, bleiben bestehen.  Des Weiteren bieten diese beiden Optionen den Vorteil, dass eine Rotation auf zwei Achsen gleichzeitig mit der Auswahl eines einzigen Punktes innerhalb der Szene möglich ist. Dies resultiert in einer Steigerung der Geschwindigkeit. 
+Die Navigation über ein zusätzliches Navigationsmenü, welches mittels Item Scanning bedient wird, weist eine leicht reduzierte Geschwindigkeit auf. In diesem Fall ist zunächst das Öffnen des entsprechenden Menüs erforderlich, um eine Navigation zu ermöglichen. Bei der schrittweisen Rotation sind ggf. mehrere Interaktionsschritte nacheinander erforderlich, um die gewünschte Position zu erreichen. Dies resultiert in einer Verringerung der allgemeinen Geschwindigkeit. Die kontinuierliche Rotation ist jedoch nicht als wesentlich schneller zu bewerten, da eine zu schnelle Rotation das Risiko von Motion Sickness erhöhen würde. Bei beiden Optionen ist lediglich eine Rotation um eine Achse zur Zeit möglich. Ist eine Rotation um zwei Achsen gewünscht, muss dies in zwei Schritten erfolgen, was sich deutlich auf die Geschwindigkeit auswirkt. 
+
+\textit{Realismus:} TO DO 
+
+\textit{Komfort:}
+In Hinblick auf den Komfort der Navigation ist insbesondere die benötigte Konzentration zur Erreichung des Ziels von Relevanz. Die Optionen, welche auf Grundlage des Cartesian Scanning basieren, erfordern insgesamt eine höhere Konzentration als eine Navigation über ein zusätzliches Menü. Dies ist darauf zurückzuführen, dass ein präzises Timing notwendig ist, um den gewünschten Rotationspunkt zu erreichen. Bei der Option ohne Modi ist zusätzlich zu berücksichtigen, dass eine unbeabsichtigte Auswahl eines Interaktionselements möglich ist. Die Menüoption mit vorgegebenen Rotationswinkeln erfordert die geringste Konzentration. Bei der Option der kontinuierlichen Rotation ist darüber hinaus zu erwähnen, dass eine durchgängige Rotation der First-Person-Kamera das Risiko des Auftretens von Motion Sickness erhöht \citep{10.1007/s10055-020-00425-x, 8797722}.
+
+\textit{Visuelle Komplexität:}
+Die visuelle Komplexität der Szene wird durch das Hinzufügen eines zusätzlichen Interaktionselements marginal erhöht. Dies trifft sowohl auf die Menüoptionen als auch auf die Modi-Optionen zu. Um die visuelle Komplexität bei den Menüoptionen auf ein Minimum zu reduzieren, ist es empfehlenswert, das Menü als ein- und ausklappbare Komponente zu gestalten. Infolgedessen werden die Buttons zur Rotation lediglich angezeigt, sofern diese benötigt werden. Die visuelle Komplexität der Option mit Modus-Wechsel ist maßgeblich von der Art der Visualisierung des aktuellen Modus abhängig. An dieser Stelle sollte das Ziel darin bestehen, eine Visualisierung zu finden, die die visuelle Komplexität auf ein Minimum reduziert, gleichzeitig aber deutlich und unmissverständlich ist.
+
+{\normalfont \bfseries Komponenten:} 
+
+1. Display
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c|c} 
+ Parameter & Fest am Sichtfeld & Gesamte Szene & Sichtfeld mit Neustart \\
+ \hline
+ Effizienz & Hoch & Gering & Hoch \\
+ Effektivität & Gering-Mittel & Hoch & Mittel\\
+ Erlernbarkeit & ddd & asd & asda \\
+ Robustheit & Gering & Mittel & Hoch\\
+ Geschwindigkeit & Schnell & Langsam & Schnell\\
+ Realismus & - & - & - \\
+ Komfort & Gering & Mittel & Mittel\\ 
+ Visuelle Komplexität & Hoch & Gering & Gering
+ \end{tabular}
+ \caption{Parameterbewertung Display}
+ \label{tab:Display}
+\end{table}
+
+\textit{Effizienz:}
+Eine Steigerung der Effizienz der Interaktion kann durch eine Beschränkung des Scanning-Verfahrens auf das Sichtfeld erzielt werden. In diesem Kontext kann die Effizienz durch gezielte Kopfbewegungen, sofern diese für die Nutzenden möglich sind, zusätzlich erhöht werden. Ein Scanning-Verfahren, welches sich über die gesamten 360° der Szene erstreckt, weist eine deutlich geringere Effizienz auf. Eine Unterbrechung des Scanning-Verfahrens bei jeder Kopfbewegung kann zu einer Verringerung der Effizienz führen, da dadurch potenziell unbeabsichtigte Bewegungen zu einer Verzögerung des Verfahrens führen können. In anderen Situationen kann die Effizienz hingegen potenziell gesteigert werden. Beispielsweise bei gewünschter Interaktion mit Zielelementen, die sich am Rand des Sichtfelds befinden und deren Auswahl aufgrund von Timing-Problemen verpasst wurde. In derartigen Fällen erlaubt eine Kopfbewegung, gefolgt von einem unmittelbaren Neustart des Scannings, dass die erneute Wartezeit auf die Wiederholung des Scannings entfällt. Dies kann insbesondere von Vorteil sein, wenn eine Vielzahl von Interaktionselementen in einer Szene vorhanden ist und ein Item Scanning-Verfahren zum Einsatz kommt.
+
+\textit{Effektivität:}
+Die auf das Sichtfeld beschränkten Optionen sind anfällig für unbeabsichtigte Verschiebungen durch Kopfbewegungen, was die Wahrscheinlichkeit erhöht, dass Interaktionselemente verfehlt werden oder die Genauigkeit von Auswahlen bei der Navigation beeinträchtigt wird. Dies hat eine entsprechend negative Auswirkung auf die Effektivität dieser Optionen. Insbesondere beim Cartesian Scanning ist diese Wahrscheinlichkeit deutlich erhöht. Durch einen Neustart des Scannings kann die Effektivität hingegen gesteigert werden. Bei der 360°-Option ist dieser Umstand generell nicht gegeben. Daher wird die Effektivität dieser Option am höchsten eingeschätzt. 
+
+
+\textit{Erlernbarkeit:} TO DO! 
+
+\textit{Robustheit:}
+Beim 360°-Scanning wird dem Auftreten von Fehlern grundsätzlich dadurch vorgebeugt, dass Kopfbewegungen keinen Einfluss auf das Scanning haben und dadurch keine unbeabsichtigten Verschiedungen auftreten können. Allerdings besteht in diesem Zusammenhang das Risiko unbeabsichtigter Selektionen, sofern sich der Scan außerhalb des Sichtfelds befindet und somit für die Nutzenden nicht wahrnehmbar ist. In diesem Kontext ist eine eindeutige visuelle Rückmeldung essenziell, um zu signalisieren, dass das Scanning aktiv ist und ordnungsgemäß funktioniert. Die Implementierung einer zusätzlichen Bestätigung der Eingabe könnte in diesem Zusammenhang als sinnvoll erachtet werden, um Fehlern vorzubeugen. 
+Ein Neustart des Scannings nach einer Kopfbewegung unterbricht den Scan und wirkt somit präventiv gegen Fehler. Da während der Bewegung keine Eingaben möglich sind, werden unbeabsichtigte Selektionen weitestgehend verhindert. Die höhste Fehlerwahrscheinlichkeit besteht bei einem festen Scanning im Sichtfeld. Selbst minimale Kopfbewegungen wirken sich unmittelbar auf das Scanning aus, sodass eine Verschiebung der Auswahl einfach möglich ist. Dies trifft insbesondere auf die Anwendung des Cartesian Scannings zu. 
+In Bezug auf das Step Item Scanning erweist sich die Option mit Neustart als die effektivste Lösung. Es wird angenommen, dass eine simultane Bewegung des Kopfes und Betätigung des Schalters für Nutzende schwierig bis unmöglich ist.  
+Wird das Scanning während der Kopfbewegung nicht unterbrochen, besteht die Möglichkeit einer unbeabsichtigten Auswahl eines Elements, sofern die Dauer der Kopfbewegung das Zeitintervall der Auswahl überdauert. 
+
+\textit{Geschwindigkeit:}
+Die Interaktionsgeschwindigkeit ist bei den beiden Optionen, bei denen das Scanning-Verfahren auf das Sichtfeld des Nutzenden beschränkt ist, wesentlich höher als bei einem 360°-Scanning, bei dem eine deutliche Zeitverzögerung auftreten kann.
+Die schnellste Option stellt das fixierte Verfahren am Sichtfeld dar, da in diesem Fall keinerlei Verzögerungen auftreten. Die Verzögerungen bei der Neustart-Option können jedoch ebenfalls als relativ gering bewertet werden. Für beide Optionen gilt, sofern Kopfbewegungen für den Nutzenden möglich sind, dass diese gezielt eingesetzt werden können, um die Interaktionsgeschwindigkeit zu erhöhen. Durch Kopfbewegungen kann die Scan-Linie beim Cartesian Scanning gezielt in die Nähe der Position des Zielelements gelenkt werden, wodurch eine schnellere Auswahl des Zielelements möglich ist. Im Rahmen des Item Scannings besteht die Möglichkeit, das Zielelement weiter an den Anfang der Scan-Reihenfolge zu bringen, was den gleichen Effekt wie bei der zuvor beschriebenen Vorgehensweise hat.  
+
+\textit{Realismus:}
+Die beschriebenen Optionen unterscheiden sich hinsichtlich des Parameters Realismus kaum. In der Konsequenz wird dieser Parameter als unerheblich für die Komponente erachtet. 
+
+\textit{Komfort:}
+In Bezug auf den Komfort ist insbesondere die notwendige Konzentration des Nutzenden zu berücksichtigen. In diesem Kontext weist die 360°-Option die geringste erforderliche Konzentration auf. Die Nutzenden sind nicht gefordert, sich Gedanken über Bewegungen des Kopfes zu machen, da diese keinen Einfluss auf das Scanning-Verfahren ausüben. Die höchste Konzentration ist erforderlich, wenn das Scanning-Verfahren auf das Sichtfeld beschränkt ist und eine Bewegung des Kopfes einen direkten Einfluss auf das Scanning-Verfahren hat. In diesem Fall können bereits minimale Bewegungen eine Verschiebung des Scannings hervorrufen, wodurch in Momenten geringer Konzentration potenziell Fehler auftreten können. Des Weiteren ist bei der Einschätzung des Komforts auch die mögliche motorische Ermüdung zu berücksichtigen, insbesondere im Hinblick auf das Step Item Scanning. Ein 360°-Scanning kann aufgrund der hohen Anzahl erforderlicher Interaktionen schnell zu Ermüdung führen. Ein Neustart kann ebenfalls zusätzliche Interaktionen nach sich ziehen, die zu einer schnelleren Ermüdung führen können. 
+
+\textit{Visuelle Komplexität:}
+Ein Neustart des Scannings bei einer Kopfbewegung resultiert in einer relativ geringen visuellen Komplexität, da sich dadurch die Bewegung des Kopfes nicht mit der Bewegung des Hervorhebens der Elemente beim Item Scanning bzw. mit der Bewegung der Scan-Linie beim Cartesian Scanning überlagert. Folglich ist die visuelle Komplexität bei festem Scanning am Sichtfeld ohne Unterbrechung höher. Insbesondere im Hinblick auf das Cartesian Scanning kann diese Option bei Nutzenden Irritation auslösen, da die gleichmäßige und kontinuierliche Bewegung des Scannings durch die Rotation des Kopfes unterbrochen bzw. modifiziert wird. Beim 360°-Scanning erfolgt ebenfalls eine Überlagerung der Bewegungen, jedoch wird die visuelle Komplexität dennoch als vergleichsweise gering eingestuft, da der Ablauf des Scannings stets gleichmäßig und vorhersehbar bleibt. 
+
+2. Transition 
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c}
+ Parameter & Direkt & Kontinuierlich\\
+ \hline
+ Effizienz & - & -\\
+ Effektivität & - & -\\
+ Erlernbarkeit & Hoch & Hoch\\
+ Robustheit & - & -\\
+ Geschwindigkeit & Schnell & Langsam\\
+ Realismus & Gering & Hoch \\
+ Komfort & Hoch & Gering\\
+ Visuelle Komplexität & Mittel & Gering
+ \end{tabular}
+ \caption{Parameterbewertung Transition}
+ \label{tab:Transition}
+\end{table}
+
+\textit{Effizienz:}
+Die Gestaltung der Transition hat keinen Einfluss auf die Effizienz der Interaktion.
+
+\textit{Effektivität:} 
+Die Gestaltung der Transition hat keinen Einfluss auf die Effektivität der Interaktion.
+
+\textit{Erlernbarkeit:}
+Beide Transitionen werden bereits in einer Vielzahl bekannter VR-Anwendungen implementiert, bspw. in -. Folglich lässt sich der Wiedererkennungswert beider Optionen als hoch einschätzen. 
+
+\textit{Robustheit:}
+Die Gestaltung der Transition hat keinen Einfluss auf die Robustheit der Interaktion. 
+
+\textit{Geschwindigkeit:}
+Im Vergleich zur kontinuierlichen Bewegung weist die direkte Rotation eine höhere Geschwindigkeit auf, da die Rotation unmittelbar und ohne Übergangszeit erfolgt \citep{8797722}. 
+
+\textit{Realismus:}
+Die kontinuierliche Rotation der Szene imitiert die natürliche Bewegung des Kopfes und wirkt daher für die Nutzenden realistisch. Demgegenüber ist die direkte Rotation eine vergleichsweise unrealistische Transition \citep{8797722}. 
+
+\textit{Komfort:}
+Eine kontinuierliche Rotation der Kamera kann bei Nutzenden relativ rasch Symptome von Motion Sickness hervorrufen \citep{10.1007/s10055-020-00425-x, 8797722}, wodurch der Komfort deutlich geschwächt wird. Im Gegensatz dazu birgt die direkte Rotation ein vergleichsweise geringes Risiko für das Auftreten von Motion Sickness \citep{10.1007/s10055-020-00425-x, 8797722} und erweist sich somit für Nutzende als angenehmer.
+
+\textit{Visuelle Komplexität:}
+Der unmittelbare Wechsel des Sichtfelds bei der direkten Rotation kann dazu führen, dass Nutzende kurzzeitig die räumliche Orientierung verlieren und sich erst wieder visuell an das neue Bild gewöhnen müssen \citep{10.1145/3441852.3471230}. Eine potenzielle Maßnahme, um diesem Umstand entgegenzuwirken, wäre die Implementierung eines geringen Rotationswinkels, sodass die Nutzenden zeitnah einen visuellen Anker im Raum ausfindig machen können. Demgegenüber kann die kontinuierliche Bewegung dazu führen, dass das räumliche Bewusstsein bei den Nutzenden erhöht wird \citep{10.1145/3441852.3471230}.
+
+3. Bestätigung
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c|c} 
+ Parameter & Keine & Pop-Up-Menü & Zeitinterval \\
+ \hline
+ Effizienz & Hoch & Gering & Hoch \\
+ Effektivität & - & - & -\\
+ Erlernbarkeit & ? & ? & ? \\
+ Robustheit & Gering & Hoch & Hoch\\
+ Geschwindigkeit & Hoch & Mittel & Langsam-Mittel\\
+ Realismus & Hoch & Gering & Mittel \\
+ Komfort & Mittel & Mittel & Mittel \\
+ Visuelle Komplexität & Gering & Mittel & Mittel
+ \end{tabular}
+ \caption{Parameterbewertung Bestätigung}
+ \label{tab:Bestätigung}
+\end{table}
+
+\textit{Effizienz:}
+Bezüglicher der Berwertung der Effizienz muss zwischen korrekt beabsichtigten Eingaben und fehlerhaften Eingaben unterschieden werden. Bei korrekten Eingaben ist bietet die Implementierungsoption ohne zusätzliche Bestätigung die höhste Effizienz, da durch eine einzige Eingabe das Interaktionsziel erreicht werden kann. Bei fehlerhaften Eingaben hingegen wird die Effizienz deutlich gemindert, da der Aufwand zu Korrektur des Fehlers höher ist als bei einer Option mit zusätzlicher Bestätigung. 
+
+\textit{Effektivität:} TO DO!
+
+\textit{Erlernbarkeit:} TO DO! 
+
+\textit{Robustheit:}
+Die Robustheit der Interaktion wird durch eine zusätzliche Bestätigung der Eingabe erhöht, da dadurch Fehler bzw. fehlerhafte Eingaben unmittelbar und mit minimalem Aufwand korrigiert werden können. Wichtig bei der Option mit Zeitintervall ist, dass deutlich visualisiert wird, dass die Eingabe erfolgreich war und das Bestätigungsintervall aktiv ist. Ohne die Bestätigung wird die Robustheit als geringer bewertet.  
+
+\textit{Geschwindingkeit:}
+Bezüglich der Geschwindigkeit ist klar, dass eine zusätzliche Bestätigung sich auf jeden Fall negativ auf die insgesamte Interaktionsgeschwindigkeit auswirkt. Die Option ohne zusätzliche Bestätigung ist demnach die schnellste Option. Eine zusätzliche Eingabe als Bestätigung erfordert jedoch nur einen geringen zeitlichen Zusatzaufwand. Bei einem Bestätiguugsintervall ist der Zusatzaufwand abhängig von der Länge der gesetzten Zeit. 
+
+\textit{Realismus:}
+Bezüglich des Realismus kann festgehalten werden, dass eine zusätzliche Bestätigung der Interaktion zu einer Verringerung des Realismus führt und damit vermutlich das Gefühl von Presence mindert. Bei einem zusätzlichen Pop-Up-Menü ist der Bruch im Realismus zu die visuelle Unterbrechung vermutlich am höhsten. 
+
+\textit{Komfort:}
+Wenn keine zusätzliche Bestätigung benötigt wird, muss auch entsprechend keine zusätzliche Eingabe erfolgen, wodurch der physische Aufwand so gering wie möglich gehalten wird. Jedoch ist gleichzeitig eine höhere Konzentration erforderlich, da fehlerhafte Eingaben nicht unmittelbar korrigiert werden können. Wird eine zusätzliche Bestätigung gefordert, in welcher Form auch immer, sind die Auswirkungen entsprechend umgekehrt. 
+ 
+\textit{Visuelle Komplexität:}
+Auch bzgl. der visuellen Komplexität kann gesagt werden, dass eine zusätzliche Bestätigung dazu führt, dass die visuelle Komplexität erhöht wird, da in beiden Optionen zusätzliche visuelle Hinweise bzw. Informationen benötigt werden. Generell ist bei beiden Bestätigungsoptionen die visuelle Komplexität im Detail abhängig von der Gestaltung des Pop-Up-Menüs bzw. der Visualisierung des Zeitintervalls. 
+
+4. Initialisierung 
+
+\begin{table}[ht]
+ \centering
+ \begin{tabular}{r|c|c}
+ Parameter & Immer an & Ein-/Ausschaltbar\\
+ \hline
+ Effizienz & Hoch & Hoch\\
+ Effektivität & - & -\\
+ Erlernbarkeit & Hoch & Gering\\
+ Robustheit & - & -\\
+ Geschwindigkeit & Schnell & Schnell\\
+ Realismus & Gering & Hoch \\
+ Komfort & Mittel & Hoch\\
+ Visuelle Komplexität & Hoch & Mittel
+ \end{tabular}
+ \caption{Parameterbewertung Initialisierung}
+ \label{tab:Initial}
+\end{table}
+
+\textit{Effizienz:}
+Beide Varianten weisen eine hohe Effizienz auf. 
+Ist das Scanning durchgehend aktiv, können zu jedem Zeitpunkt Interaktionen durchgeführt werden. Die Initialisierung erfordert einen zusätzlichen Zwischenschritt, der jedoch mit minimalem Aufwand verbunden ist, sodass die Effizienz nicht maßgeblich beeinträchtigt wird.
+
+\textit{Effektivität:}
+Das Vorhandensein einer Initialisierung hat keinen Einfluss auf die Effektivität der Interaktion.
+
+\textit{Erlernbarkeit:}
+Die Initialisierung des Scanning-Verfahrens muss den Nutzenden zunächst erklärt werden. Die Erlernbarkeit wird daher insgesamt als gering bewertet. Sofern das Scanning-Verfahren durchgängig aktiv ist, erübrigt sich eine zusätzliche Erläuterung der Funktionsweise.
+
+\textit{Robustheit:}
+Das Vorhandensein einer Initialisierung hat keinen Einfluss auf die Robustheit der Interaktion. 
+
+\textit{Geschwindigkeit:}
+Bei dauerhaft aktiviertem Scanning-Verfahren ist die Durchführung von Interaktionen zu jedem Zeitpunkt möglich. Dies hat eine entsprechende positive Auswirkung auf die benötigte Interaktionszeit. Die Initialisierung des Scannings erfolgt jedoch durch eine einfache Interaktion, sodass die Geschwindigkeit durch diesen Zwischenschritt lediglich minimal beeinflusst wird. In der praktischen Anwendung ist eine solche minimale Beeinflussung vermutlich nicht von Relevanz. 
+ 
+\textit{Realismus:}
+Ist das Scanning-Verfahren nicht durchgängig aktiv, besteht für die Nutzenden die Möglichkeit, das Video in der Szene genauer zu betrachten und sich auf dieses zu konzentrieren, wodurch ein tieferes Eintauchen in die Szene ermöglicht wird. Es ist anzunehmen, dass sich dadurch das Gefühl von Presence erhöht. Ein permanentes Scanning hingegen dürfte eher zu einer weniger realistischen Wahrnehmung führen. 
+
+\textit{Komfort:}
+Die permanente Überlagerung des Videos in der Szene mit dem Scanning-Verfahren könnte von Nutzenden als störend empfunden werden. Eine Fokussierung der Nutzenden auf den Inhalt des Videos erfordert eine deutlich höhere Konzentration, um eine Ablenkung durch die Visualisierung des Scanning-Verfahrens zu vermeiden. Sofern das Verfahren eigenständig aktiviert und deaktiviert werden kann, ist die erforderliche Konzentration geringer. Diese Option bedingt jedoch eine minimale Steigerung der erforderlichen Interaktionen. 
+
+\textit{Visuelle Komplexität:}
+Die permanente Überlagerung des Videos in der Szene und der Bewegung Scanning-Verfahrens erhöht die insgesamte visuelle Komplexität. Für die Nutzenden ist es, wie bereits unter dem Parameter Komfort beschrieben, ggf. schwierig, sich auf das Video zu konzentrieren. Durch die Möglichkeit, das Scanning zu aktivieren oder auch zu deaktivieren ermöglicht es den Nutzenden hingegen, die visuelle Komplexität der Szene eigenstädig zu reduzieren. 
+
+\section{Finale Konzepte}
+
+In der Bewertung der Optionen hinsichtlich der Interaktionsaufgaben sowie der Komponenten zeigt sich, dass eine hohe Geschwindigkeit und Effizienz oft mit einer geringeren Robustheit und einem reduzierten Komfort einhergehen. Diese Parameter stehen in einer Wechselwirkung zueinander, wodurch eine gleichzeitige Optimierung nicht uneingeschränkt möglich ist. Daher wird ein Konzept aufgestellt, das primär auf die Optimierung von Geschwindigkeit und Effizienz abzielt, während ein alternatives Konzept den Fokus auf Robustheit und Komfort legt. Bei Situationen, in denen die Entscheidung zwischen den Ausprägungsoptionen aufgrund ähnlicher Bewertungen unklar ist, werden die weiteren Parameter herangezogen, um festzustellen, welche Option insgesamt mehr Vorteile aufweist. Auf Basis dieser Überlegungen ergeben sich die folgenden Konzepte.
+
+{\normalfont \bfseries 1. Konzept: Fokus Geschwindigkeit und Effizienz} 
+
+Das erste Konzept fokussiert sich auf eine schnelle und effiziente Interaktion. Für die Selektion wird das Cartesian Scanning gewählt, da es eine mittlere Geschwindigkeit und hohe Effizienz bietet. Bei der Navigation werden Menü-Optionen aufgrund des gewählten Selektionsverfahrens ausgeschlossen, wodurch zwischen der Modi-Option sowie der direkten Navigation entschieden werden muss. Aufgrund der höheren Effektivität wird hier die Modus-Option bevorzugt. Bzgl. der Komponente Display steht entweder eine fest im Sichtfeld verankerte Darstellung oder ein Neustart des Scannings zur Auswahl. Aufgrund der geringeren visuellen Komplexität und höheren Effektivität wird die Neustart-Option gewählt. Für die Transition wird aufgrund der höheren Geschwindigkeit eine direkte Rotation implementiert. Eine Bestätigung entfällt, um die Geschwindigkeit und Effizienz weiter zu steigern. Außerdem ist das Scanning dauerhaft aktiv, da dies trotz einer knappen Entscheidung insgesamt als die schnellere Lösung eingeschätzt wird. 
+
+
+{\normalfont \bfseries 2. Konzept: Fokus auf Robustheit und Komfort}
+
+Das zweite Konzept legt den Fokus auf Robustheit und Komfort. Für die Selektion wird Automatic Item Scanning gewählt. Obwohl das Step Item Scanning eine höhere Robustheit bietet, fällt der Komfort dabei deutlich negativ aus, weshalb die automatische Variante bevorzugt wird. Bei der Navigation sind aufgrund der gewählten Selektion nur Menü-Optionen möglich. Hier wird ein Menü mit festen Navigationsschritten gewählt, da es einen höheren Komfort bietet. Bezüglich der Komponente Display wird die Neustart-Option gewählt, um eine höhere Robustheit zu gewährleisten. Für die Transition wird erneut die direkte Rotation gewählt, da diese deutlich mehr Komfort für Nutzende bietet. Hinsichtlich der Bestätigung stehen Pop-Up und Zeit zur Auswahl. Beide Optionen bieten eine hohe Robustheit und nur geringe Unterschiede im Komfort. Es wird die Zeit-Option gewählt, da sie zu einem höheren wahrgenommenen Realismus führt. Das Scanninng-Verfahren ist nicht dauerhaft aktiv, sondern erfordert eine Initialisierung, da dies sowohl mehr Komfort als auch mehr Realismus bietet.

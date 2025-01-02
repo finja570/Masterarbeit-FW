@@ -1,0 +1,99 @@
+% Platzhalter
+
+
+% Variablen
+
+% Titel der Abschlussarbeit
+\newcommand{\myTitle}{Barrierefreiheit in Virtual Reality – Konzeption, Implementierung und Evaluation von binären Interaktionsschnittstellen in PaneoVR für Nutzende mit motorischen Einschränkungen}
+
+% Vor- und Nachname
+\newcommand{\myAuthor}{Finja Wegener}
+
+% Datum der Abgabe
+\newcommand{\myDate}{17. Dezember 2024}
+
+% Ort
+\newcommand{\myOrt}{Lübeck}
+
+% Matrikelnummer
+\newcommand{\myMatrikelnummer}{311854}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass
+[
+    ngerman,
+    headsepline, % Linie in Kopfzeile
+    automark,
+    listof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
+    bibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+    oneside, % Einseitig
+    appendixprefix, % Das Wort "Anhang" vor dem Buchstabe des Anhangs ergänzen
+    numbers=noenddot, % Kein Punkt nach Kapitelnummer
+    parskip
+]
+{scrbook}
+
+% Laden der Pakete
+\input{packages}
+
+\input{format}
+
+\input{content/ZZ_Acronym}
+\input{content/ZZ_Glossary}
+
+\makeglossaries
+
+\begin{document}
+
+% Anfang des Dokuments
+\frontmatter
+
+\input{content/AA_Front/01_Title}
+
+\cleardoublepage
+
+% Römische Zahlen in Groß
+\pagenumbering{Roman}
+
+\input{content/AA_Front/02_Abstract}
+\input{content/AA_Front/03_Kurzfassung}
+\input{content/AA_Front/04_Acknowledgement}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
+\printglossary[title=Glossar]
+
+\cleardoublepage
+
+%\pagenumbering{arabic}
+
+% Hauptteils des Dokuments
+\mainmatter
+
+\input{content/01_Introduction}
+\input{content/02_RelatedWork}
+\input{content/03_Concept}
+\input{content/04_Implementation}
+\input{content/05_Evaluation}
+\input{content/06_Discussion}
+
+\bibliographystyle{plainnat}
+\bibliography{literature}
+
+% Anhang
+\appendix
+%&%\chapter*{Anhang} % Ein Kapitel ohne Nummerierung
+\addcontentsline{toc}{chapter}{Anhang} % Fügt das Anhang-Kapitel dem Inhaltsverzeichnis hinzu
+%\addchap{Anhang}
+
+\input{content/XX_Back/Anhang/appendix}
+
+% Anhang des Dokuments
+\backmatter
+
+\input{content/XX_Back/Versicherung}
+
+\end{document}

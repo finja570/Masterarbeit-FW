@@ -1,0 +1,69 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\nonumberline Abstract}{I}{chapter*.1}%
+\contentsline {chapter}{\nonumberline Kurzfassung}{II}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Danksagung}{III}{chapter*.3}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.5}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.6}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aufbau der Arbeit}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Stand der Forschung / Stand der Technik}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Virtual Reality}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Hardware - HMD und Controller}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Motion Sickness}{5}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Barrierefreiheit (in VR)}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Probleme}{8}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Lösungsansätze}{10}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Binäre Interaktionsschnittstellen}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Switches}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Scanning-Verfahren}{11}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Usability und User Experience}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.5}PaneoVR}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Zusammenfassung}{14}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Konzeption}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definition des Design Space}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Finale Konzepte}{34}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementierung}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architektur}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Scanning Methoden}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{44}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{48}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{48}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{50}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Evaluation}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{51}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{51}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{54}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Durchführung}{56}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{60}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}UEQ}{60}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}SUS}{60}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}SSQ}{60}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Ablenkung/Presence}{60}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Geschwindigkeit und Zkylen}{60}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Fehler und leere Eingaben}{60}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Korrelationen}{60}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Feedback/Anmerkungen/Beobachtungen}{60}{subsection.5.3.8}%
+\contentsline {chapter}{\numberline {6}Diskussion}{74}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ausblick}{74}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test}{74}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Tabelle}{74}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Bild}{75}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Begriffe und Abkürzungen}{75}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Mathematik}{76}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Code}{76}{subsection.6.2.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{77}{chapter*.7}%
+\contentsline {chapter}{Anhang}{81}{chapter*.7}%
+\contentsline {chapter}{\numberline {A}Test-Anhang}{82}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{82}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{82}{subsection.A.1.1}%
+\contentsline {section}{\numberline {A.2}Zeitplanung}{82}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Test-Anhang 2}{83}{appendix.B}%
+\contentsline {chapter}{\nonumberline Erklärung}{84}{chapter*.8}%
+\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{84}{chapter*.9}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

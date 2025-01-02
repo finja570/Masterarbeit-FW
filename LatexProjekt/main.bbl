@@ -1,0 +1,328 @@
+\begin{thebibliography}{32}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[noa({\natexlab{a}})]{noauthor_din_nodate}
+{DIN} {EN} {ISO} 9241-110:2020-10, {Ergonomie} der
+  {Mensch}-{System}-{Interaktion}\_- {Teil}\_110: {Interaktionsprinzipien}
+  ({ISO}\_9241-110:2020); {Deutsche} {Fassung} {EN}\_iso\_9241-110:2020,
+  {\natexlab{a}}.
+\newblock URL \url{https://www.dinmedia.de/de/-/-/320862700}.
+
+\bibitem[noa({\natexlab{b}})]{noauthor_din_nodate-1}
+{DIN} {EN} {ISO} 9241-11:2018-11, {Ergonomie} der
+  {Mensch}-{System}-{Interaktion}\_- {Teil}\_11: {Gebrauchstauglichkeit}:
+  {Begriffe} und {Konzepte} ({ISO}\_9241-11:2018); {Deutsche} {Fassung}
+  {EN}\_iso\_9241-11:2018, {\natexlab{b}}.
+\newblock URL \url{https://www.dinmedia.de/de/-/-/279590417}.
+
+\bibitem[{Apple}(2024)]{apple_einfuhrung_2024}
+{Apple}.
+\newblock Einführung in die {Funktionen} der {Bedienungshilfen} auf dem
+  {iPhone}, 2024.
+\newblock URL
+  \url{https://support.apple.com/de-de/guide/iphone/iph3e2e4367/ios}.
+
+\bibitem[Bluhm et~al.(2009)Bluhm, Eickmeyer, Feith, Mattar, and
+  Pfeiffer]{Bluhm:Sonar:2009}
+Andreas Bluhm, Jens Eickmeyer, Tobias Feith, Nikita Mattar, and Thies Pfeiffer.
+\newblock {E}xploration von sozialen {N}etzwerken im {3D} {R}aum am {B}eispiel
+  von $\mbox{SoN}\forall \mbox{R\ }$ f\"ur {L}ast.fm.
+\newblock In Andreas Gerndt and Marc~Erich Latoschik, editors, \emph{Virtuelle
+  und Erweiterte Realit\"at - Sechster Workshop der GI-Fachgruppe VR/AR}, pages
+  269--280, Aachen, 2009. Shaker Verlag.
+
+\bibitem[Cook and Polgar(2015)]{cook_chapter_2015}
+Albert~M. Cook and Janice~M. Polgar.
+\newblock Chapter 6 - {Making} the {Connection}: {User} {Inputs} for
+  {Assistive} {Technologies}.
+\newblock In Albert~M. Cook and Janice~M. Polgar, editors, \emph{Assistive
+  {Technologies} ({Fourth} {Edition})}, pages 117--138. Mosby, St. Louis (MO),
+  January 2015.
+\newblock ISBN 978-0-323-09631-7.
+\newblock \doi{10.1016/B978-0-323-09631-7.00006-5}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/B9780323096317000065}.
+
+\bibitem[Dombrowski et~al.(2019)Dombrowski, Smith, Manero, and
+  Sparkman]{dombrowski_designing_2019}
+Matt Dombrowski, Peter~A. Smith, Albert Manero, and John Sparkman.
+\newblock Designing {Inclusive} {Virtual} {Reality} {Experiences}.
+\newblock In Jessie~Y.C. Chen and Gino Fragomeni, editors, \emph{Virtual,
+  {Augmented} and {Mixed} {Reality}. {Multimodal} {Interaction}}, pages 33--43,
+  Cham, 2019. Springer International Publishing.
+\newblock ISBN 978-3-030-21607-8.
+\newblock \doi{10.1007/978-3-030-21607-8_3}.
+
+\bibitem[Dörner et~al.(2019)Dörner, Broll, Grimm, and
+  Jung]{dorner_virtual_2019}
+Ralf Dörner, Wolfgang Broll, Paul Grimm, and Bernhard Jung, editors.
+\newblock \emph{Virtual und {Augmented} {Reality} ({VR}/{AR}): {Grundlagen} und
+  {Methoden} der {Virtuellen} und {Augmentierten} {Realität}}.
+\newblock Springer, Berlin, Heidelberg, 2019.
+\newblock ISBN 978-3-662-58860-4 978-3-662-58861-1.
+\newblock \doi{10.1007/978-3-662-58861-1}.
+\newblock URL \url{http://link.springer.com/10.1007/978-3-662-58861-1}.
+
+\bibitem[Farmani and Teather(2020)]{10.1007/s10055-020-00425-x}
+Yasin Farmani and Robert~J. Teather.
+\newblock Evaluating discrete viewpoint control to reduce cybersickness in
+  virtual reality.
+\newblock \emph{Virtual Real.}, 24\penalty0 (4):\penalty0 645–664, dec 2020.
+\newblock ISSN 1359-4338.
+\newblock \doi{10.1007/s10055-020-00425-x}.
+\newblock URL \url{https://doi.org/10.1007/s10055-020-00425-x}.
+
+\bibitem[Folmer et~al.(2011)Folmer, Liu, and Ellis]{10.1145/2159365.2159386}
+Eelke Folmer, Fangzhou Liu, and Barrie Ellis.
+\newblock Navigating a 3d avatar using a single switch.
+\newblock In \emph{Proceedings of the 6th International Conference on
+  Foundations of Digital Games}, FDG '11, page 154–160, New York, NY, USA,
+  2011. Association for Computing Machinery.
+\newblock ISBN 9781450308045.
+\newblock \doi{10.1145/2159365.2159386}.
+\newblock URL \url{https://doi.org/10.1145/2159365.2159386}.
+
+\bibitem[Gerling and Spiel(2021)]{gerling_critical_2021}
+Kathrin Gerling and Katta Spiel.
+\newblock A {Critical} {Examination} of {Virtual} {Reality} {Technology} in the
+  {Context} of the {Minority} {Body}.
+\newblock In \emph{Proceedings of the 2021 {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}}, {CHI} '21, pages 1--14, New York, NY,
+  USA, May 2021. Association for Computing Machinery.
+\newblock ISBN 978-1-4503-8096-6.
+\newblock \doi{10.1145/3411764.3445196}.
+\newblock URL \url{https://doi.org/10.1145/3411764.3445196}.
+
+\bibitem[Google(2024)]{noauthor_tips_nodate}
+Google.
+\newblock Tips for using {Switch} {Access} - {Android} {Accessibility} {Help},
+  2024.
+\newblock URL
+  \url{https://support.google.com/accessibility/android/answer/6395627?hl=en&ref_topic=6151780&sjid=16986929134949672065-EU}.
+
+\bibitem[Jerald(2015)]{jerald_vr_2015}
+Jason Jerald.
+\newblock \emph{The {VR} {Book}: {Human}-{Centered} {Design} for {Virtual}
+  {Reality}}.
+\newblock Association for Computing Machinery and Morgan \& Claypool, September
+  2015.
+\newblock ISBN 978-1-970001-12-9.
+
+\bibitem[Kennedy et~al.(1993)Kennedy, Lane, Berbaum, and
+  Lilienthal]{kennedy_simulator_1993}
+Robert~S. Kennedy, Norman~E. Lane, Kevin~S. Berbaum, and Michael~G. Lilienthal.
+\newblock Simulator {Sickness} {Questionnaire}: {An} {Enhanced} {Method} for
+  {Quantifying} {Simulator} {Sickness}.
+\newblock \emph{The International Journal of Aviation Psychology}, 3\penalty0
+  (3):\penalty0 203--220, July 1993.
+\newblock ISSN 1050-8414.
+\newblock \doi{10.1207/s15327108ijap0303_3}.
+\newblock URL \url{https://doi.org/10.1207/s15327108ijap0303_3}.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1207/s15327108ijap0303\_3.
+
+\bibitem[Kennedy et~al.(2010)Kennedy, Drexler, and
+  Kennedy]{kennedy_research_2010}
+Robert~S. Kennedy, Julie Drexler, and Robert~C. Kennedy.
+\newblock Research in visually induced motion sickness.
+\newblock \emph{Applied Ergonomics}, 41\penalty0 (4):\penalty0 494--503, July
+  2010.
+\newblock ISSN 0003-6870.
+\newblock \doi{10.1016/j.apergo.2009.11.006}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0003687009001574}.
+
+\bibitem[L.~Franz et~al.(2021)L.~Franz, Junuzovic, and
+  Mott]{10.1145/3441852.3471230}
+Rachel L.~Franz, Sasa Junuzovic, and Martez Mott.
+\newblock Nearmi: A framework for designing point of interest techniques for vr
+  users with limited mobility.
+\newblock In \emph{Proceedings of the 23rd International ACM SIGACCESS
+  Conference on Computers and Accessibility}, ASSETS '21, New York, NY, USA,
+  2021. Association for Computing Machinery.
+\newblock ISBN 9781450383066.
+\newblock \doi{10.1145/3441852.3471230}.
+\newblock URL \url{https://doi.org/10.1145/3441852.3471230}.
+
+\bibitem[LaViola(2000)]{laviola_discussion_2000}
+Joseph~J. LaViola.
+\newblock A discussion of cybersickness in virtual environments.
+\newblock \emph{ACM SIGCHI Bulletin}, 32\penalty0 (1):\penalty0 47--56, January
+  2000.
+\newblock ISSN 0736-6906.
+\newblock \doi{10.1145/333329.333344}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/333329.333344}.
+
+\bibitem[Milgram et~al.(1995)Milgram, Takemura, Utsumi, and
+  Kishino]{milgram_augmented_1995}
+Paul Milgram, Haruo Takemura, Akira Utsumi, and Fumio Kishino.
+\newblock Augmented reality: a class of displays on the reality-virtuality
+  continuum.
+\newblock pages 282--292, Boston, MA, December 1995.
+\newblock \doi{10.1117/12.197321}.
+\newblock URL
+  \url{http://proceedings.spiedigitallibrary.org/proceeding.aspx?articleid=981543}.
+
+\bibitem[Minakata et~al.(2019)Minakata, Hansen, MacKenzie, Bækgaard, and
+  Rajanna]{minakata_pointing_2019}
+Katsumi Minakata, John~Paulin Hansen, I.~Scott MacKenzie, Per Bækgaard, and
+  Vijay Rajanna.
+\newblock Pointing by gaze, head, and foot in a head-mounted display.
+\newblock In \emph{Proceedings of the 11th {ACM} {Symposium} on {Eye}
+  {Tracking} {Research} \& {Applications}}, {ETRA} '19, pages 1--9, New York,
+  NY, USA, June 2019. Association for Computing Machinery.
+\newblock ISBN 978-1-4503-6709-7.
+\newblock \doi{10.1145/3317956.3318150}.
+\newblock URL \url{https://doi.org/10.1145/3317956.3318150}.
+
+\bibitem[Mott et~al.(2019)Mott, Cutrell, Gonzalez~Franco, Holz, Ofek, Stoakley,
+  and Ringel~Morris]{mott_accessible_2019}
+Martez Mott, Edward Cutrell, Mar Gonzalez~Franco, Christian Holz, Eyal Ofek,
+  Richard Stoakley, and Meredith Ringel~Morris.
+\newblock Accessible by {Design}: {An} {Opportunity} for {Virtual} {Reality}.
+\newblock In \emph{2019 {IEEE} {International} {Symposium} on {Mixed} and
+  {Augmented} {Reality} {Adjunct} ({ISMAR}-{Adjunct})}, pages 451--454, October
+  2019.
+\newblock \doi{10.1109/ISMAR-Adjunct.2019.00122}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/8951960}.
+
+\bibitem[Mott et~al.(2020)Mott, Tang, Kane, Cutrell, and
+  Ringel~Morris]{mott_i_2020}
+Martez Mott, John Tang, Shaun Kane, Edward Cutrell, and Meredith Ringel~Morris.
+\newblock “{I} just went into it assuming that {I} wouldn't be able to have
+  the full experience”: {Understanding} the {Accessibility} of {Virtual}
+  {Reality} for {People} with {Limited} {Mobility}.
+\newblock In \emph{Proceedings of the 22nd {International} {ACM} {SIGACCESS}
+  {Conference} on {Computers} and {Accessibility}}, pages 1--13, Virtual Event
+  Greece, October 2020. ACM.
+\newblock ISBN 978-1-4503-7103-2.
+\newblock \doi{10.1145/3373625.3416998}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/3373625.3416998}.
+
+\bibitem[Oman(1990)]{oman_motion_1990}
+Charles~M. Oman.
+\newblock Motion sickness: a synthesis and evaluation of the sensory conflict
+  theory.
+\newblock \emph{Canadian Journal of Physiology and Pharmacology}, 68\penalty0
+  (2):\penalty0 294--303, February 1990.
+\newblock ISSN 0008-4212.
+\newblock \doi{10.1139/y90-044}.
+\newblock URL \url{https://cdnsciencepub.com/doi/abs/10.1139/y90-044}.
+\newblock Publisher: NRC Research Press.
+
+\bibitem[Onuki and Kumazawa(2019)]{8797722}
+Yoshikazu Onuki and Itsuo Kumazawa.
+\newblock Reorient the gazed scene towards the center: Novel virtual turning
+  using head and gaze motions and blink.
+\newblock In \emph{2019 IEEE Conference on Virtual Reality and 3D User
+  Interfaces (VR)}, pages 1864--1871, 2019.
+\newblock \doi{10.1109/VR.2019.8797722}.
+
+\bibitem[Riccio and Stoffregen(1991)]{riccio_ecological_1991}
+Gary~E. Riccio and Thomas~A. Stoffregen.
+\newblock An ecological {Theory} of {Motion} {Sickness} and {Postural}
+  {Instability}.
+\newblock \emph{Ecological Psychology}, 3\penalty0 (3):\penalty0 195--240,
+  September 1991.
+\newblock ISSN 1040-7413.
+\newblock \doi{10.1207/s15326969eco0303_2}.
+\newblock URL \url{https://doi.org/10.1207/s15326969eco0303_2}.
+\newblock Publisher: Routledge \_eprint:
+  https://doi.org/10.1207/s15326969eco0303\_2.
+
+\bibitem[Sanchez-Vives and Slater(2005)]{sanchez-vives_presence_2005}
+Maria~V. Sanchez-Vives and Mel Slater.
+\newblock From presence to consciousness through virtual reality.
+\newblock \emph{Nature Reviews Neuroscience}, 6\penalty0 (4):\penalty0
+  332--339, April 2005.
+\newblock ISSN 1471-0048.
+\newblock \doi{10.1038/nrn1651}.
+\newblock URL \url{https://www.nature.com/articles/nrn1651}.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem[Saredakis et~al.(2020)Saredakis, Szpak, Birckhead, Keage, Rizzo, and
+  Loetscher]{saredakis_factors_2020}
+Dimitrios Saredakis, Ancret Szpak, Brandon Birckhead, Hannah A.~D. Keage,
+  Albert Rizzo, and Tobias Loetscher.
+\newblock Factors {Associated} {With} {Virtual} {Reality} {Sickness} in
+  {Head}-{Mounted} {Displays}: {A} {Systematic} {Review} and {Meta}-{Analysis}.
+\newblock \emph{Frontiers in Human Neuroscience}, 14, March 2020.
+\newblock ISSN 1662-5161.
+\newblock \doi{10.3389/fnhum.2020.00096}.
+\newblock URL
+  \url{https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.00096/full}.
+\newblock Publisher: Frontiers.
+
+\bibitem[Somrak et~al.(2019)Somrak, Humar, Hossain, Alhamid, Hossain, and
+  Guna]{somrak_estimating_2019}
+Andrej Somrak, Iztok Humar, M.~Shamim Hossain, Mohammed~F. Alhamid, M.~Anwar
+  Hossain, and Jože Guna.
+\newblock Estimating {VR} {Sickness} and user experience using different {HMD}
+  technologies: {An} evaluation study.
+\newblock \emph{Future Generation Computer Systems}, 94:\penalty0 302--316, May
+  2019.
+\newblock ISSN 0167739X.
+\newblock \doi{10.1016/j.future.2018.11.041}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0167739X18325044}.
+
+\bibitem[Steriadis and Constantinou(2003)]{steriadis_designing_2003}
+Constantine~E. Steriadis and Philip Constantinou.
+\newblock Designing human-computer interfaces for quadriplegic people.
+\newblock \emph{ACM Trans. Comput.-Hum. Interact.}, 10\penalty0 (2):\penalty0
+  87--118, June 2003.
+\newblock ISSN 1073-0516.
+\newblock \doi{10.1145/772047.772049}.
+\newblock URL \url{https://doi.org/10.1145/772047.772049}.
+
+\bibitem[Walsh and Pawlowski(2002)]{walsh_virtual_2002}
+Kenneth~R. Walsh and Suzanne~D. Pawlowski.
+\newblock Virtual {Reality}: {A} {Technology} in {Need} of {IS} {Research}.
+\newblock \emph{Communications of the Association for Information Systems}, 8,
+  2002.
+\newblock ISSN 15293181.
+\newblock \doi{10.17705/1CAIS.00820}.
+\newblock URL \url{https://aisel.aisnet.org/cais/vol8/iss1/20}.
+
+\bibitem[Wang et~al.(2018)Wang, Liu, Zhao, Zheng, Vhasure, Liu, Thakur, Sun,
+  and Mao]{wang_intelligent_2018}
+Ker-Jiun Wang, Quanbo Liu, Yifan Zhao, Caroline~Yan Zheng, Soumya Vhasure,
+  Quanfeng Liu, Prakash Thakur, Mingui Sun, and Zhi-Hong Mao.
+\newblock Intelligent {Wearable} {Virtual} {Reality} ({VR}) {Gaming}
+  {Controller} for {People} with {Motor} {Disabilities}.
+\newblock In \emph{2018 {IEEE} {International} {Conference} on {Artificial}
+  {Intelligence} and {Virtual} {Reality} ({AIVR})}, pages 161--164, Taichung,
+  Taiwan, December 2018. IEEE.
+\newblock ISBN 978-1-5386-9269-1.
+\newblock \doi{10.1109/AIVR.2018.00034}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/8613653/}.
+
+\bibitem[Witmer and Singer(1998)]{witmer_measuring_1998}
+Bob~G. Witmer and Michael~J. Singer.
+\newblock Measuring {Presence} in {Virtual} {Environments}: {A} {Presence}
+  {Questionnaire}.
+\newblock \emph{Presence: Teleoperators and Virtual Environments}, 7\penalty0
+  (3):\penalty0 225--240, June 1998.
+\newblock \doi{10.1162/105474698565686}.
+\newblock URL \url{https://doi.org/10.1162/105474698565686}.
+
+\bibitem[Wohlgenannt et~al.(2020)Wohlgenannt, Simons, and
+  Stieglitz]{wohlgenannt_virtual_2020}
+Isabell Wohlgenannt, Alexander Simons, and Stefan Stieglitz.
+\newblock Virtual {Reality}.
+\newblock \emph{Business \& Information Systems Engineering}, 62\penalty0
+  (5):\penalty0 455--461, October 2020.
+\newblock ISSN 1867-0202.
+\newblock \doi{10.1007/s12599-020-00658-9}.
+\newblock URL \url{https://doi.org/10.1007/s12599-020-00658-9}.
+
+\bibitem[Wong et~al.(2017)Wong, Gillis, and Peck]{wong_survey_2017}
+Alice Wong, Hannah Gillis, and Ben Peck.
+\newblock Survey for {People} with {Disabilities}.
+\newblock Technical report, 2017.
+
+\end{thebibliography}
