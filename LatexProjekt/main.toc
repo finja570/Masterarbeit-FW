@@ -1,9 +1,9 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{\nonumberline Abstract}{I}{chapter*.1}%
-\contentsline {chapter}{\nonumberline Kurzfassung}{II}{chapter*.2}%
-\contentsline {chapter}{\nonumberline Danksagung}{III}{chapter*.3}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.5}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Abstract}{I}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Kurzfassung}{II}{chapter*.3}%
+\contentsline {chapter}{\nonumberline Danksagung}{III}{chapter*.4}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VII}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{IX}{chapter*.7}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Zielsetzung}{2}{section.1.2}%
@@ -14,13 +14,13 @@
 \contentsline {subsection}{\numberline {2.1.2}Motion Sickness}{5}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Barrierefreiheit (in VR)}{7}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Probleme}{8}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Lösungsansätze}{10}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Binäre Interaktionsschnittstellen}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.2}Lösungsansätze}{9}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Binäre Interaktionsschnittstellen}{10}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Switches}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Scanning-Verfahren}{11}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Usability und User Experience}{14}{section.2.4}%
-\contentsline {section}{\numberline {2.5}PaneoVR}{14}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Zusammenfassung}{14}{section.2.6}%
+\contentsline {section}{\numberline {2.4}Usability und User Experience}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}PaneoVR}{13}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Zusammenfassung}{13}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Konzeption}{15}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Definition des Design Space}{15}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{18}{section.3.2}%
@@ -40,30 +40,29 @@
 \contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{51}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{54}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Durchführung}{56}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ergebnisse}{60}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}UEQ}{60}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}SUS}{60}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}SSQ}{60}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Ablenkung/Presence}{60}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Geschwindigkeit und Zkylen}{60}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Fehler und leere Eingaben}{60}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Korrelationen}{60}{subsection.5.3.7}%
-\contentsline {subsection}{\numberline {5.3.8}Feedback/Anmerkungen/Beobachtungen}{60}{subsection.5.3.8}%
-\contentsline {chapter}{\numberline {6}Diskussion}{74}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ausblick}{74}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test}{74}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Tabelle}{74}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Bild}{75}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Begriffe und Abkürzungen}{75}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Mathematik}{76}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Code}{76}{subsection.6.2.5}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{77}{chapter*.7}%
-\contentsline {chapter}{Anhang}{81}{chapter*.7}%
-\contentsline {chapter}{\numberline {A}Test-Anhang}{82}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{82}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{82}{subsection.A.1.1}%
-\contentsline {section}{\numberline {A.2}Zeitplanung}{82}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Test-Anhang 2}{83}{appendix.B}%
-\contentsline {chapter}{\nonumberline Erklärung}{84}{chapter*.8}%
-\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{84}{chapter*.9}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{58}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{58}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{61}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Ablenkung/ Presence}{65}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Scanning-Zyklen}{66}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Fehleranfälligkeit}{69}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{70}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Proband:innen}{70}{subsection.5.3.7}%
+\contentsline {chapter}{\numberline {6}Diskussion}{76}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ausblick}{76}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test}{76}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Tabelle}{77}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Bild}{77}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Begriffe und Abkürzungen}{77}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Mathematik}{78}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Code}{78}{subsection.6.2.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{79}{chapter*.49}%
+\contentsline {chapter}{Anhang}{83}{chapter*.49}%
+\contentsline {chapter}{\numberline {A}Test-Anhang}{84}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{84}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{84}{subsection.A.1.1}%
+\contentsline {section}{\numberline {A.2}Zeitplanung}{84}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Test-Anhang 2}{85}{appendix.B}%
+\contentsline {chapter}{\nonumberline Erklärung}{86}{chapter*.50}%
+\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{86}{chapter*.51}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

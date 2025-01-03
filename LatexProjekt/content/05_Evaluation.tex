@@ -44,7 +44,7 @@ Durch den technischen Abschnitt sollen insbesondere folgende Fragestellungen zu 
     \end{itemize}
 
 
-Die Erfassung der Daten erfolgt durch die Kombination von automatischem Logging direkt aus Unity und einem Evaluationsprotokoll. Es wird für jede durchgeführte Selektion die Interaktionsgeschwindigkeit ausgegeben. Außerdem wird die benötigte Zeit von Start bis Abschluss des Szenarios gespeichert. Fehler werden manuell gezählt und kategorisiert, während zusätzliche Beobachtungen dokumentiert werden. 
+Die Erfassung der Daten erfolgt durch die Kombination von automatischem Logging direkt aus Unity und einem Evaluationsprotokoll. Es wird für jede durchgeführte Selektion die Interaktionsgeschwindigkeit ausgegeben. Außerdem wird die benötigte Zeit von Start bis Abschluss des Szenarios gespeichert. Fehler werden manuell gezählt und kategorisiert und  zusätzliche Beobachtungen dokumentiert. 
 
 
 \textbf{Erwartete Ergebnisse der technischen Evaluation}
@@ -74,8 +74,8 @@ Ziel der inhaltsbasierten Evaluation ist es, die folgenden Aspekte zu untersuche
 \textit{Motion Sickness}
 \begin{itemize}
     \item Tritt Motion Sickness auf? Wenn ja, wie stark sind die Symptome ausgeprägt?
-    \item Welche Symptome treten auf meisten auf?
-    \item Gibt es Unterschiede zwischen den Verfahren in Bezug auf die Häufigkeit oder Intensität der Symptome?
+    \item Welche Symptome treten auf vermehrt auf?
+    \item Gibt es Unterschiede zwischen den Verfahren in Bezug auf die Häufigkeit und Intensität der Symptome?
     \item Bestehen Korrelationen zwischen dem Auftreten von Motion Sickness Symptomen und der Bewertung der Usability/UX sowie der Interaktionsgeschwindigkeit? 
 \end{itemize}
 
@@ -147,21 +147,67 @@ Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsverfah
 
 \section{Ergebnisse}
 
-\subsection{UEQ} 
+\subsection{Usability (SUS) und User Experience (UEQ)}
+
+Die Ergebnisse der System Usability Scale (SUS) zeigen deutliche Unterschiede zwischen den beiden Verfahren. Der Mittelwert des SUS-Scores für das Item Scanning beträgt 73,44 (Standardabweichung: 16,28) bei einem Median von 73,75. Für das Cartesian Scanning liegt der Mittelwert hingegen bei 85,63 (Standardabweichung: 11,96) mit einem Median von 90. Die Ergebnisse werden in der \autoref{fig:resultsSUS} dargestellt. 
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/UEQ-Item.png}
- \caption{Ergebnisse UEQ Item Scanning}
- \label{fig:ueqScoreItem}
+    \centering
+   \includegraphics[scale=0.75]{images/Results/SUS-Scores.png}
+    \caption{Mittelwerte und Median der SUS-Scores beider Verfahren}
+    \label{fig:resultsSUS}
+   \end{figure}
+
+Die detaillierte Verteilung der Scores ist in \autoref{fig:histoSUS} dargestellt. Für das Item Scanning variieren die SUS-Scores zwischen 47,5 und 97,5. Der größte Anteil (drei Personen) liegt im Bereich 52,5-57,5. Insgesamt bewerteten 7 von 16 Teilnehmenden (43,75\%) das Verfahren mit einem Score von 80 oder höher. Für das Cartesian Scanning liegen die SUS-Scores zwischen 57,5 und 97,5. Der größte Anteil der Teilnehmenden (sechs Personen) bewertete das Verfahren mit einem Score im Bereich 92,5-97,5. Insgesamt haben 11 von 16 Teilnehmenden (68,75\%) das Verfahren mit einem SUS-Score von mindestens 80 bewertet. 
+
+\begin{figure}
+    \centering
+    \begin{subfigure} {.5\textwidth}
+        \centering
+        \includegraphics[width=.95\linewidth]{images/Results/Histogramm-SUS-Item.png}
+        \caption{Item Scanning}
+        \label{fig:histoSUSItem}
+       \end{subfigure}%
+       \begin{subfigure}{.5\textwidth}
+        \centering
+       \includegraphics[width=.98\linewidth]{images/Results/Histogramm-SUS-Cartesian.png}
+        \caption{Cartesian Scanning}
+        \label{fig:histoSUSCartesian}
+       \end{subfigure}
+       \caption{Verteilung der SUS Scores beider Verfahren}
+       \label{fig:histoSUS}
 \end{figure}
 
+
+Die Ergebnisse des User Experience Questionnaire (UEQ) wurden mit Hilfe des Auswertungstools der Autoren analysiert. Für jeden der sechs Faktoren wurden Mittelwerte und Varianzen berechnet. Die \autoref{fig:ueqScalesItem} zeigt die berechneten Mittelwerte und Varianzen für das Item Scanning. In \autoref{fig:ueqScoreItem} werden diese Ergebnisse zusätzlich visualisiert. 
+
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/UEQ-Table-Means-Item.png}
- \caption{Ergebnisse UEQ Item Scanning}
- \label{fig:ueqScalesItem}
-\end{figure}
+    \centering
+   \includegraphics{images/Results/UEQ-Table-Means-Item.png}
+    \caption{Ergebnisse UEQ Item Scanning}
+    \label{fig:ueqScalesItem}
+   \end{figure}
+
+\begin{figure}[tbh]
+    \centering
+   \includegraphics{images/Results/UEQ-Item.png}
+    \caption{Ergebnisse UEQ Item Scanning}
+    \label{fig:ueqScoreItem}
+   \end{figure}
+
+
+Für das Item Scanning liegen die Mittelwerte der Bewertungen im positiven Bereich. Den höchsten Wert weist der Faktor Originalität mit einem Mittelwert von 1,875 bei einer Varianz von 0,69 auf, gefolgt von Durchschaubarkeit (Mittelwert: 1,672, Varianz: 0,87) und Stimulation (Mittelwert: 1,516, Varianz: 2,50). Am niedrigsten wurden die Faktoren Steuerbarkeit und Effizienz bewertet. Hier liegen die Mittelwerte bei 0,984 und 0,844 mit Varianzen von 1,35 und 1,55. 
+
+Die Ergebnisse für das Cartesian Scanning sind in \autoref{fig:ueqScalesCartesian} dargestellt und in \autoref{fig:ueqScoreCartesian} visualisiert. 
+
+Das Cartesian Scanning wurde insgesamt besser bewertet als das Item Scanning. Der Faktor Durchschaubarkeit wurde mit einem Mittelwert von 2,234 und einer Varianz von 0,53 am höchsten bewertet. Die Faktoren Attraktivität, Stimulation und Originalität wurden mit Mittelwerten von 1,833, 1,734 und 1,750 ähnlich hoch bewertet. Den niedrigsten Mittelwert und gleichzeitig die höchste Varianz weist der Faktor Effizienz auf. Hier liegt der Mittelwert bei 1,063 bei einer Varianz von 1,33. 
+
+\begin{figure}[tbh]
+    \centering
+   \includegraphics{images/Results/UEQ-Table-Means-Cartesian.png}
+    \caption{Ergebnisse UEQ Cartesian Scanning}
+    \label{fig:ueqScalesCartesian}
+   \end{figure}
 
 \begin{figure}[tbh]
  \centering
@@ -170,102 +216,108 @@ Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsverfah
  \label{fig:ueqScoreCartesian}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/UEQ-Table-Means-Cartesian.png}
- \caption{Ergebnisse UEQ Cartesian Scanning}
- \label{fig:ueqScalesCartesian}
-\end{figure}
 
-\subsection{SUS}
+\subsection{Motion Sickness (SSQ)} 
+
+Die Ergebnisse des Simulator Sickness Questionnaire (SSQ) werden in \autoref{fig:tableSymptomsSSQ} dargestellt. Die Tabelle zeigt die im Fragebogen erfassten Symptome sowie die jeweilige Symptomkategorie (N: Nausea, O: Oculomotor, D: Disorientation). Für beide Verfahren wird für jedes Symptom die Häufigkeit angegeben, mit der es auftrat. Dies entspricht der Anzahl der Personen, die einen Wert >0 angaben. Zusätzlich wird in einer weiteren Spalte dargestellt, wie viele dieser Personen in der Auswertung jeweils einen Wert >1 angegeben haben und somit eine moderate bis starke Ausprägung des Symptoms empfunden haben. 
+Es zeigt sich, dass beim Item Scanning die Symptome angestrengte Augen (11 Personen, davon 4 mit moderater Ausprägung) sowie Ermüdung, Kopfdruck und verschwommenes Sehen (6 Personen, keine moderaten Ausprägungen) am häufigsten auftraten. Vereinzelt wurde von allgemeinem Unwohlsein, Konzentrationsschwierigkeiten, Schwitzen, erhöhtem Speichelfluss, Schwindel und Übelkeit berichtet, wobei diese Symptome jeweils nur eine oder zwei Personen betrafen und nur in leichter Ausprägung auftraten. Symptome wie Aufstoßen oder Gleichgewichtsstörungen wurden nicht genannt.
+Beim Cartesian Scanning ergab sich eine ähnliche Verteilung. Am häufigsten wurden angestrengte Augen (11 Personen, davon 2 mit moderater Ausprägung) und Ermüdung (8 Personen, keine moderaten Ausprägungen) berichtet. Im Vergleich zum Item Scanning traten verschwommenes Sehen und Kopfdruck etwas seltener auf (3 bzw. 4 Personen). Weitere Symptome wie Konzentrationsschwierigkeiten oder Schwitzen traten ebenfalls nur vereinzelt auf, während allgemeines Unwohlsein, Übelkeit und Gleichgewichtsstörungen nicht aufgetreten sind.
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/SUS-Scores.png}
- \caption{Ergebnisse SUS}
- \label{fig:resultsSUS}
+    \centering
+   \includegraphics[width=0.95\textwidth]{images/Results/SSQ-Table-2.png}
+    \caption{Häufigkeit der SSQ-Symptome beider Verfahren }
+    \label{fig:tableSymptomsSSQ}
+   \end{figure}
+
+Die weitere Auswertung des SSQ erfolgte nach der Beschreibung der Autoren [Quelle]. Dazu wurden zunächst die gewichteten Scores der einzelnen Kategorien und anschließend der Gesamtscore bestimmt. Die Verteilung der Gesamtscores ist in \autoref{fig:histoSSQScore} dargestellt. 
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-SSQScores-Item.png}
+        \caption{Item Scanning}
+        \label{fig:histoSSQItem}   
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-SSQScores-Cartesian.png}
+         \caption{Cartesian Scanning}
+         \label{fig:histoSSQCartesian}
+    \end{subfigure}
+    \caption{Verteilung der SSQ-Scores beider Verfahren}
+    \label{fig:histoSSQScore}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-SUS-Item.png}
- \caption{Histogramm SUS Item Scanning}
- \label{fig:histoSUSItem}
+Die Histogramme zeigen, dass die meisten Teilnehmenden bei beiden Verfahren einen SSQ-Wert zwischen 0 und 90 aufwiesen (8 Personen beim Item Scanning und 10 Personen beim Cartesian Scanning). Beim Cartesian Scanning liegt der höchste Score bei 501,758 und damit deutlich höher als beim Item Scanning (445,060). Allerdings erreichten beim Item Scanning insgesamt mehr Personen einen Score von über 180 (7 Personen gegenüber 4 Personen).
+
+Da der SSQ sehr sensibel ist und auch bei wenigen und leichten Symptomen (u.a. aufgrund der Gewichtung) zu einem hohen Wert führt, wurden die einzelnen Kategorien nochmals getrennt, aber gewichtet betrachtet. Dies ermöglicht eine genauere Aussage darüber, in welcher Kategorie die meisten Symptome aufgetreten sind. 
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Nausea-Scale-Item.png}
+        \caption{Item Scanning}
+        \label{fig:histoNauseaItem}   
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Nausea-Scale-Cartesian.png}
+         \caption{Cartesian Scanning}
+         \label{fig:histoNauseaCartesian}
+    \end{subfigure}
+    \caption{Verteilung der Scores der SSQ Nausea Scale beider Verfahren}
+    \label{fig:histoNausea}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-SUS-Cartesian.png}
- \caption{Histogramm SUS Cartesian Scanning}
- \label{fig:histoSUSCartesian}
+In der Kategorie Nausea (vgl. \autoref{fig:histoNausea}) berichteten beim Item Scanning neun Personen keine Symptome. Fünf Teilnehmende zeigten Scores zwischen 8 und 16, was dem Auftreten eines einzigen Symptoms in leichter Ausprägung entspricht. Zwei Personen erreichten Scores über 16, was dem Auftreten mehrerer Symptome oder mindestens einem Symptom in moderater bis starker Ausprägung entspricht. Beim Cartesian Scanning hingegen zeigten zwölf Personen keine Symptome. Drei Personen erreichten einen Score zwischen 8 und 16 und eine Person einen Score über 16. 
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Oculomotor-Scale-Item.png}
+        \caption{Item Scanning}
+        \label{fig:histoOculomotorItem}   
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Oculomotor-Scale-Cartesian.png}
+         \caption{Cartesian Scanning}
+         \label{fig:histoOculomotorCartesian}
+    \end{subfigure}
+    \caption{Verteilung der Scores der SSQ Oculomotor Scale beider Verfahren}
+    \label{fig:histoOculomotor}
 \end{figure}
 
-\subsection{SSQ} 
+In der Kategorie Oculomotor (vgl. \autoref{fig:histoOculomotor}) traten häufiger Symptome auf. Während beim Item Scanning sechs Personen keine Symptome aufwiesen, erreichten acht Teilnehmende einen Score von über 16, was entweder mehreren leichten oder mindestens einem moderaten Symptom entspricht. Drei Teilnehmende erreichten einen Score zwischen 32 und 40, was auf mindestens vier leichte oder mehrere moderate Symptome hinweist. Eine Person erreichte einen Score von über 40.
+Im Cartesian Scanning zeigten sieben Personen keine Symptome. Fünf Personen wiesen einen Score zwischen 8 und 16 auf. Lediglich drei Personen erreichten einen Score von über 16, wobei zwei Personen jedoch einen Score von über 40 erreichten. 
 
-\begin{figure}[tbh]
- \centering
-\includegraphics[width=0.95\textwidth]{images/Results/SSQ-Table-2.png}
- \caption{Häufigkeit der Symptome}
- \label{fig:tableSymptomsSSQ}
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Disorientation-Scale-Item.png}
+        \caption{Item Scanning}
+        \label{fig:histoDisorientationItem}   
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Disorientation-Scale-Cartesian.png}
+         \caption{Cartesian Scanning}
+         \label{fig:histoDisorientationCartesian}
+    \end{subfigure}
+    \caption{Verteilung der Scores der SSQ Disorientation Scale beider Verfahren}
+    \label{fig:histoDisorientation}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-SSQScores-Item.png}
- \caption{Histogramm SSQ Item Scanning}
- \label{fig:histoSSQItem}
-\end{figure}
+In der Kategorie Desorientierung (vgl. \autoref{fig:histoDisorientation})zeigten acht Personen keine Symptome beim Scannen der Items. Drei Teilnehmende erreichten Werte zwischen 24 und 32, was mindestens zwei leichten Symptomen entspricht.Zwei Personen erreichten Werte zwischen 40 und 48, was drei leichten oder mindestens moderaten Symptomen entspricht. Beim Cartesian Scanning blieben neun Personen symptomfrei, während vier Personen einen Score zwischen 8 und 16 erreichten. Nur zwei Personen erreichten einen Score zwischen 24 und 48 und eine Person überschritt einen Score von 64. 
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-SSQScores-Cartesian.png}
- \caption{Histogramm SSQ Cartesian Scanning}
- \label{fig:histoSSQCartesain}
-\end{figure}
+\subsection{Ablenkung/ Presence}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Nausea-Scale-Item.png}
- \caption{Histogramm Nausea Item Scanning}
- \label{fig:histoNauseaItem}
-\end{figure}
-
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Nausea-Scale-Cartesian.png}
- \caption{Histogramm Nausea Cartesian Scanning}
- \label{fig:histoNauseaCartesian}
-\end{figure}
-
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Oculomotor-Scale-Item.png}
- \caption{Histogramm Oculomotor Item Scanning}
- \label{fig:histoOculomotorItem}
-\end{figure}
-
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Oculomotor-Scale-Cartesian.png}
- \caption{Histogramm Oculomotor Cartesian Scanning}
- \label{fig:histoOculomotorCartesian}
-\end{figure}
-
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Disorientation-Scale-Item.png}
- \caption{Histogramm Disorientation Item Scanning}
- \label{fig:histoDisorientationItem}
-\end{figure}
-
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Disorientation-Scale-Cartesian.png}
- \caption{Histogramm Disorientation Cartesian Scanning}
- \label{fig:histoDisorientationCartesian}
-\end{figure}
-
-\subsection{Ablenkung/Presence}
+Die Ergebnisse zur Ablenkung bzw. Presence wurden anhand von drei Fragen erhoben, deren Mittelwerte für beide Verfahren in der \autoref{fig:presence} dargestellt sind.
 
 \begin{figure}[tbh]
  \centering
@@ -274,37 +326,71 @@ Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsverfah
  \label{fig:presence}
 \end{figure}
 
-\subsection{Geschwindigkeit und Zkylen}
+\textit{Frage 1:} Wie sehr warst Du in die Erfahrung der virtuellen Umgebung involviert?
+Die Bewertungen für das Item Scanning zeigen einen Mittelwert von 3,813 (Standardabweichung: 1,047). Für das Cartesian Scanning liegt der Mittelwert bei 4,375 (Standardabweichung: 0,719).
+
+\textit{Frage 2:} Wie gut konntest Du Dich auf die zugewiesenen Aufgaben oder erforderlichen Tätigkeiten konzentrieren und nicht auf die Mechanismen, die zur Ausführung dieser Aufgaben oder Tätigkeiten genutzt werden?
+Bei dieser Frage erreicht das Item Scanning einen Mittelwert von 4,000 (Standardabweichung: 0,817), während das Cartesian Scanning einen Mittelwert von 4,125 (Standardabweichung: 1,025) aufweist.
+
+\textit{Frage 3:} Wie gut konntest Du Dich auf den Inhalt und die visuellen Darstellungen in der Szene konzentrieren?
+Die Ergebnisse für das Item Scanning zeigen einen Mittelwert von 4,250 (Standardabweichung: 0,577). Beim Cartesian Scanning wird ein Mittelwert von 4,500 (Standardabweichung: 0,730) erzielt.
+
+\subsection{Geschwindigkeit und Scanning-Zyklen}
+
+Die durchschnittlichen Zeiten für die Durchführung der Evaluationsabschnitte zeigen Unterschiede zwischen den beiden Verfahren, dargestellt in \autoref{fig:zeit} Beim Item Scanning benötigten die Teilnehmenden im technischen Abschnitt durchschnittlich 6 Minuten und 42 Sekunden (Standardabweichung = 1 Minute und 26 Sekunden). Im inhaltsbasierten Abschnitt betrug die benötigte Zeit durchschnittlich 5 Minuten und 35 Sekunden (Standardabweichung = 1 Minute und 43 Sekunden).
+Beim Cartesian Scanning hingegen betrug die für den technischen Abschnitt benötigte Zeit durchschnittlich 8 Minuten und 5 Sekunden (Standardabweichung = 1 Minute und 41 Sekunden). Für den inhaltsbasierten Abschnitt wurden durchschnittlich 8 Minuten 50 Sekunden benötigt (Standardabweichung = 2 Minuten 52 Sekunden).
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Interaktionsgeschwindigkeiten.png}
- \caption{Interaktionsgeschwindigkeiten}
- \label{fig:Interaktionsgeschwindigkeiten}
+    \centering
+    \includegraphics{images/Results/Benötigte-Zeit-Evaluationsabschnitte.png}
+    \caption{Benötigte Zeit zum Durchlaufen der Evaluationsabschnitte}
+    \label{fig:zeit}
+\end{figure}
+
+Für die Auswertung der Geschwindigkeiten wurden die Interaktionsgeschwindigkeiten aus den Log-Files pro Person zusammengefasst. Daraus wurden Mittelwerte, Varianzen und Spannweiten berechnet, sowohl getrennt für jeden Evaluationsabschnitt als auch zusammengefasst für beide Abschnitte. Die Ergebnisse sind in der \autoref{fig:InteraktionsgeschwindigkeitenTable} aufgezigt sowie in der \autoref{fig:Interaktionsgeschwindigkeiten} visualisiert. 
+
+Beim Item Scanning beträgt die durchschnittliche Interaktionsgeschwindigkeit im technischen Abschnitt 4.617 Sekunden (Varianz = 0.381; Spannweite = 2.064). Dagegen ist die Interaktionsgeschwindigkeit im inhaltsbasierten Abschnitt mit 2,927 Sekunden kürzer (Varianz = 0,522; Spannweite = 2,274). Über beide Abschnitte hinweg ergibt sich eine durchschnittliche Interaktionsgeschwindigkeit von 3,862 Sekunden (Varianz = 0,293; Spannweite = 1,917).
+Beim Cartesian Scanning werden im technischen Abschnitt durchschnittlich 8,733 Sekunden (Varianz = 1,733; Spannweite = 4,840) zur Interaktion benötigt. Im inhaltsbasierten Abschnitt beträgt die mittlere Interaktionsgeschwindigkeit 7,404 Sekunden (Varianz = 5,616; Spannweite = 7,340). Über beide Abschnitte hinweg ergibt sich eine Interaktionsgeschwindigkeit von 8,004 Sekunden (Varianz = 3,383; Spannweite = 5,603).
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/Results/Interaktionsgeschwindigkeiten-Table.png}
+    \caption{Tabelle der Interaktionsgeschwindigkeiten beider Verfahren nach Evalauationsabschnitt}
+    \label{fig:InteraktionsgeschwindigkeitenTable}
 \end{figure}
 
 \begin{figure}[tbh]
- \centering
-\includegraphics[width=0.95\textwidth]{images/Results/Interaktionsgeschwindigkeiten-Table.png}
- \caption{Interaktionsgeschwindigkeiten Tabelle}
- \label{fig:InteraktionsgeschwindigkeitenTable}
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Results/Interaktionsgeschwindigkeiten.png}
+    \caption{Darstellung der mittleren Interaktionsgeschwindigkeiten beider Verfahren nach Evalauationsabschnitt}
+    \label{fig:Interaktionsgeschwindigkeiten}
 \end{figure}
+
+Um die Veränderung der Interaktionsgeschwindigkeit über die Zeit bzw. über die Anzahl der durchgeführten Interaktionen zu untersuchen, wurde eine lineare Regressionsanalyse durchgeführt. Regressionsanalyse durchgeführt und anschließend die Korrelation zwischen den beiden Variablen berechnet. Die Ergebnisse werden in \autoref{fig:RegressionskoeffizientenTable} aufgezeigt. Der Regressionskoeffizient beschreibt die durchschnittliche Veränderung der Interaktionszeit in Abhängigkeit von der Anzahl der bereits durchgeführten Interaktionen. Der Korrelationskoeffizient gibt an, wie eng der Zusammenhang zwischen den Variablen ist. 
+Beim Item Scanning ergibt sich für den technischen Abschnitt ein mittlerer Regressionskoeffizient von -0,839 (Varianz = 0,503) bei einem Korrelationskoeffizienten von -0,219. Im inhaltsbasierten Abschnitt beträgt der mittlere Regressionskoeffizient -0,391 (Varianz = 0,754) bei einem Korrelationskoeffizienten von -0,066. Über beide Abschnitte hinweg ergibt sich ein mittlerer Regressionskoeffizient von -2,539 (Varianz = 1,105) und ein Korrelationskoeffizient von -0,263.
+Beim Cartesian Scanning ergibt sich für den technischen Abschnitt ein durchschnittlicher Regressionskoeffizient von 0,180 (Varianz = 0,326) mit einem Korrelationskoeffizienten von 0,038. Im inhaltsbasierten Abschnitt beträgt der Regressionskoeffizient 0,241 (Varianz = 1,177) und der Korrelationskoeffizient -0,019. Über beide Abschnitte hinweg beträgt der Regressionskoeffizient -0,492 (Varianz = 1,461) und der Korrelationskoeffizient -0,085.
+
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Benötigte-Zeit-Evaluationsabschnitte.png}
- \caption{Benötigte Zeit}
- \label{fig:zeit}
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png}
+    \caption{Regressionskoeffizienten Lernkurve}
+    \label{fig:RegressionskoeffizientenTable}
 \end{figure}
+
+Neben der Interaktionsgeschwindigkeit wurde auch die Anzahl der benötigten Scanning Zyklen pro Interaktion im Log-File erfasst. Die \autoref{fig:zyklen} zeigt die Ergebnisse bezüglich der Zyklen für das Item Scanning. Im technischen Abschnitt wurden durchschnittlich 1,542 Zyklen pro Eingabe benötigt (Varianz = 0,007; Spannweite = 0,332). Im inhaltsbasierten Abschnitt hingegen lag der Mittelwert bei 1,423 (Varianz = 0,021; Spannweite = 0,481).
+
+Auch für das Cartesian Scanning wurde die Anzahl der benötigten Durchläufe der Scaninng-Linien ausgegeben. %hier noch die Erklärung ergänzen! 
 
 \begin{figure}[tbh]
- \centering
-\includegraphics[width=0.95\textwidth]{images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png}
- \caption{Regressionskoeffizienten Lernkurve}
- \label{fig:RegressionskoeffizientenTable}
-\end{figure}
+    \centering
+   \includegraphics{images/Results/Zyklen-Item.png}
+    \caption{Benötigte Scanning-Zyklen pro Interaktion beim Item Scanning}
+    \label{fig:zyklen}
+   \end{figure}
 
-\subsection{Fehler und leere Eingaben}
+
+\subsection{Fehleranfälligkeit}
 
 \begin{figure}[tbh]
  \centering
@@ -348,8 +434,16 @@ Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsverfah
  \label{fig:gründeFehlerCartesian}
 \end{figure}
 
+Beim Cartesian Scanning wurde zusätzlich die Häufigkeit von leeren Eingaben zur Korrektur von Fehlern, wie z.B. das Setzen der ersten Scanlinie an der falschen Position oder das Vergessen des Wechsels in den Navigationsmodus, erfasst. Die Ergebnisse sind in \autoref{fig:leereEingaben} dargestellt. 
+Im technischen Abschnitt beträgt die durchschnittliche Anzahl leerer Eingaben 1.000 (Varianz = 2.933; Spannweite = 7.000). Im inhaltsbasierten Abschnitt liegt der Mittelwert mit 1.750 (Varianz = 6.200; Spannweite = 10.000) etwas höher.
 
-\subsection{Korrelationen}
+\begin{figure}[tbh]
+    \centering
+    \includegraphics{images/Results/leereEingaben.png}
+    \caption{Leere Eingaben beim Cartesian Scanning}
+    \label{fig:leereEingaben}
+\end{figure}
+\subsection{Korrelationen und Zusammenhänge}
 
 \begin{figure}[tbh]
     \centering
@@ -379,7 +473,18 @@ Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsverfah
     \label{fig:TableKorrelationen}
    \end{figure}
 
-\subsection{Feedback/Anmerkungen/Beobachtungen}
+\subsection{Qualitative Beobachtungen und Feedback der Proband:innen}
 
+\begin{figure}[tbh]
+    \centering
+   \includegraphics{images/Results/ScanRate.png}
+    \caption{Feedback bzgl. der Scan Rate}
+    \label{fig:scanrate}
+   \end{figure}
 
-
+   \begin{figure}[tbh]
+    \centering
+   \includegraphics[width=0.95\textwidth]{images/Results/EinsatzKopfbewegungen-Cartesian.png}
+    \caption{Einsatz gezielter Kopfbewegungen der Nutzenden beim Cartesian Scanning}
+    \label{fig:kopfbewegungenCartesian}
+   \end{figure}
