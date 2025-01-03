@@ -320,10 +320,10 @@ In der Kategorie Desorientierung (vgl. \autoref{fig:histoDisorientation})zeigten
 Die Ergebnisse zur Ablenkung bzw. Presence wurden anhand von drei Fragen erhoben, deren Mittelwerte für beide Verfahren in der \autoref{fig:presence} dargestellt sind.
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Fragen-zur-Presence-Ablenkung.png}
- \caption{Fragen zur Presence/Ablenkung}
- \label{fig:presence}
+    \centering
+    \includegraphics{images/Results/Fragen-zur-Presence-Ablenkung.png}
+    \caption{Fragen zur Presence/Ablenkung}
+    \label{fig:presence}
 \end{figure}
 
 \textit{Frage 1:} Wie sehr warst Du in die Erfahrung der virtuellen Umgebung involviert?
@@ -384,53 +384,74 @@ Auch für das Cartesian Scanning wurde die Anzahl der benötigten Durchläufe de
 
 \begin{figure}[tbh]
     \centering
-   \includegraphics{images/Results/Zyklen-Item.png}
+    \includegraphics{images/Results/Zyklen-Item.png}
     \caption{Benötigte Scanning-Zyklen pro Interaktion beim Item Scanning}
     \label{fig:zyklen}
-   \end{figure}
-
+\end{figure}
 
 \subsection{Fehleranfälligkeit}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Anzahl-Fehler-technisch-item.png}
- \caption{Anzahl Fehler Item Technisch}
- \label{fig:anzahlFehlerItemTechnisch}
-\end{figure}
+In beiden Evalauationsabschnitten wurden die aufgetretenen Fehler im Evaluationsprotokoll erfasst. Als Fehler werden in diesem Zusammenhang Eingaben verstanden, die nicht zum gewünschten Ergebnis geführt haben. 
+
+Die Ergebnisse des Item Scannings sind in \autoref{fig:anzahlFehlerItem} dargestellt. Im technischen Abschnitt (vgl. \autoref{fig:anzahlFehlerItemTechnisch}) traten bei der Mehrheit der Teilnehmenden Fehler auf. Nur drei Personen konnten den Abschnitt ohne Fehler abschließen. Sieben Personen machten einen Fehler, zwei Personen machten jeweils drei Fehler. Eine Person hat fünf Fehler gemacht. Somit wurden in diesem Abschnitt über alle Testpersonen hinweg insgesamt 18 Fehler erfasst.
+Im inhaltsbasierten Abschnitt (vgl. \autoref{fig:anzahlFehlerItemInhalt}) haben sechs Personen keinen Fehler gemacht, während weitere sechs Personen jeweils einen Fehler machten. Vier Personen machten zwei Fehler. Keine Testperson hat in diesem Abschnitt mehr als zwei Fehler gemacht. Insgesamt wurden in diesem Abschnitt 14 Fehler verzeichnet.
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png}
- \caption{Anzahl Fehler Item Inhalt}
- \label{fig:anzahlFehlerItemInhalt}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-item.png}
+        \caption{Technischer Abschnitt}
+        \label{fig:anzahlFehlerItemTechnisch}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png}
+        \caption{Inhaltsbasierter Abschnitt}
+        \label{fig:anzahlFehlerItemInhalt}
+   \end{subfigure}
+   \caption{Häufigkeiten der Anzahl gemachter Fehler im Item Scanning}
+   \label{fig:anzahlFehlerItem}
 \end{figure}
+\
+
+Im Evaluationsprotokoll wurde für jeden aufgetretenen Fehler der jeweilige Grund vermerkt. Die beim Item Scanning aufgetretenen Gründe sind in \autoref{fig:gründeFehlerItem} aufgeführt. Es ist zu erkennen, dass die meisten Fehler auf Timing-Probleme zurückzuführen sind. Das bedeutet, dass Eingaben etwas zu früh oder etwas zu spät erfolgten und dadurch versehentlich das vorherige oder nachfolgende Item in der Scanning-Reihenfolge anstelle des Zielobjekts ausgewählt wurde. Zu späte Eingaben traten insbesondere bei der Navigation auf. Derartige Fehler traten bei 13 der 16 Testpersonen auf. Im technischen Abschnitt der Evaluation traten zudem Fehler auf, die auf Verständnisprobleme zurückzuführen sind. Vier Teilnehmenden war das Prinzip bzw. die Aufgabe zu Beginn nicht ganz klar, wodurch es zu fehlerhaften Eingaben kam. 
 
 \begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png}
- \caption{Anzahl Fehler Cartesian Technisch}
- \label{fig:anzahlFehlerCartesianTechnisch}
+    \centering
+    \includegraphics{images/Results/Gründe-Fehler-Item.png}
+    \caption{Gründe für Fehler beim Item Scanning}
+    \label{fig:gründeFehlerItem}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png}
- \caption{Anzahl Fehler Cartesian Inhalt}
- \label{fig:anzahlFehlerCartesianInhalt}
+Die Ergebnisse des Cartesian Scanning sind in \autoref{fig:anzahlFehlerCartesian} dargestellt.
+Den technischen Abschnitt (vgl. \autoref{fig:anzahlFehlerCartesianTechnisch}) konnten sieben Personen fehlerfrei abschließen. Drei Personen machten jeweils einen oder zwei Fehler, während jeweils eine Person drei, vier oder sechs Fehler machte. Insgesamt wurden in diesem Abschnitt über alle Testpersonen hinweg 22 Fehler erfasst. 
+Im inhaltsbasierten Abschnitt (vgl. \autoref{fig:anzahlFehlerCartesianInhalt}) blieb die Hälfte der Testpersonen fehlerfrei. Fünf Personen machten jeweils einen Fehler, eine Person drei, eine Person vier und eine Person acht Fehler. Die Gesamtzahl der Fehler beträgt hier somit 20.
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png}
+        \caption{Technischer Abschnitt}
+        \label{fig:anzahlFehlerCartesianTechnisch}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png}
+        \caption{Inhaltsbasierter Abschnitt}
+        \label{fig:anzahlFehlerCartesianInhalt}
+    \end{subfigure}
+    \caption{Häufigkeiten der Anzahl gemachter Fehler beim Cartesian Scanning}
+    \label{fig:anzahlFehlerCartesian}
 \end{figure}
 
-\begin{figure}[tbh]
- \centering
-\includegraphics{images/Results/Gründe-Fehler-Item.png}
- \caption{Gründe für Fehler Item Scanning}
- \label{fig:gründeFehlerItem}
-\end{figure}
+Die Gründe für Fehler beim Cartesian Scanning sind in \autoref{fig:gründeFehlerCartesian} dargestellt. Es ist zu erkennen, dass neun Personen versehentlich das HUD anstelle des beabsichtigten Objekts ausgewählt haben. Fünf Personen vergaßen den Moduswechsel, was dazu führte, dass statt einer Selektion weitere Navigationsschritte durchgeführt wurden. Drei Personen hatten Probleme beim Schließen von Bildern, da sie den Schließen-Button nicht wählen konnten. Eine Person hielt den Schalter für den Moduswechsel nicht lange genug gedrückt, sodass der Wechsel nicht ausgelöst wurde und weitere Navigationsschritte statt der gewünschten Selektion ausgeführt wurden. Eine Person selektierte versehentlich einen Wegpunkt, der hinter einem geöffneten Bild lag, obwohl eine leere Eingabe beabsichtigt war. 
 
 \begin{figure}[tbh]
  \centering
 \includegraphics[width=0.95\textwidth]{images/Results/Gründe-Fehler-Cartesian.png}
- \caption{Gründe für Fehler Cartesian Scanning}
+ \caption{Gründe für Fehler beim Cartesian Scanning}
  \label{fig:gründeFehlerCartesian}
 \end{figure}
 
@@ -443,48 +464,98 @@ Im technischen Abschnitt beträgt die durchschnittliche Anzahl leerer Eingaben 1
     \caption{Leere Eingaben beim Cartesian Scanning}
     \label{fig:leereEingaben}
 \end{figure}
+
 \subsection{Korrelationen und Zusammenhänge}
 
+Neben der getrennten Auswertung der Ergebnisse der einzelnen Variablen und Faktoren wurden Korrelationsanalysen durchgeführt, um Zusammenhänge zwischen den Variablen zu untersuchen.
+
+Zunächst wurde für das Cartesian Scanning untersucht, ob die Position der ausgewählten Objekte im Sichtfeld (x- und y-Koordinaten) einen signifikanten Einfluss auf die Interaktionsgeschwindigkeit hat. Die Ergebnisse sind in \autoref{fig:tableKorrPosGeschwindigkeit} zusammengefasst und in \autoref{fig:bubbleKorrPosGeschwindigkeit} visualisiert. 
+
 \begin{figure}[tbh]
     \centering
-   \includegraphics[width=0.95\textwidth]{images/Results/Korrelation-Position-Geschwindigkeit-Table.png}
+    \includegraphics[width=0.95\textwidth]{images/Results/Korrelation-Position-Geschwindigkeit-Table.png}
     \caption{Zusammenhang Postion des Objekts im Sichtfeld und Selektionsgeschwindigkeit}
     \label{fig:tableKorrPosGeschwindigkeit}
-   \end{figure}
+\end{figure}
 
-   \begin{figure}[tbh]
+\begin{figure}
     \centering
-   \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-inhalt.png}
-    \caption{Zusammenhang Postion des Objekts im Sichtfeld und Selektionsgeschwindigkeit Inhaltsbasierter Abschnitt}
-    \label{fig:bubbleKorrPosGeschwindigkeitInhalt}
-   \end{figure}
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-technisch.png}
+        \caption{Technischer Abschnitt}
+        \label{fig:bubbleKorrPosGeschwindigkeitTechnisch}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+        \centering
+        \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-inhalt.png}
+        \caption{Inhaltsbasierter Abschnitt}
+        \label{fig:bubbleKorrPosGeschwindigkeitInhalt}
+    \end{subfigure}
+    \caption{Zusammenhang zwischen der Position des Objektes im Sichtfeld und der Interaktionsgeschwindigkeit beim Cartesain Scanning}
+    \label{fig:bubbleKorrPosGeschwindigkeit}
+\end{figure}
 
-   \begin{figure}[tbh]
-    \centering
-   \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-technisch.png}
-    \caption{Zusammenhang Postion des Objekts im Sichtfeld und Selektionsgeschwindigkeit Technischer Abschnitt}
-    \label{fig:bubbleKorrPosGeschwindigkeitTechnisch}
-   \end{figure}
+Für den technischen Abschnitt zeigt sich eine positive Korrelation zwischen der horizontalen Position (x-Koordinate) und der Interaktionsgeschwindigkeit (Korrelationskoeffizient = 0,7395), während die vertikale Position (y-Koordinate) negativ mit der Geschwindigkeit korreliert (Korrelationskoeffizient = -0,8249). Ähnliche Tendenzen lassen sich im inhaltsbasierten Abschnitt beobachten, wo die Korrelationskoeffizienten für die x-Koordinate 0,6156 und für die y-Koordinate -0,6849 betragen. Werden beide Abschnitte zusammen betrachtet, ergeben sich Korrelationskoeffizienten von 0,6804 für die x-Koordinate und -0,7562 für die y-Koordinate. Alle Korrelationen zeigen dabei einen p-Wert <0,00. Die \autoref{fig:bubbleKorrPosGeschwindigkeit} veranschaulicht diese Zusammenhänge. Punkte, die eine schnelle Selektion repräsentieren, befinden sich oben links im Sichtfeld und sind klein und dunkelblau dargestellt. Mit zunehmender Entfernung nach rechts oder unten im Sichtfeld werden die Punkte größer und heller. Darüber hinaus ist in dieser Abbildung zu erkennen, dass die meisten Selektionen in der Mitte des Sichtfeldes durchgeführt wurden.
 
-   \begin{figure}[tbh]
-    \centering
-   \includegraphics[width=0.95\textwidth]{images/Results/Korrelationen-Rest.png}
-    \caption{Zusammenhang Interaktionsgeschwindigkeit und Usability/UX}
-    \label{fig:TableKorrelationen}
-   \end{figure}
-
-\subsection{Qualitative Beobachtungen und Feedback der Proband:innen}
+Anschließend wurde für beide Verfahren untersucht, ob es Korrelationen zwischen den Ergebnissen des SSQ und den Bewertungen der SUS, des UEQ und der Interaktionsgeschwindigkeit gibt. Die Ergebnisse dieser Untersuchungen sind in \autoref{fig:tableSymptomsSSQ} dargestellt.
 
 \begin{figure}[tbh]
     \centering
-   \includegraphics{images/Results/ScanRate.png}
-    \caption{Feedback bzgl. der Scan Rate}
-    \label{fig:scanrate}
-   \end{figure}
+    \includegraphics[width=0.95\textwidth]{images/Results/Korrelationen-SSQ.png}
+    \caption{Zusammenhänge zwischen der Ergebnissen des SSQ und des SUS, des UEQ sowie der Eingabegeschwindigkeit}
+    \label{fig:TableKorrelationenSSQ}
+\end{figure}
 
-   \begin{figure}[tbh]
+Für die Korrelation zwischen SSQ und SUS ergab sich beim Item Scanning ein Korrelationskoeffizient von 0,20 (p-Wert = 0,46), während beim Cartesian Scanning ein Korrelationskoeffizient von -0,35 (p-Wert = 0,18) festgestellt wurde. 
+
+Beim Vergleich des SSQ mit dem UEQ-Faktor Attraktivität ergab sich für das Item Scanning ein Korrelationskoeffizient von 0,24 (p-Wert = 0,37) und für das Cartesian Scanning ein Wert von -0,18 (p-Wert = 0,51). Für den UEQ-Faktor Durchschaubarkeit wurden Korrelationskoeffizienten von -0,20 (p-Wert = 0,45) für das Item Scanning und -0,62 (p-Wert = 0,01) für das Cartesian Scanning berechnet. Der Zusammenhang zwischen dem SSQ und der Interaktionsgeschwindigkeit war beim Item Scanning durch einen Korrelationskoeffizienten von 0,30 (p-Wert = 0,26) und beim Cartesian Scanning durch einen Korrelationskoeffizienten von 0,54 (p-Wert = 0,03) gekennzeichnet.
+
+Darüber hinaus wurden die Zusammenhänge zwischen der Interaktionsgeschwindigkeit im technischen Abschnitt und der Bewertung der SUS sowie zwischen der Interaktionsgeschwindigkeit beider Abschnitte und der Bewertung des UEQ-Faktors Effizienz untersucht. Die Ergebnisse sind in \autoref{fig:TableKorrelationen} dargestellt. 
+
+\begin{figure}[tbh]
     \centering
-   \includegraphics[width=0.95\textwidth]{images/Results/EinsatzKopfbewegungen-Cartesian.png}
+    \includegraphics[width=0.95\textwidth]{images/Results/Korrelationen-Rest.png}
+    \caption{Zusammenhang zwischen der Interaktionsgeschwindigkeit und der Usability/UX}
+    \label{fig:TableKorrelationen}
+\end{figure}
+
+Die Korrelationskoeffizienten zwischen der Interaktionsgeschwindigkeit im technischen Abschnitt und dem UEQ-Faktor Effizienz betragen 0,19 (p-Wert = 0,49) für das Item Scanning und -0,29 (p-Wert = 0,28) für das Cartesian Scanning. Für die Interaktionsgeschwindigkeit über alle Abschnitte und den UEQ-Faktor Effizienz wurden Korrelationskoeffizienten von 0,38 (p-Wert = 0,14) für das Item Scanning und -0,15 (p-Wert = 0,58) für das Cartesian Scan errechnet.
+
+\subsection{Qualitative Beobachtungen und Feedback der Teilnehmenden}
+
+Neben den erhobenen Daten wurden während der Evaluation auch Beobachtungen notiert. Besonders auffällig war, dass viele Testpersonen gezielt Kopfbewegungen einsetzten, um das Cartesian Scanning zu beschleunigen oder kleine Fehler zu korrigieren. In \autoref{fig:kopfbewegungenCartesian} ist dargestellt, wie viele Personen gezielte Kopfbewegungen zu welchem Zweck einsetzten. Neun Personen setzten Kopfbewegungen für beide Zwecke ein, vier Personen ausschließlich zur Fehlerkorrektur und eine Person ausschließlich zur Beschleunigung. Zwei Personen setzten keine gezielten Kopfbewegungen ein.
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Results/EinsatzKopfbewegungen-Cartesian.png}
     \caption{Einsatz gezielter Kopfbewegungen der Nutzenden beim Cartesian Scanning}
     \label{fig:kopfbewegungenCartesian}
-   \end{figure}
+\end{figure}
+
+Darüber hinaus hatten die Teilnehmenden die Möglichkeit, freies Feedback zu den beiden Verfahren zu geben. Dieses Feedback wurde kategorisiert und wird im Folgenden zusammengefasst. 
+
+\textbf{Einschätzungen zur Scan Rate:}
+
+Die meisten Testpersonen äußerten sich bezüglich der Scan Rate der beiden Verfahren. \autoref{fig:scanrate} gibt die diesbezügliche Einschätzung der Testpersonen wider. Beim Item Scanning empfanden die meisten Testpersonen die Scan Rate als angenehm. Fünf Personen empfanden sie jedoch als zu langsam, eine Person als zu schnell und zwei Personen machten hierzu keine Angabe. Beim Cartesian Scanning empfand keine Person die Scanrate als zu schnell, während sechs Personen sie als angemessen beurteilten. Die meisten Personen gaben an, dass die Scan Rate zu langsam sei. Eine Person äußerte sich nicht.
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.75\textwidth]{images/Results/ScanRate.png}
+    \caption{Einschätzungen zur Scan Rate beider Verfahren}
+    \label{fig:scanrate}
+\end{figure}
+
+\textbf{Probleme und Kritik:}
+
+Die meisten geäußerten Kritikpunkte bzw. Einordnungen der aufgetretenen Probleme bezogen sich auf das Item Scanning. Drei Testpersonen kritisierten die Scanning-Reihenfolge, die als willkürlich oder nicht nachvollziehbar empfunden wurde. Zudem wurde die Animation während des Item Scannings von einer Person als verwirrend beschrieben, da sie dazu führte, dass die Selektion teilweise zu früh erfolgte. Des Weiteren wurde von drei Personen bemängelt, dass das Menü (Navigation und HUD) zu weit oben im Sichtfeld positioniert war. Eine Person äußerte, dass Schwierigkeiten bei der Navigation aufgrund einer zu hohen Scan Rate auftraten. Eine weitere Person merkte an, dass im inhaltsbasierten Abschnitt versteckte Objekte durch das Verfahren „gespoilert“ wurden. Dies wurde als schade, aber nicht als ernsthaftes Problem angesehen. 
+
+\textbf{Vorschläge für Verbesserungen:}
+
+Die Testpersonen äußerten verschiedene Ideen zur Verbesserung der Verfahren. Beim Item Scanning wurde vorgeschlagen, beim ersten Objekt die Wartezeit etwas zu verlängern, da dieses leicht verpasst werden kann. Außerdem wurde vorgeschlagen, im Navigationsmenü eine Art „Cool Down“ einzuführen, um leichter mehrere Selektionen hintereinander durchführen zu können. Für das Cartesian Scanning wurde vorgeschlagen, die Zeit zu verkürzen, die benötigt wird, um den Schalter für den Moduswechsel gedrückt zu halten. Zwei Personen äußerten auch den Wunsch, die Geschwindigkeit der Linien dynamisch steuern zu können, um Wartezeiten zu reduzieren und das Verfahren effizienter zu gestalten. Außerdem wurde vorgeschlagen, die Scan Rate und die Farben für beide Verfahren individuell einstellbar zu gestalten.
+
+\textbf{Positives Feedback und Aussagen zu Präferenzen zwischen den Verfahren:}
+
+Die Testpersonen gaben auch Feedback zu Aspekten, die sie als positiv empfanden. Die Teilnehmenden beschrieben das Cartesian Scanning als einfacher und lobten die größere Kontrolle über das Verfahren. Es wurde auch betont, dass das Cartesian Scanning intuitiver sei. Es wurde außerdem von zwei Testpersonen für die bessere Navigation gelobt, da es einen schnelleren Wechsel des Blickwinkels ermöglichte. Eine Testperson gab an, dass das Cartesian Scanning zwar einfacher und individueller sei, das Item Scanning jedoch mehr Spaß mache. Auch andere Testpersonen bevorzugten das Item Scanning, da es als angenehmer empfunden wurde, insbesondere wegen der schnelleren Interaktionsgeschwindigkeit, der geringeren Fehleranfälligkeit und der optischen Gestaltung, die als augenschonender beschrieben wurde. 
+
+

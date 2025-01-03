@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -18,6 +18,16 @@
   {Begriffe} und {Konzepte} ({ISO}\_9241-11:2018); {Deutsche} {Fassung}
   {EN}\_iso\_9241-11:2018, {\natexlab{b}}.
 \newblock URL \url{https://www.dinmedia.de/de/-/-/279590417}.
+
+\bibitem[noa({\natexlab{c}})]{noauthor_paneovr_nodate}
+{PaneoVR} – {Immersive} {Video} {Training} {Toolkit}, {\natexlab{c}}.
+\newblock URL \url{https://paneovr.net/}.
+
+\bibitem[noa({\natexlab{d}})]{noauthor_virdipa-_nodate}
+{ViRDiPA}- Über das {Projekt} {\textbar} {Hochschule} {Bielefeld} ({HSBI}),
+  {\natexlab{d}}.
+\newblock URL
+  \url{https://www.hsbi.de/inbvg/projekte/bildungsforschung/virtual-reality-basierte-digital-reusable-learning-objects-in-der-pflegeausbildung/ueber-dasprojekt}.
 
 \bibitem[{Apple}(2024)]{apple_einfuhrung_2024}
 {Apple}.

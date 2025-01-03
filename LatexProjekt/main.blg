@@ -5,51 +5,55 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: literature.bib
+Warning--to sort, need author or key in noauthor_paneovr_nodate
+Warning--to sort, need author or key in noauthor_virdipa-_nodate
 Warning--to sort, need author or key in noauthor_din_nodate-1
 Warning--to sort, need author or key in noauthor_din_nodate
 Warning--empty year in noauthor_din_nodate
 Warning--empty year in noauthor_din_nodate-1
+Warning--empty year in noauthor_paneovr_nodate
+Warning--empty year in noauthor_virdipa-_nodate
 Warning--empty booktitle in milgram_augmented_1995
 Warning--empty institution in wong_survey_2017
-You've used 32 entries,
+You've used 34 entries,
             2773 wiz_defined-function locations,
-            869 strings with 14818 characters,
-and the built_in function-call counts, 17611 in all, are:
-= -- 1730
+            875 strings with 15166 characters,
+and the built_in function-call counts, 18103 in all, are:
+= -- 1778
 > -- 978
 < -- 25
-+ -- 330
++ -- 334
 - -- 297
-* -- 1485
-:= -- 2672
-add.period$ -- 178
-call.type$ -- 32
-change.case$ -- 192
+* -- 1523
+:= -- 2710
+add.period$ -- 182
+call.type$ -- 34
+change.case$ -- 198
 chr.to.int$ -- 31
-cite$ -- 72
-duplicate$ -- 764
-empty$ -- 1328
+cite$ -- 82
+duplicate$ -- 794
+empty$ -- 1398
 format.name$ -- 345
-if$ -- 3785
-int.to.chr$ -- 2
+if$ -- 3905
+int.to.chr$ -- 4
 int.to.str$ -- 1
 missing$ -- 28
-newline$ -- 241
+newline$ -- 249
 num.names$ -- 127
-pop$ -- 335
+pop$ -- 361
 preamble$ -- 1
-purify$ -- 161
+purify$ -- 165
 quote$ -- 0
-skip$ -- 607
+skip$ -- 633
 stack$ -- 0
-substring$ -- 626
-swap$ -- 151
+substring$ -- 632
+swap$ -- 155
 text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 342
-warning$ -- 6
+type$ -- 364
+warning$ -- 10
 while$ -- 144
 width$ -- 0
-write$ -- 584
-(There were 6 warnings)
+write$ -- 604
+(There were 10 warnings)

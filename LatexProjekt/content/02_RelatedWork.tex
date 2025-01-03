@@ -135,11 +135,108 @@ Im Rahmen des Continuous Cartesian Scannings erfolgt das Scannen entlang orthogo
 Sobald die Scanlinie das Zielobjekt kreuzt, aktiviert der Nutzende den Schalter, wodurch die horizontale Linie an ihrer Position sichtbar bleibt. In der Folge wird eine vertikale Scanlinie initiiert, welche kontinuierlich von der linken Seite des Sichtfelds nach rechts scannt. Wenn auch die vertikale Scanlinie das Zielobjekt kreuzt, aktiviert der Nutzende den Schalter, um dieses Objekt auszuwählen.
 
 Der wesentliche Vorteil des Scannings liegt darin, dass eine Selektion von Elementen mit minimalem motorischen Aufwand realisierbar ist. Allerdings setzt die Nutzung dieser Methode gute visuelle Fähigkeiten, hohe Aufmerksamkeit sowie die Fähigkeit voraus, die Abfolge der Auswahlmöglichkeiten zu erfassen, insbesondere im Kontext des Item Scannings. Des Weiteren ist Scanning im Vergleich zu anderen Eingabemethoden relativ langsam. Um diesen Nachteil zu kompensieren, wurden verschiedene Ansätze zur Beschleunigung des Scannings entwickelt. Eine zentrale Methode ist das sogenannte Rate Enhancement beim Item Scanning, bei dem Elemente zu Gruppen zusammengefasst und selektiert werden können. Dadurch kann der Auswahlprozess signifikant beschleunigt werden. 
-Darüber hinaus stellt die Festlegung der optimalen Scangeschwindigkeit (Scan Rate) eine der größten Herausforderungen beim Scanning dar. Eine zu hohe Scan Rate kann dazu führen, dass Nutzende Schwierigkeiten haben, im richtigen Moment eine Auswahl zu treffen. Eine zu niedrige Scan Rate hingegen verzögert den Eingabeprozess unnötig. Als bewährte Richtlinie zur Optimierung der Scan Rate kann die sogenannte 0,65-Regel herangezogen werden. 
+Darüber hinaus stellt die Festlegung der optimalen Scangeschwindigkeit (Scan Rate) eine der größten Herausforderungen beim Scanning dar. Eine zu hohe Scan Rate kann dazu führen, dass Nutzende Schwierigkeiten haben, im richtigen Moment eine Auswahl zu treffen. Eine zu niedrige Scan Rate hingegen verzögert den Eingabeprozess unnötig.  
 
 \section{Usability und User Experience}
 
+Usability:
+- Usability ist auch im deutschen ein gängiger Begriff, die korrekte Übersetzung wäre Gebrauchstauglichkeit
+- Der Begriff Gebrauchstauglichkeit wurde 1980 in der Norm DIN 66050 erstmalig definiert [DIN 66050:1980 (1980): Gebrauchstauglichkeit, Begriff.]
+- Im Jahr 1998 wurde die Norm DIN 66050 abgelöst durch die Norm DIN EN ISO 9241-11 und der Begriff der Usability (= Gebrauchstauglichkeit) überarbeitet
+- aktuellste überarbeitung aus 2018: DIN EN ISO 9241-11"Ergonomie der Mensch-System-Interaktion – Teil 11: Gebrauchstauglichkeit: Begriffe und Konzepte". 
+- Definition: Gebrauchstauglichkeit
+\textit{Ausmaß, in dem ein System, ein Produkt oder eine Dienstleistung durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.}
+
+\textit{Anmerkung 1 zum Begriff: Die „bestimmten“ Benutzer, „bestimmten“ Ziele und der „bestimmte“ Nutzungskontext beziehen sich auf die jeweilige Kombination aus Benutzern, Zielen und Nutzungskontext, für die die Gebrauchstauglichkeit betrachtet wird.}
+
+\textit{Anmerkung 2 zum Begriff: Das Wort „Gebrauchstauglichkeit“ wird auch als Qualifizierungsmerkmal verwendet, um auf Gestaltungskenntnisse, -kompetenzen, -aktivitäten und -attribute zu verweisen, die zur Gebrauchstauglichkeit beitragen, wie Gebrauchstauglichkeits-Fachkenntnisse und -Fachleute, gebrauchstauglichkeitsorientierte Entwicklung, Verfahren und Evaluierung sowie Gebrauchstauglichkeitsheuristik.}
+
+Messung: 
+- Die Usability enthält gemäß der Definition DIN EN ISO 9241-11 die drei Faktoren "effektiv", "effizient" und "zufriedenstellend". Zur Messung der Usability gibt es viele Verfahren, beispielsweise
+
+    die Messung der Effizienz mittels GOMS, Hick's law, Fitt's Law
+    Usability Tests in diversen Ausprägungen: Usability Lab, Remote Tests, …
+    Usability Fragebögen
+SUS:
+Der System Usability Scale (SUS) von Brooke 1986 entwickelt und erst 10 Jahre später veröffentlicht Brooke 1996 (Brooke, John: SUS - A quick and dirty usability scale. In: P. W. Jordan, B. Thomas, B. A. Weermeester und McClelland (Hg.): Usability Evaluation in Industry. London: Taylor and Francis, S. 189–194.). Es ist somit einer der frühen Usability-Fragebögen und wird auch heutzutage noch oft verwendet. Der SUS besteht aus nur 10 Items und ist damit schnell durchgeführt. Er misst aber keine einzelen Faktoren, sondern gibt nur einen Gesamtwert im Bereich 0 - 100 zurück    
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/SUS.png}
+    \caption{Fragebogen System Usability Scale (SUS)}
+    \label{fig:SUSFragebogen}
+\end{figure}
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/SUS-Interpretation.jpg}
+    \caption{Einstufung der SUS-Scores}
+    \label{fig:susInterpretation}
+\end{figure}
+- Bildquelle: Determining What Individual SUS Scores Mean: Adding an Adjective Rating Scale,” by A. Bangor, P.T. Kortum, and J.T. Miller, 2009,
+Journal of Usability Studies, 4(3), 114-123.
+
+Ux:
+Die Evaluation und Messung der User Experience (UX) ist ein wesentlicher Bestandteil der Forschung im Bereich Human Computer Interaction (HCI). Die DIN EN ISO 9241-210 definiert UX als „Wahrnehmungen und Reaktionen einer Person, die aus der tatsächlichen und/oder der erwarteten Benutzung eines Systems, eines Produkts oder einer Dienstleistung resultieren.“ [1]. Die UX ist demnach essentiell, um nachvollziehen zu können, wie ein interaktives Produkt oder System von Nutzer:innen wahrgenommen wird. Damit hat sie gleichzeitig einen erheblichen Einfluss auf den Erfolg eines Produktes oder Systems. Fallen die Reaktionen und Wahrnehmungen der Nutzer:innen negativ aus, wird sich dies auf den Erfolg des Produkts auswirken. Daher ist es von großer Bedeutung, die UX eines Produktes zu messen und zu evaluieren. Die Definition der DIN-Norm bietet jedoch keine Messbarkeitskriterien. Um die UX messbar zu machen, wird das Modell der pragmatischen und hedonischen Qualität nach Hassenzahl [2] verwendet. Danach setzt sich die UX aus der pragmatischen und der hedonischen Qualität zusammen. Unter pragmatischer Qualität wird die aufgabenbezogene Qualität eines Produktes verstanden. Ein Produkt besitzt pragmatische Qualität, wenn es Nutzer:innen dabei unterstützt, Aufgaben effizient und effektiv zu erledigen. Die hedonische Qualität hingegen bezieht sich auf nicht aufgabenbezogene Aspekte eines Produktes. Dazu zählen beispielsweise Aspekte wie Einzigartigkeit und Originalität. Viele etablierte Methoden zur Evaluation der UX basieren auf dieser Unterscheidung von Qualitäten. 
+
+Für interaktive 2D-Anwendungen wie Webseiten oder Software-produkte haben sich insbesondere Fragebögen zur Messung der UX etabliert. Bekannte Fragebögen in diesem Bereich sind beispielsweise der AttrakDiff [7], der User Experience Questionnaire (UEQ) [8] und der meCUE [6]. Darüber hinaus gibt es jedoch eine Großzahl weiterer Fragebögen und Messmethoden, die verwendet werden. Diese Methodiken sind in Hinblick auf interaktive 2D-Anwendungen konstruiert und validiert worden. Für immersive Anwendungen wie Augmented Reality (AR)- und Virtual Reality (VR)-Anwendungen gibt es derzeit noch keine etablierten Methoden zur Messung der UX [9].
+
+Es ist erkennbar, dass am häufigsten quantitative Methoden zur Messung der UX in VR eingesetzt werden [21 - Literaturübersichtsarbeit]
+
+Bei der Evaluation von VR-Anwendungen werden vermehrt unterschiedliche Fragebögen kombiniert, um neben den gängigen UX-Faktoren interaktiver Anwendungen auch anwendungsspezifische Faktoren wie das Gefühl von Presence sowie das Auftreten von Motion Sickness zu berücksichtigen.
+
+[1]	„DIN EN ISO 9241-210“, Ergon. Mensch-Syst.-Interakt. - Teil 210 Menschzentrierte Gestalt. Interaktiver Syst., 2020.
+[2]	M. Hassenzahl, „User experience (UX): towards an experiential perspective on product quality“, in Proceedings of the 20th Conference on l’Interaction Homme-Machine, Metz France: ACM, Sep. 2008, S. 11–15. doi: 10.1145/1512714.1512717.
+
+[6] M. Minge und M. Thüring, „The MeCUE Questionnaire (2.0): Meeting Five Basic Requirements for Lean and Standardized UX Assessment“, in Design, User Experience, and Usability: Theory and Practice, A. Marcus und W. Wang, Hrsg., in Lecture Notes in Computer Science. Cham: Springer International Publishing, 2018, S. 451–469. doi: 10.1007/978-3-319-91797-9\_33.
+
+[7]	M. Hassenzahl, M. Burmester, und F. Koller, „AttrakDiff: Ein Fragebogen zur Messung wahrgenommener hedonischer und pragmatischer Qualität“, in Mensch \& Computer 2003: Interaktion in Bewegung, G. Szwillus und J. Ziegler, Hrsg., in Berichte des German Chapter of the ACM. Wiesbaden: Vieweg+Teubner Verlag, 2003, S. 187–196. doi: 10.1007/978-3-322-80058-9\_19.
+[8]	B. Laugwitz, T. Held, und M. Schrepp, Construction and Evaluation of a User Experience Questionnaire, Bd. 5298. 2008, S. 76. doi: 10.1007/978-3-540-89350-9\_6.
+[9]	D. Alexandrovsky u. a., „Evaluating User Experiences in Mixed Reality“, in Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems, in CHI EA ’21. New York, NY, USA: Association for Computing Machinery, Mai 2021, S. 1–5. doi: 10.1145/3411763.3441337.
+[21] Y. M. Kim, I. Rhiu, und M. H. Yun, „A Systematic Review of a Virtual Reality System from the Perspective of User Experience“, Int. J. Human–Computer Interact., Bd. 36, Nr. 10, S. 893–910, Juni 2020, doi: 10.1080/10447318.2019.1699746.
+
+UEQ: 
+Beim UEQ handelt es sich um einen User Experience Fragebogen mit 26 bipolaren Items der eine 7er-Likert-Skala verwendet.
+
+Gemessen werden die Faktoren: Attraktivität, Druchschaubarkeit, Effizienz, Steuerbarkeit, Stimulation und Originalität. 
+
+Der UEQ steht in über 20 Sprachen zur Verfügung und ist damit auch für internationale Projekte interessant. 
+
+kann kostenfrei mit allen Auswertetools genutzt werden
+
+\begin{figure}[tbh]
+    \centering
+    \includegraphics[width=0.95\textwidth]{images/UEQ.png}
+    \caption{Fragebogen User Experience Questionnaire (UEQ)}
+    \label{fig:UEQ}
+\end{figure}
+
 \section{PaneoVR}
+
+Das PaneoVR-Tool wurde entwickelt, um immersive 360°-Videotrainings bereitzustellen und die Erstellung virtueller Lehrinhalte für Bildungszwecke zu vereinfachen. Es handelt sich dabei um eine Web- und VR-Anwendung, die es Nutzenden ermöglicht, ohne tiefgehende Fachkenntnisse in Informatik oder Medientechnik ansprechende VR-Szenarien zu erstellen und zu nutzen \citep{noauthor_paneovr_nodate}. Das Konzept wurde im Rahmen des vom Bundesministerium für Bildung und Forschung geförderten Projekts ViRDiPA \citep{noauthor_virdipa-_nodate} entwickelt. Dieses Projekt lief vom 01.03.2020 bis 31.08.2023 und das Ziel bestand darin, VR als innovative Lehrmethode in der Pflegeausbildung zu etablieren. Die Entwicklung erfolgt in Zusammenarbeit mit dem Mixed Reality Lab der Hochschule Emden/Leer.
+
+PaneoVR richtet sich an Personen, Unternehmen oder Einrichtungen, die eigenständig virtuelle Trainings ohne den Aufwand und die Kosten aufwendiger 3D-Designs und Animationen erstellen möchten. Stattdessen nutzt das Tool 360°-Videotechnik, die eine realitätsgetreue Darstellung auf einfache Weise ermöglicht. Diese Methode erlaubt es, Szenarien von einfachen Raumtouren bis hin zu komplexen Rollenspiel-Erlebnissen zu erstellen. Nutzende stehen innerhalb von Video- oder Fotosphären und können durch Interaktion mit digitalen Elementen Einfluss auf die Umgebung nehmen, was eine dynamische und immersive Erfahrung schafft.
+
+Das Tool besteht aus drei wesentlichen Komponenten:
+
+\begin{itemize}
+    \item \textbf{Diagrammeditor/Webeditor:}
+    Der nodebasierte Diagrammeditor bildet die zentrale Plattform zur Erstellung der VR-Szenarien. Nutzende können 360°-Videos, Bilder und Audiodateien hochladen und daraus interaktive Szenen gestalten und zu Szenarien verknüfpen. 
+    \item \textbf{VR-Anwendung/PaneoVR App:}
+    Die PaneoVR App läuft auf allen gängigen VR-Brillen und ermöglicht es, die erstellten Szenarien direkt in Virtual Reality zu durchlaufen. Zusätzlich bietet die App einen Editor-Modus, über den unter anderem die Positionierung interaktiver Elemente in der Szene angepasst werden kann. 
+    \item \textbf{Web Player:}
+    Als Alternative zur VR-Anwendung erlaubt der Web Player, die Szenarien auf einem Rechner zu durchlaufen oder zu bearbeiten.
+\end{itemize}
+
+PaneoVR bietet eine Vielzahl interaktiver Elemente, die es Nutzenden ermöglichen, Szenarien individuell und ansprechend zu gestalten. Die Basisfelder repräsentieren dabei die einfachsten Interaktionsmöglichkeiten und dienen der einfachen Navigation zwischen Szenen innerhalb eines Szenarios. Zu den Basisfeldernzählen die Elemente Wegpunkt, Benutzen und Textpunkt. Diese erlauben es, durch einen Klick zur jeweils verknüpften Szene zu wechseln. Die Elemente unterscheiden sich dabei nur in der Darstellung des Buttons und nicht in ihrer Funktionsweise. Auch automatische Wechsel können integriert werden. Hierbei erfolgt der Szenenwechsel automatisch nach Abschluss des laufenden Szenenvideos. Dieses Element wird in der Szene nicht dargestellt. 
+Für komplexere und nicht-lineare Szenenwechsel stehen Verzweigungselemente zur Verfügung. Das Dialog-Element bietet bis zu vier verschiedene Multiple-Choice-Optionen, die beispielsweise als Antworten auf zuvor im Video gesagte Inhalte verwendet werden können. Jede Option kann mit einer nachfolgenden Szenen verknüpft und textlich dargestellt werden. Das Quiz-Element ähnelt dem Dialog, beinhalet jedoch eine zentrale Frage, die in der Mitte der  Multiple-Choice-Antworten dargestellt wird. Das Zufällig-Element wird in der Szene wie ein einfacher Wegpunkt dargestellt. Bei Auswahl dieses Elements wird jedoch zufällig eine der verknüpften Szenen ausgewählt, was eine dynamische Variation innerhalb eines Szenarios erlaubt.
+PaneoVR bietet außerdem die Möglichekit, Bilder in die Szenen einzubinden und diese interaktiv zu nutzen. Ein Bild-Element bindet das gewählte Bild als Miniaturansicht in die Szene ein. Wird dieses ausgewählt, erscheint eine vergrößerte Ansicht des Bildes, die über einen Zurück-Button wieder geschlossen werden kann. Das Element Untersuchen verfolgt einen ähnlichen Ansatz, ersetzt jedoch die Miniaturansicht durch einen Button mit dem Icon einer Lupe, um den Eindruck eines detaillierten Betrachtens zu vermitteln. Der Bild-Wegpunkt verbindet die Anzeige eines Miniaturbilds mit der Funktionsweise eines Wegpunkts. Wird das Element ausgewählt, erfolgt ein Szenenwechsel. 
+Auditive Elemente spielen ebenfalls eine zentrale Rolle bei der Gestaltung immersiver Szenarien. Hintergrundsounds wie Musik, Umgebungsgeräusche oder nachträglich synchronisierte Inhalte können über das Audio-Element einer Szene hinzugefügt werden. Diese werden automatisch beim Start einer Szene abgespielt. Das Element Audio-Anwählbar erlaubt es den Nutzenden, Audiodateien gezielt durch Klicken eines Play-Buttons zu starten. Über einen Audio-Wegpunkt kann ein automatischer Szenenwechel nach Beendigung der abgespielten Audiodatei integriert werden. 
+Darüber hinaus gibt es das Element Hinweis, welches nach einer definierten Zeitspanne einen eingeblendeten Text als Pop-up erscheinen lässt. Dies kann genutzt werden, um zusätzliche Informationen oder Hilfestellungen zu vermitteln. Schließlich können Szenarien durch Szenario-Ende-Elemente abgeschlossen werden. Szenario Abgeschlossen färbt die Szene grün und signalisiert den erfolgreichen Abschluss, während Szenario Fehlgeschlagen eine rote Markierung verwendet, um ein Scheitern anzuzeigen. Auch bei diesen Elementen öffnet sich ein Pop-Up, über das das Szenario beendet oder fortgesetzt werden kann.
+
+%Abbildung zu den Elementen einbinden!!! 
+
+Die vorliegende Arbeit basiert auf der PaneoVR-App für VR-Brillen. Der Schwerpunkt liegt auf der Integration binärer Interaktionsschnittstellen, um die Nutzung der erstellten Szenarien zu verbessern. Der Editor-Modus der App wird dabei bewusst vernachlässigt, da der Fokus auf dem Durchlaufen der Szenarien liegt.
 
 \section{Zusammenfassung} 
 

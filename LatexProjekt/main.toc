@@ -19,50 +19,50 @@
 \contentsline {subsection}{\numberline {2.3.1}Switches}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Scanning-Verfahren}{11}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Usability und User Experience}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}PaneoVR}{13}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Zusammenfassung}{13}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Konzeption}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definition des Design Space}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{18}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{21}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Finale Konzepte}{34}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Implementierung}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architektur}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{39}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Scanning Methoden}{40}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{40}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{44}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{48}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{48}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{50}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Evaluation}{51}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{51}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{51}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{54}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Durchführung}{56}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ergebnisse}{58}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{58}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{61}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Ablenkung/ Presence}{65}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Scanning-Zyklen}{66}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Fehleranfälligkeit}{69}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{70}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Proband:innen}{70}{subsection.5.3.7}%
-\contentsline {chapter}{\numberline {6}Diskussion}{76}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ausblick}{76}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test}{76}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Tabelle}{77}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Bild}{77}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Begriffe und Abkürzungen}{77}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Mathematik}{78}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Code}{78}{subsection.6.2.5}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{79}{chapter*.49}%
-\contentsline {chapter}{Anhang}{83}{chapter*.49}%
-\contentsline {chapter}{\numberline {A}Test-Anhang}{84}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{84}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{84}{subsection.A.1.1}%
-\contentsline {section}{\numberline {A.2}Zeitplanung}{84}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Test-Anhang 2}{85}{appendix.B}%
-\contentsline {chapter}{\nonumberline Erklärung}{86}{chapter*.50}%
-\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{86}{chapter*.51}%
+\contentsline {section}{\numberline {2.5}PaneoVR}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Zusammenfassung}{18}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Konzeption}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definition des Design Space}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{29}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Finale Konzepte}{42}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementierung}{44}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architektur}{44}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{47}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Scanning Methoden}{48}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{48}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{52}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{56}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{56}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{58}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Evaluation}{59}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{59}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{59}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{62}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Durchführung}{64}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{66}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{66}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{69}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Ablenkung/ Presence}{73}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Scanning-Zyklen}{74}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Fehleranfälligkeit}{77}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{80}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{82}{subsection.5.3.7}%
+\contentsline {chapter}{\numberline {6}Diskussion}{86}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ausblick}{86}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test}{86}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Tabelle}{87}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Bild}{87}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Begriffe und Abkürzungen}{87}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Mathematik}{88}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Code}{88}{subsection.6.2.5}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{89}{chapter*.50}%
+\contentsline {chapter}{Anhang}{93}{chapter*.50}%
+\contentsline {chapter}{\numberline {A}Test-Anhang}{94}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{94}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{94}{subsection.A.1.1}%
+\contentsline {section}{\numberline {A.2}Zeitplanung}{94}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Test-Anhang 2}{95}{appendix.B}%
+\contentsline {chapter}{\nonumberline Erklärung}{96}{chapter*.51}%
+\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{96}{chapter*.52}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
