@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{46}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,12 +29,51 @@
 \newblock URL
   \url{https://www.hsbi.de/inbvg/projekte/bildungsforschung/virtual-reality-basierte-digital-reusable-learning-objects-in-der-pflegeausbildung/ueber-dasprojekt}.
 
+\bibitem[noa(2020)]{noauthor_din_2020}
+{DIN} {EN} {ISO} 9241-210.
+\newblock \emph{Ergonomie der Mensch-System-Interaktion - Teil 210:
+  Menschzentrierte Gestaltung interaktiver Systeme}, 2020.
+
+\bibitem[Alexandrovsky et~al.(2021)Alexandrovsky, Putze, Schwind, Mekler,
+  Smeddinck, Kahl, Krüger, and Malaka]{alexandrovsky_evaluating_2021}
+Dmitry Alexandrovsky, Susanne Putze, Valentin Schwind, Elisa~D. Mekler,
+  Jan~David Smeddinck, Denise Kahl, Antonio Krüger, and Rainer Malaka.
+\newblock Evaluating {User} {Experiences} in {Mixed} {Reality}.
+\newblock In \emph{Extended {Abstracts} of the 2021 {CHI} {Conference} on
+  {Human} {Factors} in {Computing} {Systems}}, {CHI} {EA} '21, pages 1--5, New
+  York, NY, USA, May 2021. Association for Computing Machinery.
+\newblock ISBN 978-1-4503-8095-9.
+\newblock \doi{10.1145/3411763.3441337}.
+\newblock URL \url{https://doi.org/10.1145/3411763.3441337}.
+
 \bibitem[{Apple}(2024)]{apple_einfuhrung_2024}
 {Apple}.
 \newblock Einführung in die {Funktionen} der {Bedienungshilfen} auf dem
   {iPhone}, 2024.
 \newblock URL
   \url{https://support.apple.com/de-de/guide/iphone/iph3e2e4367/ios}.
+
+\bibitem[Bangor et~al.(2008)Bangor, Kortum, and Miller]{bangor_empirical_2008}
+Aaron Bangor, Philip~T. Kortum, and James~T. Miller.
+\newblock An {Empirical} {Evaluation} of the {System} {Usability} {Scale}.
+\newblock \emph{International Journal of Human–Computer Interaction},
+  24\penalty0 (6):\penalty0 574--594, July 2008.
+\newblock ISSN 1044-7318.
+\newblock \doi{10.1080/10447310802205776}.
+\newblock URL \url{https://doi.org/10.1080/10447310802205776}.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/10447310802205776.
+
+\bibitem[Bimberg et~al.(2020)Bimberg, Weissker, and Kulik]{bimberg_usage_2020}
+Pauline Bimberg, Tim Weissker, and Alexander Kulik.
+\newblock On the {Usage} of the {Simulator} {Sickness} {Questionnaire} for
+  {Virtual} {Reality} {Research}.
+\newblock In \emph{2020 {IEEE} {Conference} on {Virtual} {Reality} and {3D}
+  {User} {Interfaces} {Abstracts} and {Workshops} ({VRW})}, pages 464--467,
+  Atlanta, GA, USA, March 2020. IEEE.
+\newblock ISBN 978-1-72816-532-5.
+\newblock \doi{10.1109/VRW50115.2020.00098}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/9090573/}.
 
 \bibitem[Bluhm et~al.(2009)Bluhm, Eickmeyer, Feith, Mattar, and
   Pfeiffer]{Bluhm:Sonar:2009}
@@ -44,6 +83,13 @@ Andreas Bluhm, Jens Eickmeyer, Tobias Feith, Nikita Mattar, and Thies Pfeiffer.
 \newblock In Andreas Gerndt and Marc~Erich Latoschik, editors, \emph{Virtuelle
   und Erweiterte Realit\"at - Sechster Workshop der GI-Fachgruppe VR/AR}, pages
   269--280, Aachen, 2009. Shaker Verlag.
+
+\bibitem[Brooke(1996)]{brooke_sus_1996}
+John Brooke.
+\newblock {SUS} - {A} quick and dirty usability scale.
+\newblock In \emph{P. {W}. {Jordan}, {B}. {Thomas}, {B}. {A}. {Weermeester} und
+  {McClelland} ({Hg}.): {Usability} {Evaluation} in {Industry}}, pages
+  189--194. London: Taylor \& Francis, 1996.
 
 \bibitem[Cook and Polgar(2015)]{cook_chapter_2015}
 Albert~M. Cook and Janice~M. Polgar.
@@ -114,6 +160,26 @@ Google.
 \newblock URL
   \url{https://support.google.com/accessibility/android/answer/6395627?hl=en&ref_topic=6151780&sjid=16986929134949672065-EU}.
 
+\bibitem[Hassenzahl(2008)]{hassenzahl_user_2008}
+Marc Hassenzahl.
+\newblock User experience ({UX}): towards an experiential perspective on
+  product quality.
+\newblock In \emph{Proceedings of the 20th {Conference} on l'{Interaction}
+  {Homme}-{Machine}}, pages 11--15, Metz France, September 2008. ACM.
+\newblock ISBN 978-1-60558-285-6.
+\newblock \doi{10.1145/1512714.1512717}.
+\newblock URL \url{https://dl.acm.org/doi/10.1145/1512714.1512717}.
+
+\bibitem[Heilemann et~al.(2021)Heilemann, Zimmermann, and
+  Münster]{heilemann_accessibility_2021}
+Fiona Heilemann, Gottfried Zimmermann, and Patrick Münster.
+\newblock Accessibility {Guidelines} for {VR} {Games} - {A} {Comparison} and
+  {Synthesis} of a {Comprehensive} {Set}.
+\newblock \emph{Frontiers in Virtual Reality}, 2, 2021.
+\newblock ISSN 2673-4192.
+\newblock URL
+  \url{https://www.frontiersin.org/articles/10.3389/frvir.2021.697504}.
+
 \bibitem[Jerald(2015)]{jerald_vr_2015}
 Jason Jerald.
 \newblock \emph{The {VR} {Book}: {Human}-{Centered} {Design} for {Virtual}
@@ -146,6 +212,18 @@ Robert~S. Kennedy, Julie Drexler, and Robert~C. Kennedy.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S0003687009001574}.
 
+\bibitem[Kim et~al.(2020)Kim, Rhiu, and Yun]{kim_systematic_2020}
+Yong~Min Kim, Ilsun Rhiu, and Myung~Hwan Yun.
+\newblock A {Systematic} {Review} of a {Virtual} {Reality} {System} from the
+  {Perspective} of {User} {Experience}.
+\newblock \emph{International Journal of Human–Computer Interaction},
+  36\penalty0 (10):\penalty0 893--910, June 2020.
+\newblock ISSN 1044-7318.
+\newblock \doi{10.1080/10447318.2019.1699746}.
+\newblock URL \url{https://doi.org/10.1080/10447318.2019.1699746}.
+\newblock Publisher: Taylor \& Francis \_eprint:
+  https://doi.org/10.1080/10447318.2019.1699746.
+
 \bibitem[L.~Franz et~al.(2021)L.~Franz, Junuzovic, and
   Mott]{10.1145/3441852.3471230}
 Rachel L.~Franz, Sasa Junuzovic, and Martez Mott.
@@ -158,6 +236,17 @@ Rachel L.~Franz, Sasa Junuzovic, and Martez Mott.
 \newblock \doi{10.1145/3441852.3471230}.
 \newblock URL \url{https://doi.org/10.1145/3441852.3471230}.
 
+\bibitem[Laugwitz et~al.(2008)Laugwitz, Held, and
+  Schrepp]{laugwitz_construction_2008}
+Bettina Laugwitz, Theo Held, and Martin Schrepp.
+\newblock \emph{Construction and {Evaluation} of a {User} {Experience}
+  {Questionnaire}}, volume 5298.
+\newblock November 2008.
+\newblock ISBN 978-3-540-89349-3.
+\newblock \doi{10.1007/978-3-540-89350-9_6}.
+\newblock Journal Abbreviation: USAB 2008 Pages: 76 Publication Title: USAB
+  2008.
+
 \bibitem[LaViola(2000)]{laviola_discussion_2000}
 Joseph~J. LaViola.
 \newblock A discussion of cybersickness in virtual environments.
@@ -166,6 +255,12 @@ Joseph~J. LaViola.
 \newblock ISSN 0736-6906.
 \newblock \doi{10.1145/333329.333344}.
 \newblock URL \url{https://dl.acm.org/doi/10.1145/333329.333344}.
+
+\bibitem[{Meta}(2024)]{meta_meta_2024}
+{Meta}.
+\newblock Meta {Quest} {Virtual} {Reality} {Check} ({VRC}) {Guidelines}
+  {\textbar} {Oculus} {Developers}, October 2024.
+\newblock URL \url{https://developer.oculus.com/resources/publish-quest-req/}.
 
 \bibitem[Milgram et~al.(1995)Milgram, Takemura, Utsumi, and
   Kishino]{milgram_augmented_1995}
@@ -280,6 +375,17 @@ Andrej Somrak, Iztok Humar, M.~Shamim Hossain, Mohammed~F. Alhamid, M.~Anwar
 \newblock URL
   \url{https://linkinghub.elsevier.com/retrieve/pii/S0167739X18325044}.
 
+\bibitem[Stanney et~al.(1997)Stanney, Kennedy, and
+  Drexler]{stanney_cybersickness_1997}
+Kay~M. Stanney, Robert~S. Kennedy, and Julie~M. Drexler.
+\newblock Cybersickness is {Not} {Simulator} {Sickness}.
+\newblock \emph{Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting}, 41\penalty0 (2):\penalty0 1138--1142, October 1997.
+\newblock ISSN 1071-1813.
+\newblock \doi{10.1177/107118139704100292}.
+\newblock URL \url{https://doi.org/10.1177/107118139704100292}.
+\newblock Publisher: SAGE Publications Inc.
+
 \bibitem[Steriadis and Constantinou(2003)]{steriadis_designing_2003}
 Constantine~E. Steriadis and Philip Constantinou.
 \newblock Designing human-computer interfaces for quadriplegic people.
@@ -334,5 +440,11 @@ Isabell Wohlgenannt, Alexander Simons, and Stefan Stieglitz.
 Alice Wong, Hannah Gillis, and Ben Peck.
 \newblock Survey for {People} with {Disabilities}.
 \newblock Technical report, 2017.
+
+\bibitem[{XR Access - Virtual, Augmented \& Mixed Reality for People with
+  Disabilities}(2024)]{xr_access_-_virtual_augmented__mixed_reality_for_people_with_disabilities_xr_2024}
+{XR Access - Virtual, Augmented \& Mixed Reality for People with Disabilities}.
+\newblock {XR} {Access}, 2024.
+\newblock URL \url{https://xraccess.org/about/}.
 
 \end{thebibliography}
