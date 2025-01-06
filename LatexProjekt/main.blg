@@ -18,45 +18,45 @@ Warning--empty author in noauthor_din_2020
 Warning--empty publisher in laugwitz_construction_2008
 Warning--empty booktitle in milgram_augmented_1995
 Warning--empty institution in wong_survey_2017
-You've used 46 entries,
+You've used 60 entries,
             2773 wiz_defined-function locations,
-            962 strings with 18623 characters,
-and the built_in function-call counts, 24120 in all, are:
-= -- 2373
-> -- 1273
-< -- 34
-+ -- 436
-- -- 387
-* -- 2022
-:= -- 3614
-add.period$ -- 247
-call.type$ -- 46
-change.case$ -- 263
-chr.to.int$ -- 43
-cite$ -- 110
-duplicate$ -- 1072
-empty$ -- 1883
-format.name$ -- 446
-if$ -- 5203
-int.to.chr$ -- 4
+            1081 strings with 22069 characters,
+and the built_in function-call counts, 31975 in all, are:
+= -- 3143
+> -- 1723
+< -- 42
++ -- 587
+- -- 523
+* -- 2737
+:= -- 4843
+add.period$ -- 330
+call.type$ -- 60
+change.case$ -- 350
+chr.to.int$ -- 56
+cite$ -- 138
+duplicate$ -- 1385
+empty$ -- 2463
+format.name$ -- 606
+if$ -- 6863
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 39
-newline$ -- 334
-num.names$ -- 171
-pop$ -- 483
+missing$ -- 53
+newline$ -- 443
+num.names$ -- 229
+pop$ -- 596
 preamble$ -- 1
-purify$ -- 219
+purify$ -- 291
 quote$ -- 0
-skip$ -- 839
+skip$ -- 1073
 stack$ -- 0
-substring$ -- 842
-swap$ -- 206
-text.length$ -- 16
+substring$ -- 1172
+swap$ -- 247
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 491
+type$ -- 645
 warning$ -- 13
-while$ -- 195
+while$ -- 260
 width$ -- 0
-write$ -- 814
+write$ -- 1079
 (There were 13 warnings)
