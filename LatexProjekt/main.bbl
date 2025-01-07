@@ -5,34 +5,15 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[noa({\natexlab{a}})]{noauthor_din_nodate}
-{DIN} {EN} {ISO} 9241-110:2020-10, {Ergonomie} der
-  {Mensch}-{System}-{Interaktion}\_- {Teil}\_110: {Interaktionsprinzipien}
-  ({ISO}\_9241-110:2020); {Deutsche} {Fassung} {EN}\_iso\_9241-110:2020,
-  {\natexlab{a}}.
-\newblock URL \url{https://www.dinmedia.de/de/-/-/320862700}.
-
-\bibitem[noa({\natexlab{b}})]{noauthor_din_nodate-1}
-{DIN} {EN} {ISO} 9241-11:2018-11, {Ergonomie} der
-  {Mensch}-{System}-{Interaktion}\_- {Teil}\_11: {Gebrauchstauglichkeit}:
-  {Begriffe} und {Konzepte} ({ISO}\_9241-11:2018); {Deutsche} {Fassung}
-  {EN}\_iso\_9241-11:2018, {\natexlab{b}}.
-\newblock URL \url{https://www.dinmedia.de/de/-/-/279590417}.
-
-\bibitem[noa({\natexlab{c}})]{noauthor_paneovr_nodate}
-{PaneoVR} – {Immersive} {Video} {Training} {Toolkit}, {\natexlab{c}}.
+\bibitem[noa({\natexlab{a}})]{noauthor_paneovr_nodate}
+{PaneoVR} – {Immersive} {Video} {Training} {Toolkit}, {\natexlab{a}}.
 \newblock URL \url{https://paneovr.net/}.
 
-\bibitem[noa({\natexlab{d}})]{noauthor_virdipa-_nodate}
+\bibitem[noa({\natexlab{b}})]{noauthor_virdipa-_nodate}
 {ViRDiPA}- Über das {Projekt} {\textbar} {Hochschule} {Bielefeld} ({HSBI}),
-  {\natexlab{d}}.
+  {\natexlab{b}}.
 \newblock URL
   \url{https://www.hsbi.de/inbvg/projekte/bildungsforschung/virtual-reality-basierte-digital-reusable-learning-objects-in-der-pflegeausbildung/ueber-dasprojekt}.
-
-\bibitem[noa(2020)]{noauthor_din_2020}
-{DIN} {EN} {ISO} 9241-210.
-\newblock \emph{Ergonomie der Mensch-System-Interaktion - Teil 210:
-  Menschzentrierte Gestaltung interaktiver Systeme}, 2020.
 
 \bibitem[Alexandrovsky et~al.(2021)Alexandrovsky, Putze, Schwind, Mekler,
   Smeddinck, Kahl, Krüger, and Malaka]{alexandrovsky_evaluating_2021}
@@ -151,6 +132,24 @@ Chris Creed, Maadh Al-Kalbani, Arthur Theil, Sayan Sarcar, and Ian Williams.
 \newblock ISSN 1044-7318.
 \newblock \doi{10.1080/10447318.2023.2247614}.
 \newblock URL \url{https://doi.org/10.1080/10447318.2023.2247614}.
+
+\bibitem[DIN EN ISO 9241-110:2020-10()]{DINISO9241-110}
+DIN EN ISO 9241-110:2020-10.
+\newblock {DIN EN ISO 9241-110:2020-10, Ergonomie der Mensch-System-Interaktion
+  - Teil 110:Interaktionsprinzipien}.
+\newblock Din, 3 .
+
+\bibitem[DIN EN ISO 9241-11:2018-11()]{DINISO9241-11}
+DIN EN ISO 9241-11:2018-11.
+\newblock {DIN EN ISO 9241-11:2018-11, Ergonomie der Mensch-System-Interaktion
+  - Teil 11: Gebrauchstauglichkeit: Begriffe und Konzepte}.
+\newblock Din, 5 .
+
+\bibitem[DIN EN ISO 9421-210:2020-03()]{DINISO9241}
+DIN EN ISO 9421-210:2020-03.
+\newblock {DIN EN ISO 9421-210:2020-03, Ergonomie der Mensch-System-Interaktion
+  - Teil 210: Menschzentrierte Gestaltung interaktiver Systeme}.
+\newblock Din, 3 .
 
 \bibitem[Dombrowski et~al.(2019)Dombrowski, Smith, Manero, and
   Sparkman]{dombrowski_designing_2019}

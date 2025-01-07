@@ -5,58 +5,61 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: literature.bib
-Warning--to sort, need author or key in noauthor_din_nodate-1
-Warning--to sort, need author or key in noauthor_din_2020
 Warning--to sort, need author or key in noauthor_paneovr_nodate
 Warning--to sort, need author or key in noauthor_virdipa-_nodate
-Warning--to sort, need author or key in noauthor_din_nodate
-Warning--empty year in noauthor_din_nodate
-Warning--empty year in noauthor_din_nodate-1
 Warning--empty year in noauthor_paneovr_nodate
 Warning--empty year in noauthor_virdipa-_nodate
-Warning--empty author in noauthor_din_2020
+Warning--empty author in DINISO9241-110
+Warning--empty institution in DINISO9241-110
+Warning--empty year in DINISO9241-110
+Warning--empty author in DINISO9241-11
+Warning--empty institution in DINISO9241-11
+Warning--empty year in DINISO9241-11
+Warning--empty author in DINISO9241
+Warning--empty institution in DINISO9241
+Warning--empty year in DINISO9241
 Warning--empty publisher in laugwitz_construction_2008
 Warning--empty booktitle in milgram_augmented_1995
 Warning--empty institution in wong_survey_2017
 You've used 60 entries,
             2773 wiz_defined-function locations,
-            1081 strings with 22069 characters,
-and the built_in function-call counts, 31975 in all, are:
-= -- 3143
+            1083 strings with 21890 characters,
+and the built_in function-call counts, 31947 in all, are:
+= -- 3149
 > -- 1723
 < -- 42
-+ -- 587
++ -- 585
 - -- 523
-* -- 2737
-:= -- 4843
-add.period$ -- 330
+* -- 2746
+:= -- 4862
+add.period$ -- 333
 call.type$ -- 60
-change.case$ -- 350
-chr.to.int$ -- 56
+change.case$ -- 356
+chr.to.int$ -- 58
 cite$ -- 138
-duplicate$ -- 1385
-empty$ -- 2463
+duplicate$ -- 1381
+empty$ -- 2438
 format.name$ -- 606
-if$ -- 6863
-int.to.chr$ -- 5
+if$ -- 6841
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 53
-newline$ -- 443
+missing$ -- 52
+newline$ -- 446
 num.names$ -- 229
-pop$ -- 596
+pop$ -- 587
 preamble$ -- 1
-purify$ -- 291
+purify$ -- 294
 quote$ -- 0
-skip$ -- 1073
+skip$ -- 1055
 stack$ -- 0
-substring$ -- 1172
-swap$ -- 247
+substring$ -- 1169
+swap$ -- 245
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 645
-warning$ -- 13
+warning$ -- 16
 while$ -- 260
 width$ -- 0
-write$ -- 1079
-(There were 13 warnings)
+write$ -- 1085
+(There were 16 warnings)
