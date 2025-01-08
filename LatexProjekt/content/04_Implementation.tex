@@ -1,4 +1,5 @@
 \chapter{Implementierung}
+\label{chap:Implementierung}
 
 %To DO für dieses Kapitel: Abbildung überarbeiten, Abbildung zur Visualisierung der fertigen Verfahren einbinden (Screenshot aus VR), Referenz zum Unity Asset Store, Code schön machen, bei "Strategien zur Fehlervermeidung und Debugging" reflexion ergänzen, wie hilfreich die Ansätze waren, Installation & Nutzerdokumentation ergänzen, Bezug zu FF2 herstellen
 
@@ -158,7 +159,7 @@ Die Animation wird als Coroutine umgesetzt. Der Startpunkt der Linie ist die Pos
 \textbf{Herausforderungen}
 
 Die Herausforderungen bei der Implementierung des Item Scanning lagen insbesondere in der Unterscheidung der verschiedenen Ebenen. Wird z.B. ein Menü oder ein Dialogfeld geöffnet, so muss das Scanning auf diese Teilauswahl von Items beschränkt werden. Die Lösung dieses Problems wird im Folgenden exemplarisch an einem Dialog-Interactable beschrieben. 
-Wird das Dialog-Objekt innerhalb des ItemScanning ausgewählt, wird das OnClick-Ereignis ausgelöst. Dadurch wird die Methode DialogScan aufgerufen. Dieser Methode werden beim Aufruf die Buttons der Antwortoptionen übergeben. Aus diesen Optionen wird ein Array erstellt, das dann mit der oben beschriebenen Logik durchlaufen werden kann. Die Auswahloptionen müssen also dynamisch angepasst werden, je nachdem welches Objekt aktiv ist bzw. sich auf der vordersten Ebene befindet. Dies erfordert besondere Aufmerksamkeit bei der Implementierung, da verschiedene Fälle berücksichtigt werden müssen. Für jedes Objekt, das eine weitere Ebene öffnet, muss geprüft werden, wie sich die Auswahl der Scan-Optionen dadurch ändert. 
+Wird das Dialog-Objekt innerhalb des Item Scanning ausgewählt, wird das OnClick-Ereignis ausgelöst. Dadurch wird die Methode DialogScan aufgerufen. Dieser Methode werden beim Aufruf die Buttons der Antwortoptionen übergeben. Aus diesen Optionen wird ein Array erstellt, das dann mit der oben beschriebenen Logik durchlaufen werden kann. Die Auswahloptionen müssen also dynamisch angepasst werden, je nachdem welches Objekt aktiv ist bzw. sich auf der vordersten Ebene befindet. Dies erfordert besondere Aufmerksamkeit bei der Implementierung, da verschiedene Fälle berücksichtigt werden müssen. Für jedes Objekt, das eine weitere Ebene öffnet, muss geprüft werden, wie sich die Auswahl der Scan-Optionen dadurch ändert. 
 
 \subsection{Konzept 2 - Cartesian Scanning}
 
@@ -251,7 +252,7 @@ Wird im \textit{SwitchHandler} registriert, dass der Schalter länger als 2 Seku
 
 \textbf{Herausforderungen}
 
-Die Implementierung des Cartesian Scanning war insgesamt aufwendiger als die Implementierung des Item Scanning. Es werden mehr Objekte und Skripte benötigt, um das Scanning zu realisieren. Ist das Grundprinzip jedoch einmal implementiert, ist es vergleichsweise robust. Ein Vorteil dieses Verfahrens liegt insbesondere darin, dass Objekte auf unterschiedlichen Ebenen nicht separat betrachtet werden müssen. Dadurch kann die Implementierung insgesamt einfacher um neue Interaktionselemente erweitert werden. 
+Die Implementierung des Cartesian Scanning war insgesamt aufwendiger als die Implementierung des Item Scanning. Es werden mehr Objekte und Skripte benötigt, um das Scanning zu realisieren. Ist das Grundprinzip jedoch einmal implementiert, ist es vergleichsweise stabil. Ein Vorteil dieses Verfahrens liegt insbesondere darin, dass Objekte auf unterschiedlichen Ebenen nicht separat betrachtet werden müssen. Dadurch kann die Implementierung insgesamt einfacher um neue Interaktionselemente erweitert werden. 
 Eine Herausforderung bei der Implementierung war die Berechnung des korrekten Schnittpunktes sowie die Festlegung eines geeigneten Radius für den SphereCast. Bei der Berechnung des Schnittpunktes musste berücksichtigt werden, dass sich die Linien auf einem Canvas befinden und somit ihre Position in Abhängigkeit von diesem bestimmt wird. Um die tatsächliche Position in Weltkoordinaten zu erhalten, muss zunächst eine Umrechnung erfolgen. Die Festlegung des Radius des SphereCasts stellte eine Herausforderung dar, da hier ein Kompromiss gefunden werden musste. Der Radius musste groß genug sein, um kleine Verfehlungen zu tolerieren, aber klein genug, um bei dicht beieinanderliegenden Objekten eine korrekte Auswahl zu ermöglichen. Es galt also, verschiedene Werte auszuprobieren und zu prüfen, ob sich das gewünschte Ergebnis einstellt. 
 
 \section{Strategien zur Fehlervermeidung und Debugging}

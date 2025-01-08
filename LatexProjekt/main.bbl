@@ -1,4 +1,4 @@
-\begin{thebibliography}{60}
+\begin{thebibliography}{62}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,6 +99,17 @@ John Brooke.
   {McClelland} ({Hg}.): {Usability} {Evaluation} in {Industry}}, pages
   189--194. London: Taylor \& Francis, 1996.
 
+\bibitem[Ciccone et~al.(2023)Ciccone, Bailey, and Lewis]{ciccone_next_2023}
+Brendan~A. Ciccone, Shannon K.~T. Bailey, and Joanna~E. Lewis.
+\newblock The {Next} {Generation} of {Virtual} {Reality}: {Recommendations} for
+  {Accessible} and {Ergonomic} {Design}.
+\newblock \emph{Ergonomics in Design}, 31\penalty0 (2):\penalty0 24--27, April
+  2023.
+\newblock ISSN 1064-8046.
+\newblock \doi{10.1177/10648046211002578}.
+\newblock URL \url{https://doi.org/10.1177/10648046211002578}.
+\newblock Publisher: SAGE Publications Inc.
+
 \bibitem[Cook and Polgar(2015)]{COOK2015117}
 Albert~M. Cook and Janice~M. Polgar.
 \newblock Chapter 6 - making the connection: User inputs for assistive
@@ -160,6 +171,17 @@ Matt Dombrowski, Peter~A. Smith, Albert Manero, and John Sparkman.
   Cham, 2019. Springer International Publishing.
 \newblock ISBN 978-3-030-21607-8.
 \newblock \doi{10.1007/978-3-030-21607-8_3}.
+
+\bibitem[Dudley et~al.(2023)Dudley, Yin, Garaj, and
+  Kristensson]{dudley_inclusive_2023}
+John Dudley, Lulu Yin, Vanja Garaj, and Per~Ola Kristensson.
+\newblock Inclusive {Immersion}: a review of efforts to improve accessibility
+  in virtual reality, augmented reality and the metaverse.
+\newblock \emph{Virtual Reality}, 27\penalty0 (4):\penalty0 2989--3020,
+  December 2023.
+\newblock ISSN 1434-9957.
+\newblock \doi{10.1007/s10055-023-00850-8}.
+\newblock URL \url{https://doi.org/10.1007/s10055-023-00850-8}.
 
 \bibitem[Dörner et~al.(2019)Dörner, Broll, Grimm, and
   Jung]{dorner_virtual_2019}
