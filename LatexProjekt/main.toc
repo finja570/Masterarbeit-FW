@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Barrieren für Menschen mit motorischen Beeinträchtigungen bei der Nutzung von VR}{12}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Lösungsansätze zur Überwindung von Barrieren}{14}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Binäre Interaktionsschnittstellen}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Arten von Schaltern}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Arten von Schaltern}{17}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Scanning-Verfahren}{18}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Usability und User Experience}{20}{section.2.4}%
 \contentsline {section}{\numberline {2.5}PaneoVR}{22}{section.2.5}%

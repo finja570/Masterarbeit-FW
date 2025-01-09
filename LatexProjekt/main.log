@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.5)  8 JAN 2025 18:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.5)  10 JAN 2025 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,12 +625,12 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 50.
 \glo@main@file=\write4
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 45.
+Package glossaries Info: Writing glossary file main.glo on input line 46.
 \glo@acronym@file=\write5
 \openout5 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 45.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47.
+Package glossaries Info: Writing glossary file main.acn on input line 46.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 48.
  (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -644,24 +644,24 @@ LaTeX Warning: Label `lst:scanningCartesian' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
  (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count342
@@ -698,7 +698,7 @@ File: german.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 142.
 LaTeX Info: Redefining \BHBI on input line 143.
 ))
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 48.
  (main.out) (main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -710,7 +710,7 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 47.
+(scrbook)           before \begin{document} on input line 48.
  (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
@@ -722,7 +722,7 @@ Dictionary: glossaries-dictionary, Language: English
 Dictionary: glossaries-dictionary, Language: German 
 )
 \c@lstlisting=\count350
-Package tocbasic Info: setting babel extension for `lol' on input line 47.
+Package tocbasic Info: setting babel extension for `lol' on input line 48.
 \scr@dte@lstlisting@maxnumwidth=\skip91
  (content/AA_Front/01_Title.tex
 <images/th-logo.png, id=3, 374.39874pt x 135.50626pt>
@@ -866,7 +866,7 @@ chapter 1.
 ]
 
 [2]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 26.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 25.
  (C:\Users\Finja\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -883,7 +883,7 @@ chapter 2.
 ]
 
 [6]
-<images/Mixed-Reality-Cont-NEW.png, id=351, 678.73575pt x 220.4235pt>
+<images/Mixed-Reality-Cont-NEW.png, id=354, 678.73575pt x 220.4235pt>
 File: images/Mixed-Reality-Cont-NEW.png Graphic file (type png)
 <use images/Mixed-Reality-Cont-NEW.png>
 Package pdftex.def Info: images/Mixed-Reality-Cont-NEW.png  used on input line 28.
@@ -909,12 +909,12 @@ Package pdftex.def Info: images/Mixed-Reality-Cont-NEW.png  used on input line 2
 [15]
 
 [16]
-Overfull \hbox (2.22859pt too wide) in paragraph at lines 124--126
+Overfull \hbox (2.22859pt too wide) in paragraph at lines 125--127
 []\T1/lmr/m/it/10.95 Elektromagnetische Schal-ter: \T1/lmr/m/n/10.95 Die-se Schal-ter wer-den durch elek-tro-ma-gne-ti-sche Ener-
  []
 
 
-Overfull \hbox (8.5509pt too wide) in paragraph at lines 126--128
+Overfull \hbox (8.5509pt too wide) in paragraph at lines 127--129
 []\T1/lmr/m/it/10.95 Elektrische Schal-ter: \T1/lmr/m/n/10.95 Elek-tri-sche Schal-ter nut-zen elek-tri-sche Si-gna-le, die vom mensch-
  []
 
@@ -927,10 +927,10 @@ Overfull \hbox (8.5509pt too wide) in paragraph at lines 126--128
 [19]
 
 [20]
-<images/SUS-Interpretation.jpg, id=610, 356.61098pt x 133.28484pt>
+<images/SUS-Interpretation.jpg, id=615, 356.61098pt x 133.28484pt>
 File: images/SUS-Interpretation.jpg Graphic file (type jpg)
 <use images/SUS-Interpretation.jpg>
-Package pdftex.def Info: images/SUS-Interpretation.jpg  used on input line 185.
+Package pdftex.def Info: images/SUS-Interpretation.jpg  used on input line 187.
 (pdftex.def)             Requested size: 397.34149pt x 148.51329pt.
 
 
@@ -968,13 +968,13 @@ chapter 3.
 [34]
 
 [35]
-Overfull \hbox (34.7134pt too wide) in paragraph at lines 189--201
+
+[36]
+Overfull \hbox (34.7134pt too wide) in paragraph at lines 175--187
  [][] 
  []
 
 
-
-[36]
 
 [37]
 
@@ -985,7 +985,7 @@ Overfull \hbox (34.7134pt too wide) in paragraph at lines 189--201
 [40]
 
 [41]
-Overfull \hbox (27.96614pt too wide) in paragraph at lines 305--307
+Overfull \hbox (27.96614pt too wide) in paragraph at lines 291--293
 []\T1/lmr/m/it/10.95 Erlernbarkeit: \T1/lmr/m/n/10.95 Bei-de Tran-si-tio-nen wer-den be-reits in ei-ner Viel-zahl be-kann-ter VR-Anwendungen
  []
 
@@ -1011,7 +1011,7 @@ chapter 4.
 ]
 
 [49]
-<images/FlussdiagrammArchitektur.png, id=863, 895.54575pt x 419.166pt>
+<images/FlussdiagrammArchitektur.png, id=880, 895.54575pt x 419.166pt>
 File: images/FlussdiagrammArchitektur.png Graphic file (type png)
 <use images/FlussdiagrammArchitektur.png>
 Package pdftex.def Info: images/FlussdiagrammArchitektur.png  used on input line 42.
@@ -1070,245 +1070,245 @@ chapter 5.
 [69]
 
 [70]
-<images/Results/SUS-Scores.png, id=1076, 363.759pt x 226.665pt>
+<images/Results/SUS-Scores.png, id=1093, 363.759pt x 226.665pt>
 File: images/Results/SUS-Scores.png Graphic file (type png)
 <use images/Results/SUS-Scores.png>
-Package pdftex.def Info: images/Results/SUS-Scores.png  used on input line 161.
+Package pdftex.def Info: images/Results/SUS-Scores.png  used on input line 162.
 (pdftex.def)             Requested size: 272.81859pt x 169.99832pt.
-<images/Results/Histogramm-SUS-Item.png, id=1078, 360.693pt x 219.219pt>
+<images/Results/Histogramm-SUS-Item.png, id=1095, 360.693pt x 219.219pt>
 File: images/Results/Histogramm-SUS-Item.png Graphic file (type png)
 <use images/Results/Histogramm-SUS-Item.png>
-Package pdftex.def Info: images/Results/Histogramm-SUS-Item.png  used on input line 172.
+Package pdftex.def Info: images/Results/Histogramm-SUS-Item.png  used on input line 173.
 (pdftex.def)             Requested size: 198.67075pt x 120.74475pt.
-<images/Results/Histogramm-SUS-Cartesian.png, id=1079, 401.865pt x 221.19pt>
+<images/Results/Histogramm-SUS-Cartesian.png, id=1096, 401.865pt x 221.19pt>
 File: images/Results/Histogramm-SUS-Cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-SUS-Cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-SUS-Cartesian.png  used on input line 178.
+Package pdftex.def Info: images/Results/Histogramm-SUS-Cartesian.png  used on input line 179.
 (pdftex.def)             Requested size: 204.94432pt x 112.80202pt.
-<images/Results/UEQ-Table-Means-Item.png, id=1082, 243.67035pt x 101.9007pt>
+<images/Results/UEQ-Table-Means-Item.png, id=1099, 243.67035pt x 101.9007pt>
 File: images/Results/UEQ-Table-Means-Item.png Graphic file (type png)
 <use images/Results/UEQ-Table-Means-Item.png>
-Package pdftex.def Info: images/Results/UEQ-Table-Means-Item.png  used on input line 191.
+Package pdftex.def Info: images/Results/UEQ-Table-Means-Item.png  used on input line 192.
 (pdftex.def)             Requested size: 243.66974pt x 101.90044pt.
-<images/Results/UEQ-Item.png, id=1083, 334.632pt x 190.53pt>
+<images/Results/UEQ-Item.png, id=1100, 334.632pt x 190.53pt>
 File: images/Results/UEQ-Item.png Graphic file (type png)
 <use images/Results/UEQ-Item.png>
-Package pdftex.def Info: images/Results/UEQ-Item.png  used on input line 198.
+Package pdftex.def Info: images/Results/UEQ-Item.png  used on input line 199.
 (pdftex.def)             Requested size: 334.63118pt x 190.52953pt.
 
 
 [71 <./images/Results/SUS-Scores.png>]
-<images/Results/UEQ-Table-Means-Cartesian.png, id=1091, 243.67035pt x 101.9007pt>
+<images/Results/UEQ-Table-Means-Cartesian.png, id=1108, 243.67035pt x 101.9007pt>
 File: images/Results/UEQ-Table-Means-Cartesian.png Graphic file (type png)
 <use images/Results/UEQ-Table-Means-Cartesian.png>
-Package pdftex.def Info: images/Results/UEQ-Table-Means-Cartesian.png  used on input line 212.
+Package pdftex.def Info: images/Results/UEQ-Table-Means-Cartesian.png  used on input line 213.
 (pdftex.def)             Requested size: 243.66974pt x 101.90044pt.
-<images/Results/UEQ-Cartesian.png, id=1092, 333.975pt x 191.187pt>
+<images/Results/UEQ-Cartesian.png, id=1109, 333.975pt x 191.187pt>
 File: images/Results/UEQ-Cartesian.png Graphic file (type png)
 <use images/Results/UEQ-Cartesian.png>
-Package pdftex.def Info: images/Results/UEQ-Cartesian.png  used on input line 219.
+Package pdftex.def Info: images/Results/UEQ-Cartesian.png  used on input line 220.
 (pdftex.def)             Requested size: 333.97418pt x 191.18652pt.
 
 
 [72 <./images/Results/Histogramm-SUS-Item.png> <./images/Results/Histogramm-SUS-Cartesian.png> <./images/Results/UEQ-Table-Means-Item.png>]
 
 [73 <./images/Results/UEQ-Item.png> <./images/Results/UEQ-Table-Means-Cartesian.png>]
-<images/Results/SSQ-Table-2.png, id=1107, 455.301pt x 196.39372pt>
+<images/Results/SSQ-Table-2.png, id=1124, 455.301pt x 196.39372pt>
 File: images/Results/SSQ-Table-2.png Graphic file (type png)
 <use images/Results/SSQ-Table-2.png>
-Package pdftex.def Info: images/Results/SSQ-Table-2.png  used on input line 233.
+Package pdftex.def Info: images/Results/SSQ-Table-2.png  used on input line 234.
 (pdftex.def)             Requested size: 397.34149pt x 171.39757pt.
-<images/Results/Tabelle-Ergebnisse-SSQ.png, id=1112, 455.301pt x 54.98543pt>
+<images/Results/Tabelle-Ergebnisse-SSQ.png, id=1129, 455.301pt x 54.98543pt>
 File: images/Results/Tabelle-Ergebnisse-SSQ.png Graphic file (type png)
 <use images/Results/Tabelle-Ergebnisse-SSQ.png>
-Package pdftex.def Info: images/Results/Tabelle-Ergebnisse-SSQ.png  used on input line 242.
+Package pdftex.def Info: images/Results/Tabelle-Ergebnisse-SSQ.png  used on input line 243.
 (pdftex.def)             Requested size: 397.34149pt x 47.98709pt.
-<images/Results/Histogramm-SSQScores-Item.png, id=1113, 391.572pt x 215.277pt>
+<images/Results/Histogramm-SSQScores-Item.png, id=1130, 391.572pt x 215.277pt>
 File: images/Results/Histogramm-SSQScores-Item.png Graphic file (type png)
 <use images/Results/Histogramm-SSQScores-Item.png>
-Package pdftex.def Info: images/Results/Histogramm-SSQScores-Item.png  used on input line 251.
+Package pdftex.def Info: images/Results/Histogramm-SSQScores-Item.png  used on input line 252.
 (pdftex.def)             Requested size: 207.03764pt x 113.82361pt.
-<images/Results/Histogramm-SSQScores-Cartesian.png, id=1114, 360.912pt x 219.219pt>
+<images/Results/Histogramm-SSQScores-Cartesian.png, id=1131, 360.912pt x 219.219pt>
 File: images/Results/Histogramm-SSQScores-Cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-SSQScores-Cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-SSQScores-Cartesian.png  used on input line 257.
+Package pdftex.def Info: images/Results/Histogramm-SSQScores-Cartesian.png  used on input line 258.
 (pdftex.def)             Requested size: 207.03764pt x 125.75557pt.
 
 
 [74 <./images/Results/UEQ-Cartesian.png>]
-<images/Results/Histogramm-Nausea-Scale-Item.png, id=1122, 360.693pt x 220.533pt>
+<images/Results/Histogramm-Nausea-Scale-Item.png, id=1139, 360.693pt x 220.533pt>
 File: images/Results/Histogramm-Nausea-Scale-Item.png Graphic file (type png)
 <use images/Results/Histogramm-Nausea-Scale-Item.png>
-Package pdftex.def Info: images/Results/Histogramm-Nausea-Scale-Item.png  used on input line 273.
+Package pdftex.def Info: images/Results/Histogramm-Nausea-Scale-Item.png  used on input line 274.
 (pdftex.def)             Requested size: 207.03764pt x 126.58675pt.
-<images/Results/Histogramm-Nausea-Scale-Cartesian.png, id=1123, 362.664pt x 221.847pt>
+<images/Results/Histogramm-Nausea-Scale-Cartesian.png, id=1140, 362.664pt x 221.847pt>
 File: images/Results/Histogramm-Nausea-Scale-Cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-Nausea-Scale-Cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-Nausea-Scale-Cartesian.png  used on input line 279.
+Package pdftex.def Info: images/Results/Histogramm-Nausea-Scale-Cartesian.png  used on input line 280.
 (pdftex.def)             Requested size: 207.03764pt x 126.64705pt.
-<images/Results/Histogramm-Oculomotor-Scale-Item.png, id=1127, 360.693pt x 220.533pt>
+<images/Results/Histogramm-Oculomotor-Scale-Item.png, id=1144, 360.693pt x 220.533pt>
 File: images/Results/Histogramm-Oculomotor-Scale-Item.png Graphic file (type png)
 <use images/Results/Histogramm-Oculomotor-Scale-Item.png>
-Package pdftex.def Info: images/Results/Histogramm-Oculomotor-Scale-Item.png  used on input line 293.
+Package pdftex.def Info: images/Results/Histogramm-Oculomotor-Scale-Item.png  used on input line 294.
 (pdftex.def)             Requested size: 207.03764pt x 126.58675pt.
-<images/Results/Histogramm-Oculomotor-Scale-Cartesian.png, id=1128, 362.883pt x 222.723pt>
+<images/Results/Histogramm-Oculomotor-Scale-Cartesian.png, id=1145, 362.883pt x 222.723pt>
 File: images/Results/Histogramm-Oculomotor-Scale-Cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-Oculomotor-Scale-Cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-Oculomotor-Scale-Cartesian.png  used on input line 299.
+Package pdftex.def Info: images/Results/Histogramm-Oculomotor-Scale-Cartesian.png  used on input line 300.
 (pdftex.def)             Requested size: 207.03764pt x 127.07236pt.
 
 
 [75 <./images/Results/SSQ-Table-2.png> <./images/Results/Tabelle-Ergebnisse-SSQ.png>]
 
 [76 <./images/Results/Histogramm-SSQScores-Item.png> <./images/Results/Histogramm-SSQScores-Cartesian.png> <./images/Results/Histogramm-Nausea-Scale-Item.png> <./images/Results/Histogramm-Nausea-Scale-Cartesian.png> <./images/Results/Histogramm-Oculomotor-Scale-Item.png> <./images/Results/Histogramm-Oculomotor-Scale-Cartesian.png>]
-<images/Results/Histogramm-Disorientation-Scale-Item.png, id=1149, 360.693pt x 220.752pt>
+<images/Results/Histogramm-Disorientation-Scale-Item.png, id=1166, 360.693pt x 220.752pt>
 File: images/Results/Histogramm-Disorientation-Scale-Item.png Graphic file (type png)
 <use images/Results/Histogramm-Disorientation-Scale-Item.png>
-Package pdftex.def Info: images/Results/Histogramm-Disorientation-Scale-Item.png  used on input line 313.
+Package pdftex.def Info: images/Results/Histogramm-Disorientation-Scale-Item.png  used on input line 314.
 (pdftex.def)             Requested size: 207.03764pt x 126.71246pt.
-<images/Results/Histogramm-Disorientation-Scale-Cartesian.png, id=1150, 363.102pt x 222.942pt>
+<images/Results/Histogramm-Disorientation-Scale-Cartesian.png, id=1167, 363.102pt x 222.942pt>
 File: images/Results/Histogramm-Disorientation-Scale-Cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-Disorientation-Scale-Cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-Disorientation-Scale-Cartesian.png  used on input line 319.
+Package pdftex.def Info: images/Results/Histogramm-Disorientation-Scale-Cartesian.png  used on input line 320.
 (pdftex.def)             Requested size: 207.03764pt x 127.11908pt.
-<images/Results/Fragen-zur-Presence-Ablenkung.png, id=1155, 366.168pt x 228.198pt>
+<images/Results/Fragen-zur-Presence-Ablenkung.png, id=1172, 366.168pt x 228.198pt>
 File: images/Results/Fragen-zur-Presence-Ablenkung.png Graphic file (type png)
 <use images/Results/Fragen-zur-Presence-Ablenkung.png>
-Package pdftex.def Info: images/Results/Fragen-zur-Presence-Ablenkung.png  used on input line 335.
+Package pdftex.def Info: images/Results/Fragen-zur-Presence-Ablenkung.png  used on input line 336.
 (pdftex.def)             Requested size: 366.1671pt x 228.19743pt.
 
 
 [77 <./images/Results/Histogramm-Disorientation-Scale-Item.png> <./images/Results/Histogramm-Disorientation-Scale-Cartesian.png>]
 
 [78 <./images/Results/Fragen-zur-Presence-Ablenkung.png>]
-<images/Results/Benötigte-Zeit-Evaluationsabschnitte.png, id=1168, 362.664pt x 227.979pt>
+<images/Results/Benötigte-Zeit-Evaluationsabschnitte.png, id=1185, 362.664pt x 227.979pt>
 File: images/Results/Benötigte-Zeit-Evaluationsabschnitte.png Graphic file (type png)
 <use images/Results/Benötigte-Zeit-Evaluationsabschnitte.png>
-Package pdftex.def Info: images/Results/Benötigte-Zeit-Evaluationsabschnitte.png  used on input line 356.
+Package pdftex.def Info: images/Results/Benötigte-Zeit-Evaluationsabschnitte.png  used on input line 357.
 (pdftex.def)             Requested size: 362.66312pt x 227.97844pt.
 
 
 [79 <./images/Results/Benötigte-Zeit-Evaluationsabschnitte.png>]
-<images/Results/Interaktionsgeschwindigkeiten-Table.png, id=1176, 455.301pt x 108.6459pt>
+<images/Results/Interaktionsgeschwindigkeiten-Table.png, id=1193, 455.301pt x 108.6459pt>
 File: images/Results/Interaktionsgeschwindigkeiten-Table.png Graphic file (type png)
 <use images/Results/Interaktionsgeschwindigkeiten-Table.png>
-Package pdftex.def Info: images/Results/Interaktionsgeschwindigkeiten-Table.png  used on input line 368.
+Package pdftex.def Info: images/Results/Interaktionsgeschwindigkeiten-Table.png  used on input line 369.
 (pdftex.def)             Requested size: 397.34149pt x 94.81789pt.
 
-Underfull \hbox (badness 3189) in paragraph at lines 369--369
+Underfull \hbox (badness 3189) in paragraph at lines 370--370
 [][][]|\T1/lmr/m/n/10.95 Ta-bel-le der In-ter-ak-ti-ons-ge-schwin-dig-kei-ten bei-der Ver-fah-ren nach
  []
 
-<images/Results/Interaktionsgeschwindigkeiten.png, id=1177, 362.007pt x 217.467pt>
+<images/Results/Interaktionsgeschwindigkeiten.png, id=1194, 362.007pt x 217.467pt>
 File: images/Results/Interaktionsgeschwindigkeiten.png Graphic file (type png)
 <use images/Results/Interaktionsgeschwindigkeiten.png>
-Package pdftex.def Info: images/Results/Interaktionsgeschwindigkeiten.png  used on input line 375.
+Package pdftex.def Info: images/Results/Interaktionsgeschwindigkeiten.png  used on input line 376.
 (pdftex.def)             Requested size: 313.69167pt x 188.44481pt.
 
 
 [80 <./images/Results/Interaktionsgeschwindigkeiten-Table.png> <./images/Results/Interaktionsgeschwindigkeiten.png>]
-<images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png, id=1185, 455.301pt x 99.79283pt>
+<images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png, id=1202, 455.301pt x 99.79283pt>
 File: images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png Graphic file (type png)
 <use images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png>
-Package pdftex.def Info: images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png  used on input line 387.
+Package pdftex.def Info: images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png  used on input line 388.
 (pdftex.def)             Requested size: 397.34149pt x 87.09161pt.
-<images/Results/Zyklen-Item.png, id=1187, 417.60014pt x 103.22565pt>
+<images/Results/Zyklen-Item.png, id=1204, 417.60014pt x 103.22565pt>
 File: images/Results/Zyklen-Item.png Graphic file (type png)
 <use images/Results/Zyklen-Item.png>
-Package pdftex.def Info: images/Results/Zyklen-Item.png  used on input line 398.
+Package pdftex.def Info: images/Results/Zyklen-Item.png  used on input line 399.
 (pdftex.def)             Requested size: 417.5991pt x 103.22537pt.
 
 
 [81 <./images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png> <./images/Results/Zyklen-Item.png>]
-<images/Results/Histogramm-Anzahl-Fehler-technisch-item.png, id=1198, 361.569pt x 217.029pt>
+<images/Results/Histogramm-Anzahl-Fehler-technisch-item.png, id=1215, 361.569pt x 217.029pt>
 File: images/Results/Histogramm-Anzahl-Fehler-technisch-item.png Graphic file (type png)
 <use images/Results/Histogramm-Anzahl-Fehler-technisch-item.png>
-Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-technisch-item.png  used on input line 414.
+Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-technisch-item.png  used on input line 415.
 (pdftex.def)             Requested size: 198.67075pt x 119.2504pt.
-<images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png, id=1199, 361.569pt x 217.029pt>
+<images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png, id=1216, 361.569pt x 217.029pt>
 File: images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png Graphic file (type png)
 <use images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png>
-Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png  used on input line 420.
+Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png  used on input line 421.
 (pdftex.def)             Requested size: 198.67075pt x 119.2504pt.
-<images/Results/Gründe-Fehler-Item.png, id=1201, 362.664pt x 158.994pt>
+<images/Results/Gründe-Fehler-Item.png, id=1218, 362.664pt x 158.994pt>
 File: images/Results/Gründe-Fehler-Item.png Graphic file (type png)
 <use images/Results/Gründe-Fehler-Item.png>
-Package pdftex.def Info: images/Results/Gründe-Fehler-Item.png  used on input line 433.
+Package pdftex.def Info: images/Results/Gründe-Fehler-Item.png  used on input line 434.
 (pdftex.def)             Requested size: 362.66312pt x 158.9936pt.
 
 
 [82 <./images/Results/Histogramm-Anzahl-Fehler-technisch-item.png> <./images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png>]
-<images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png, id=1211, 361.569pt x 217.029pt>
+<images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png, id=1228, 361.569pt x 217.029pt>
 File: images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png  used on input line 446.
+Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png  used on input line 447.
 (pdftex.def)             Requested size: 198.67075pt x 119.2504pt.
-<images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png, id=1212, 361.569pt x 217.029pt>
+<images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png, id=1229, 361.569pt x 217.029pt>
 File: images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png Graphic file (type png)
 <use images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png>
-Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png  used on input line 452.
+Package pdftex.def Info: images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png  used on input line 453.
 (pdftex.def)             Requested size: 198.67075pt x 119.2504pt.
 
 
 [83 <./images/Results/Gründe-Fehler-Item.png> <./images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png> <./images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png>]
-<images/Results/Gründe-Fehler-Cartesian.png, id=1221, 423.546pt x 213.306pt>
+<images/Results/Gründe-Fehler-Cartesian.png, id=1238, 423.546pt x 213.306pt>
 File: images/Results/Gründe-Fehler-Cartesian.png Graphic file (type png)
 <use images/Results/Gründe-Fehler-Cartesian.png>
-Package pdftex.def Info: images/Results/Gründe-Fehler-Cartesian.png  used on input line 464.
+Package pdftex.def Info: images/Results/Gründe-Fehler-Cartesian.png  used on input line 465.
 (pdftex.def)             Requested size: 397.34149pt x 200.11383pt.
-<images/Results/leereEingaben.png, id=1223, 320.03564pt x 103.22565pt>
+<images/Results/leereEingaben.png, id=1240, 320.03564pt x 103.22565pt>
 File: images/Results/leereEingaben.png Graphic file (type png)
 <use images/Results/leereEingaben.png>
-Package pdftex.def Info: images/Results/leereEingaben.png  used on input line 474.
+Package pdftex.def Info: images/Results/leereEingaben.png  used on input line 475.
 (pdftex.def)             Requested size: 320.03485pt x 103.22537pt.
 
 
 [84 <./images/Results/Gründe-Fehler-Cartesian.png>]
-<images/Results/Korrelation-Position-Geschwindigkeit-Table.png, id=1231, 452.28975pt x 78.49326pt>
+<images/Results/Korrelation-Position-Geschwindigkeit-Table.png, id=1248, 452.28975pt x 78.49326pt>
 File: images/Results/Korrelation-Position-Geschwindigkeit-Table.png Graphic file (type png)
 <use images/Results/Korrelation-Position-Geschwindigkeit-Table.png>
-Package pdftex.def Info: images/Results/Korrelation-Position-Geschwindigkeit-Table.png  used on input line 487.
+Package pdftex.def Info: images/Results/Korrelation-Position-Geschwindigkeit-Table.png  used on input line 488.
 (pdftex.def)             Requested size: 397.34149pt x 68.95808pt.
-<images/Results/bubbleplot-technisch.png, id=1232, 722.7pt x 433.62pt>
+<images/Results/bubbleplot-technisch.png, id=1249, 722.7pt x 433.62pt>
 File: images/Results/bubbleplot-technisch.png Graphic file (type png)
 <use images/Results/bubbleplot-technisch.png>
-Package pdftex.def Info: images/Results/bubbleplot-technisch.png  used on input line 496.
+Package pdftex.def Info: images/Results/bubbleplot-technisch.png  used on input line 497.
 (pdftex.def)             Requested size: 198.67075pt x 119.20285pt.
-<images/Results/bubbleplot-inhalt.png, id=1233, 722.7pt x 433.62pt>
+<images/Results/bubbleplot-inhalt.png, id=1250, 722.7pt x 433.62pt>
 File: images/Results/bubbleplot-inhalt.png Graphic file (type png)
 <use images/Results/bubbleplot-inhalt.png>
-Package pdftex.def Info: images/Results/bubbleplot-inhalt.png  used on input line 502.
+Package pdftex.def Info: images/Results/bubbleplot-inhalt.png  used on input line 503.
 (pdftex.def)             Requested size: 198.67075pt x 119.20285pt.
 
 
 [85 <./images/Results/leereEingaben.png> <./images/Results/Korrelation-Position-Geschwindigkeit-Table.png>]
-<images/Results/Korrelationen-SSQ.png, id=1242, 455.301pt x 49.68562pt>
+<images/Results/Korrelationen-SSQ.png, id=1259, 455.301pt x 49.68562pt>
 File: images/Results/Korrelationen-SSQ.png Graphic file (type png)
 <use images/Results/Korrelationen-SSQ.png>
-Package pdftex.def Info: images/Results/Korrelationen-SSQ.png  used on input line 516.
+Package pdftex.def Info: images/Results/Korrelationen-SSQ.png  used on input line 517.
 (pdftex.def)             Requested size: 397.34149pt x 43.36185pt.
-<images/Results/Korrelationen-Rest.png, id=1244, 455.301pt x 80.3pt>
+<images/Results/Korrelationen-Rest.png, id=1261, 455.301pt x 80.3pt>
 File: images/Results/Korrelationen-Rest.png Graphic file (type png)
 <use images/Results/Korrelationen-Rest.png>
-Package pdftex.def Info: images/Results/Korrelationen-Rest.png  used on input line 529.
+Package pdftex.def Info: images/Results/Korrelationen-Rest.png  used on input line 530.
 (pdftex.def)             Requested size: 397.34149pt x 70.07974pt.
 
 
 [86 <./images/Results/bubbleplot-technisch.png> <./images/Results/bubbleplot-inhalt.png> <./images/Results/Korrelationen-SSQ.png>]
-<images/Results/EinsatzKopfbewegungen-Cartesian.png, id=1253, 439.533pt x 211.773pt>
+<images/Results/EinsatzKopfbewegungen-Cartesian.png, id=1270, 439.533pt x 211.773pt>
 File: images/Results/EinsatzKopfbewegungen-Cartesian.png Graphic file (type png)
 <use images/Results/EinsatzKopfbewegungen-Cartesian.png>
-Package pdftex.def Info: images/Results/EinsatzKopfbewegungen-Cartesian.png  used on input line 542.
+Package pdftex.def Info: images/Results/EinsatzKopfbewegungen-Cartesian.png  used on input line 543.
 (pdftex.def)             Requested size: 334.60571pt x 161.21733pt.
-<images/Results/ScanRate.png, id=1255, 362.007pt x 217.467pt>
+<images/Results/ScanRate.png, id=1272, 362.007pt x 217.467pt>
 File: images/Results/ScanRate.png Graphic file (type png)
 <use images/Results/ScanRate.png>
-Package pdftex.def Info: images/Results/ScanRate.png  used on input line 555.
+Package pdftex.def Info: images/Results/ScanRate.png  used on input line 556.
 (pdftex.def)             Requested size: 313.69167pt x 188.44481pt.
 
 
 [87 <./images/Results/Korrelationen-Rest.png>]
-Overfull \hbox (4.66406pt too wide) in paragraph at lines 562--563
+Overfull \hbox (4.66406pt too wide) in paragraph at lines 563--564
 \T1/lmr/m/n/10.95 zo-gen sich auf das Item Scan-ning. Drei Test-per-so-nen kri-ti-sier-ten die Scanning-Reihenfolge,
  []
 
@@ -1373,7 +1373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--29
 [106{C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [107]
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
+Underfull \hbox (badness 10000) in paragraph at lines 260--270
 [][]$\T1/lmtt/m/n/10.95 https :// support [] .google [] .com / accessibility / android / answer / 6395627 [] ?hl =
  []
 
@@ -1382,24 +1382,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--262
 [108]
 
 [109]
-Underfull \hbox (badness 1412) in paragraph at lines 450--458
+
+[110]
+Underfull \hbox (badness 1412) in paragraph at lines 458--466
 []\T1/lmr/m/n/10.95 Gary E. Ric-cio and Tho-mas A. Stoffre-gen.  An eco-lo-gi-cal Theo-ry of Mo-ti-on
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 450--458
+Underfull \hbox (badness 1527) in paragraph at lines 458--466
 \T1/lmr/m/n/10.95 ber 1991.  ISSN 1040-7413.  $10 [] .1207 / s15326969eco0303 [] []2$.  URL [][]$\T1/lmtt/m/n/10.95 https ://
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 450--458
+Underfull \hbox (badness 4556) in paragraph at lines 458--466
 \T1/lmtt/m/n/10.95 doi [] .org / 10 [] .1207 / s15326969eco0303 [] []2$[][]\T1/lmr/m/n/10.95 .  Pu-blis-her: Rout-led-ge _eprint: htt-
  []
 
 
-
-[110]
-Underfull \hbox (badness 2197) in paragraph at lines 481--494
+Underfull \hbox (badness 2197) in paragraph at lines 489--502
 \T1/lmr/m/n/10.95 .00096$.  URL [][]$\T1/lmtt/m/n/10.95 https :// www [] .frontiersin [] .org / journals / human [] -neuroscience /
  []
 
@@ -1457,17 +1457,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28142 strings out of 473577
- 543099 string characters out of 5716318
- 1527941 words of memory out of 5000000
- 50477 multiletter control sequences out of 15000+600000
+ 28157 strings out of 473577
+ 543494 string characters out of 5716318
+ 1507474 words of memory out of 5000000
+ 50490 multiletter control sequences out of 15000+600000
  616900 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10953b,2270s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Finja/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt9.pfb>
-Output written on main.pdf (127 pages, 4441325 bytes).
+Output written on main.pdf (127 pages, 4449080 bytes).
 PDF statistics:
- 1791 PDF objects out of 2073 (max. 8388607)
- 401 named destinations out of 1000 (max. 500000)
+ 1811 PDF objects out of 2073 (max. 8388607)
+ 403 named destinations out of 1000 (max. 500000)
  678 words of extra memory for PDF output out of 10000 (max. 10000000)
 

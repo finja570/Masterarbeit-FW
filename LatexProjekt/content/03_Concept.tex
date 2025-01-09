@@ -3,60 +3,58 @@
 
 %To DOs für dieses Kapitel: Tabellen überarbeiten, Texte überarbeiten/anpassen, Kapiteleinleitungen und fehlende Abschnitte schreiben, Quellen einfügen (vgl. Kommentare Overleaf), Bezug zu FF1 herstellen
 
-TO DO Kapiteleinleitung!
-
-
-Die Konzeption der Interaktionen erfolgt in vier Schritten: 
+In diesem Kapitel erfolgt die Konzeption der beiden binären Interaktionsschnittstellen. Diese bildet das Fundament dieser Arbeit, da sie die Grundlage für die spätere Implementierung und Evaluation legt. Dieser Prozess erfolgt in einem systematischen Ablauf, der aus vier zentralen Schritten besteht:
 
 \begin{itemize}
-    \item Definition des Design Space 
-    \item Erarbeitung konkreter Ausprägungen der Interaktionsaufgaben und Komponenten
-    \item Bewertung und Einordnung der erarbeiteten Interaktionsaufgaben und Komponenten anhand der definierten Parameter
-    \item Ableitung und Darstellung der finalen Konzepte 
-
+    \item \textbf{Definition des Design Space:}
+    In diesem Schritt werden die grundlegenden Gestaltungsmöglichkeiten und Anforderungen für die Interaktionen erarbeitet. Dazu werden die für die Zielsetzung dieser Arbeit relevanten Interaktionsaufgaben abgeleitet sowie Interaktionskomponenten und -Parameter identifiziert.
+    \item \textbf{Erarbeitung konkreter Ausprägungen:}
+    Auf Grundlage des definierten Design Space werden spezifische Ausprägungen für die Interaktionsaufgaben und -komponenten entwickelt, die die Bandbreite möglicher Ansätze abbilden.
+    \item \textbf{Bewertung und Einordnung:}
+    Die erarbeiteten Optionen werden systematisch anhand der zuvor identifizierten Parameter eingeordnet. Dieser Schritt dient dazu, die Designentscheidungen transparent darzulegen und zu begründen.
+    \item \textbf{Ableitung der finalen Konzepte:}
+    Abschließend werden die finalen Konzepte für die beiden binären Interaktionsschnittstellen abgeleitet, die anschließend im Prototyp implementiert werden.
 \end{itemize}
-
-Im ersten Schritt erfolgt die Definition des Design Space der Interaktionen. Dazu werden zunächst die für die Erreichung der Zielsetzung der vorliegenden Arbeit erforderlichen Interaktionsaufgaben abgeleitet. Darüber hinaus erfolgt eine Identifikation von Komponenten und Parametern auf Basis des aktuellen Forschungsstands. Im zweiten Schritt erfolgt die Spezifikation konkreter Ausprägungen der Interaktionsaufgaben sowie der Komponenten. Im dritten Schritt erfolgt eine Einordnung und Bewertung der erarbeiteten Optionen hinsichtlich der zuvor definierten Parameter. Im letzten Schritt werden aus den zuvor erarbeiteten Resultaten zwei finale Konzepte abgeleitet, welche anschließend im Rahmen des zu erstellenden Prototyps implementiert werden.  
+ 
+Durch diese strukturierte Vorgehensweise wird die erste Forschungsfrage (FF1) adressiert und beantwortet.   
 
 \section{Definition des Design Space}
 
-Die Beschreibung des Design Space für binäre Interaktionen in PaneoVR erfolgt auf Basis einer dreiteiligen, hierarchischen Struktur. Die grundlegende Ebene wird durch die Interaktionsaufgaben definiert. In diesem Kontext erfolgt eine Beschreibung der für die Nutzung der Anwendung erforderlichen Interaktionsarten. Die zweite Ebene umfasst die Komponenten. Diese definieren spezifische Teilaspekte der Interaktion. Die unterste Ebene bilden die Parameter. Parameter beschreiben in diesem Kontext Designüberlegungen, anhand derer die Interaktionstechniken und -ausprägungen evaluiert werden. Die definierten Parameter beeinflussen das gesamte VR-Erlebnis \citep{10.1145/3441852.3471230}.
+Die Beschreibung des Design Space für binäre Interaktionen in PaneoVR erfolgt auf Basis einer dreiteiligen, hierarchischen Struktur. Die grundlegende Ebene wird durch die Interaktionsaufgaben definiert, die die für die Nutzung der Anwendung erforderlichen Interaktionsarten beschreiben. Die zweite Ebene umfasst die Interaktionskomponenten, die spezifische Teilaspekte der Interaktion näher bestimmen. Die letzte Ebene bilden die Parameter. Parameter beschreiben in diesem Kontext Designüberlegun-
+gen, anhand derer die Interaktionstechniken und -ausprägungen evaluiert werden. Die definierten Parameter beeinflussen dabei das gesamte VR-Erlebnis \citep{10.1145/3441852.3471230}.
 
 {\normalfont \bfseries Interaktionsaufgaben:}  
 
-Die Nutzung der mittels PaneoVR erstellten Trainings basiert auf zwei grundlegenden Interaktionsaufgaben. Dies umfasst die Selektion von Interaktionselementen innerhalb der Szene, d. h. von Elementen wie bspw. Wegpunkten oder Dialogfeldern sowie von UI-Elementen innerhalb des Menüs. Die zweite Interaktionsaufgabe besteht in der Navigation innerhalb der Szene. Dies umfasst die Änderung der Blickrichtung innerhalb der Szene. Da PaneoVR keinen dreidimensionalen Navigationsraum bereitstellt, sondern lediglich 360°-Videos präsentiert, ist keine klassische Navigation im 3D-Raum erforderlich. Stattdessen genügt eine Rotation der Szene, um die Blickrichtung zu ändern und somit innerhalb der virtuellen Welt zu navigieren. Unter Berücksichtigung der Tatsache, dass davon auszugehen ist, dass Nutzende Kopfbewegungen nicht frei und ohne Einschränkungen ausführen können, ist die Entwicklung einer alternativen Interaktionsform unabdingbar. 
+Die Nutzung der mit PaneoVR erstellten Trainings basiert auf zwei grundlegenden Interaktionsaufgaben. Die erste Interaktionsaufgabe besteht in der Selektion von Interaktionselementen innerhalb der Szene, d.h. von Elementen wie z. B.  Wegpunkten oder Dialogfeldern, sowie von UI-Elementen, z.B. innerhalb des Hauptmenüs. Die zweite Interaktionsaufgabe umfasst die Navigation innerhalb der Szene. Dies umfasst die Änderung der Blickrichtung innerhalb der Szene. Da PaneoVR keinen dreidimensionalen Navigationsraum bereitstellt, sondern lediglich 360°-Videos präsentiert, ist eine klassische Navigation im 3D-Raum nicht notwendig. Stattdessen genügt eine Rotation der Szene, um die Blickrichtung zu ändern und damit innerhalb der virtuellen Welt zu navigieren. Da davon auszugehen ist, dass Nutzende mit motorischen Beeinträchtigungen Kopfbewegungen nicht frei und ohne Einschränkungen ausführen können, ist die Entwicklung einer alternativen Navigationsform unabdingbar. 
 
-{\normalfont \bfseries Komponenten:} 
+{\normalfont \bfseries Interaktionskomponenten:} 
+%Überlegung: Ist Fehlerkorrektur eine Komponente? 
 
-In Bezug auf die Interaktionen in PaneoVR lassen sich insgesamt vier verschiedene Komponenten identifizieren, deren konkrete Ausgestaltung einen direkten Einfluss auf die Erfahrung nimmt. 
+In Bezug auf die Interaktionen in PaneoVR lassen sich insgesamt drei verschiedene Komponenten identifizieren, deren konkrete Ausgestaltung einen direkten Einfluss auf die Erfahrung nimmt. 
 
-Die Komponente Display definiert die Ebene der Szene, auf der das Interaktionsverfahren stattfindet und visualisiert wird. Im Rahmen der Festlegung der Interaktionskomponente ist insbesondere zu bestimmen, ob sich die Interaktion lediglich auf das Sichtfeld des Nutzenden beschränkt. Die Relevanz dieser Komponente zeigt sich insbesondere in Kontexten, in denen die Nutzenden ihren Kopf bewegen können und somit eine Verschiebung des Sichtfelds unabhängig von der binären Interaktionsschnittstelle umsetzen können. 
+Die Komponente Display definiert Darstellung und Integration des Interaktionsverfahren in die virtuelle Umgebung. Im Rahmen der Festlegung der Interaktionskomponente ist insbesondere zu bestimmen, ob sich die Interaktion auf das Sichtfeld des Nutzenden beschränkt. Die Relevanz dieser Komponente zeigt sich insbesondere in Kontexten, in denen Nutzende in der Lage sind, ihren Kopf zu bewegen und damit ihr Blickfeld unabhängig von der binären Interaktionsschnittstelle zu verschieben.
 
-Eine weitere zu berücksichtigende Komponente stellt die Transition dar. Diese ist insbesondere bei der Realisierung einer Navigation von Relevanz. Die Transition definiert den Übergang von der Ausführung der Interaktion zur Navigation hin zur gewählten neuen Blickrichtung. In diesem Zusammenhang wird definiert, wie die Rotation der First-Person-Kamera erfolgt. 
+Eine weitere zu berücksichtigende Komponente ist die Transition. Diese ist insbesondere bei der Betrachtung des Navigationsprozesses von Bedeutung. Die Transition beschreibt die Art und Weise, wie die Drehung der First-Person-Kamera erfolgt, wenn Nutzende eine navigationsbezogene Interaktion durchführen. Das heißt, Transition beschreibt den Übergang zwischen der aktuellen und der neuen Blickrichtung.
 
-Eine weitere Komponente stellt die Bestätigung dar. In diesem Kontext wird definiert, ob eine Eingabe durch den Nutzenden unmittelbar zur Ausführung der Interaktion führt oder ob diese zusätzlich bestätigt werden muss, bspw. in Form einer weiteren Eingabe.
-
-Die letzte relevante Komponente ist die Initialisierung. Diesbezüglich erfolgt die Definition, ob das gewählte Selektionsverfahren jederzeit aktiv ist oder vom Nutzenden zunächst durch eine Interaktion initialisiert werden muss. 
+Die letzte relevante Komponente ist die Initialisierung. Dabei wird festgelegt, ob das gewählte Interaktionsverfahren automatisch und kontinuierlich aktiv ist oder zunächst durch eine initiale Interaktion initialisiert werden muss. 
 
 {\normalfont \bfseries Parameter:} 
 
-Die Entwicklung und Bewertung von Interaktionen basiert in der Regel auf der Berücksichtigung verschiedener Parameter, welche das Gesamterlebnis einer VR-Anwendung maßgeblich beeinflussen \citep{10.1145/3441852.3471230}. Die relevanten Parameter für die Interaktionen in PaneoVR werden auf Basis vorangegangener Forschungsarbeiten identifiziert. Da die Gewährleistung einer guten Usability das primäre Ziel der Gestaltung von Interaktionen in VR darstellt \citep{dorner_virtual_2019}, werden die Parameter Effizienz \citep{DINISO9241-11}, Effektivität \citep{DINISO9241-11}, Erlernbarkeit \citep{DINISO9241-110} sowie Robustheit \citep{DINISO9241-110} definiert. Darüber hinaus werden die Parameter Geschwindigkeit \citep{COOK2015117}, Realismus \citep{jerald_vr_2016}, Komfort \citep{jerald_vr_2016} sowie Visuelle Komplexität \citep{steriadis_designing_2003} berücksichtigt. 
+%Hinweis: Visuelle Komplexität ist jetzt bei Komfort eingeschlossen, weil es zum Auftreten von Motion Sickness beitragen kann 
 
-\textit{Effizienz} beschreibt das Verhältnis zwischen den eingesetzten Ressourcen und dem damit erreichten Ziel. Im Anwendungskontext ist  insbesondere der benötigte Aufwand als relevante Ressource zu betrachten.
+Die Entwicklung und Bewertung von Interaktionen basiert in der Regel auf der Berücksichtigung verschiedener Parameter, welche das Gesamterlebnis einer VR-Anwendung maßgeblich beeinflussen \citep{10.1145/3441852.3471230}. Die relevanten Parameter für die Interaktionen in PaneoVR werden auf Basis vorangegangener Forschungsarbeiten identifiziert. Da die Gewährleistung einer guten Usability das primäre Ziel der Gestaltung von Interaktionen in VR darstellt \citep{dorner_virtual_2019}, werden die Parameter Effizienz \citep{DINISO9241-11}, Effektivität \citep{DINISO9241-11}, Erlernbarkeit \citep{DINISO9241-110} sowie Robustheit \citep{DINISO9241-110} definiert. Darüber hinaus werden die Parameter Interaktionsgeschwindigkeit \citep{COOK2015117} und Komfort \citep{jerald_vr_2016} berücksichtigt. 
 
-\textit{Effektivität} bezeichnet die Genauigkeit und Vollständigkeit, mit der Benutzer ihre Ziele erreichen. Sie beschreibt, inwieweit die tatsächlichen Ergebnisse mit den angestrebten übereinstimmen. Je nach Kontext kann die Genauigkeit entweder anhand der Korrektheit eines Ergebnisses oder anhand des Erreichens eines akzeptablen Grads der Übereinstimmung mit dem Ziel bewertet werden.
+\textit{Effizienz} beschreibt das Verhältnis zwischen den eingesetzten Ressourcen und dem damit erreichten Ziel \citep{DINISO9241-11}. Im Anwendungskontext ist  insbesondere der benötigte Aufwand als relevante Ressource zu betrachten.
+
+\textit{Effektivität} bezeichnet die Genauigkeit und Vollständigkeit, mit der Benutzer ihre Ziele erreichen. Sie beschreibt, inwieweit die tatsächlichen Ergebnisse mit den angestrebten übereinstimmen. Je nach Kontext kann die Genauigkeit entweder anhand der Korrektheit eines Ergebnisses oder anhand des Erreichens eines akzeptablen Grads der Übereinstimmung mit dem Ziel bewertet werden \citep{DINISO9241-11}.
 
 \textit{Erlernbarkeit} beschreibt das Ausmaß, in dem eine Interaktion ohne vorherige Einarbeitung verstanden und genutzt werden kann. In diesem Kontext ist von Relevanz, dass insbesondere ein hoher Wiedererkennungswert der Interaktion eine einfache und intuitive Bedienbarkeit bedingt \citep{jerald_vr_2016}.
 
-\textit{Robustheit} beschreibt die Fähigkeit eines Systems, auf Fehler von Nutzenden angemessen zu reagieren. Im Rahmen dieser Betrachtung wird untersucht, welche Maßnahmen ergriffen werden, um das Auftreten von Fehlern zu verhindern und inwiefern eine Korrektur von Fehlern möglich ist.
+\textit{Robustheit} beschreibt die Fähigkeit eines Systems, auf Fehler von Nutzenden angemessen zu reagieren \citep{DINISO9241-110}. Im Rahmen dieser Betrachtung wird untersucht, welche Maßnahmen ergriffen werden, um das Auftreten von Fehlern zu verhindern und inwiefern eine Korrektur von Fehlern möglich ist.
 
-\textit{Geschwindigkeit} beschreibt die notwendige Zeit, die zur versuchten Erreichung eines Ziels aufgewendet wird. Somit wird die Zeitspanne betrachtet, die für die Durchführung einer Interaktion benötigt wird. Im Rahmen dieser Betrachtung wird insbesondere die während der Interaktion entstehende Wartezeit analysiert. 
+\textit{Interaktionsgeschwindigkeit} beschreibt die Zeit, die benötigt wird, um ein Interaktionsziel zu erreichen. Es wird somit die Zeit betrachtet, die für die Ausführung einer Interaktionsaufgabe benötigt wird. Im Rahmen dieser Betrachtung wird insbesondere die Wartezeit während der Interaktion analysiert.  
 
-\textit{Realismus} beschreibt die wahrgenommene Nähe der Interaktion zur Realität. Dies ist von entscheidender Bedeutung, da eine realitätsnahe Interaktion das Gefühl von Presence bei Nutzenden potenziell verstärken kann, was wiederum das Gesamterlebnis in VR beeinflusst.  
-
-\textit{Komfort} bezeichnet die Wahrnehmung der Nutzenden bezüglich der Angenehmheit der Interaktion. In diesem Kontext ist insbesondere die Wahrscheinlichkeit für das Auftreten von Motion Sickness von entscheidender Bedeutung. Des Weiteren werden Faktoren wie Ermüdung oder gesteigerte Konzentration in die Bewertung miteinbezogen.
-
-\textit{Visuelle Komplexität} beschreibt das Ausmaß, in welchem eine Interaktion bzw. deren Darstellung visuell fordernd für die Nutzenden ist. Es ist anzustreben, die visuelle Komplexität auf ein Minimum zu reduzieren, um eine Ablenkung oder Störung der nutzenden Personen zu vermeiden \citep{steriadis_designing_2003}. 
+\textit{Komfort} bezeichnet die Wahrnehmung der Nutzenden bezüglich der Angenehmheit der Interaktion \citep{jerald_vr_2016}. In diesem Zusammenhang ist insbesondere die Wahrscheinlichkeit des Auftretens von Motion Sickness von Bedeutung. Dabei werden Faktoren wie Ermüdung, erhöhte Konzentration und visuelle Komplexität in die Bewertung einbezogen.
 
 \section{Ausprägungen der Interaktionsaufgaben und Komponenten}
 
@@ -66,71 +64,64 @@ Folgend werden mögliche Ausprägungen zur Implementierung der zuvor beschrieben
 
 1. Selektion: 
 
-Die Realisierung einer binären Interaktion erfordert die Implementierung einer indirekten Selektionsmethode. In diesem Zusammenhang sind Scanning-Verfahren eine der am weitesten verbreiteten Methoden \citep{COOK2015117}. Folgende Scanning-Verfahren können für den Einsatz in PaneoVR in Betracht gezogen werden: 
-
-\begin{itemize}
-    \item Continueous Cartesian Scanning 
-    \item Automatic Item Scanning
-    \item Step Item Scanning mit Dwell Selection 
-\end{itemize}
+Die Realisierung einer binären Interaktion erfordert die Implementierung einer indirekten Selektionsmethode. In diesem Zusammenhang sind Scanning-Verfahren eine der am weitesten verbreiteten Methoden \citep{COOK2015117}. Zur Implemntierung in PaneoVR werden die gängigen Scanning-Verfahren Automatic Item Scanning, Step Item Scanning mit Dwell Selection, Inverse Item Scanning sowie Continueous Cartesian Scanning (vgl. \autoref{subchap:Scanning}) in Betracht gezogen. 
 
 2. Navigation:
 
-Im Hinblick auf eine konsistente Gestaltung sollte die Art der Interaktion bei der Navigation einheitlich mit derjenigen bei der Selektion sein. Dadurch soll erreicht werden, dass das System sich für Nutzende möglichst Erwartungskonform verhält. In dieser Konsequenz bedingt sich die Wahl der Ausprägungen gegenseitig. Der Einsatz von Continuous Cartesian Scanning als Selektionsverfahren eröffnet zwei Optionen für die Gestaltung der Navigation: 
+Im Sinne einer konsistenten Gestaltung sollte die Art der Interaktion bei der Navigation einheitlich zu der bei der Selektion sein. Damit soll erreicht werden, dass sich das System für die Nutzenden möglichst erwartungskonform verhält. In dieser Konsequenz bedingt sich die Auswahl der Ausprägungen gegenseitig.
+
+In der Literatur liegen bisher keine konkreten Umsetzungen für binäre Navigationsschnittstellen in VR vor. Ein Ansatz, den bspw. \citet{wentzel_bring-your-own_2023} beschreibt, wäre die Übertragung von bereits existierenden Accessibility-Techniken für Smartphones auf den Einsatz in VR. Eine weit verbreitete Technik bei Smartphones besteht darin, dass sich ein Cursor von links nach rechts über den Bildschirm bewegt und der Nutzende durch das Drücken eines Schalters an die gewählte Position teleportiert wird \citep{wentzel_bring-your-own_2023}. Dieses Prinzip lässt sich auf das Continuous Cartesian Scanning übertragen. Anstelle eines Cursors wird hier der gesetzte Schnittpunkt der Scan-Linien als Zielpunkt der Navigation gewählt. Im Kontext dieser Arbeit, in dem die Navigation lediglich aus einer Rotation der First-Person-Kamera besteht, würde dies konkret bedeuten, dass zunächst der Schnittpunkt gesetzt wird und die Kamera daraufhin so rotiert wird, dass der Mittelpunkt des Blickfelds auf den definierten Schnittpunkt ausgerichtet wird. 
+
+Aus diesem Grundprinzip lassen sich zwei konkrete Optionen für die Navigation ableiten.
 
 \begin{itemize}
-    \item Direkte Navigation: Wird während des Scannings ein Punkt gewählt, auf dem kein Interaktionselement liegt, erfolgt eine Drehung der First-Person-Kamera, sodass der gewählte Punkt den neuen Mittelpunkt des Sichtfelds bildet.
-    \item Navigations- und Selektionsmodus: Es besteht die Möglichkeit, zwischen zwei verschiedenen Modi zu wechseln. Es stehen ein Navigationsmodus sowie ein Selektionsmodus zur Verfügung. Wird im Selektionsmodus ein Punkt im Raum selektiert, auf dem sich kein Interaktionselement befindet, erfolgt keine Aktion und der Scan wird erneut gestartet. Der Navigationsmodus hingegen zeigt das gleiche Verhalten wie zuvor bezüglich der direkten Navigation beschrieben, wobei jedoch eine Rotation der Kamera auch dann möglich ist, wenn der Schnittpunkt auf ein Interaktionselement gesetzt wird. Dies impliziert, dass im Selektionsmodus keine Navigation und im Navigationsmodus keine Selektion möglich ist. 
+    \item Direkte Navigation: Hier werden Navigation und Selektion in einem Prozess kombiniert. Sobald der Schnittpunkt der Scan-Linien gesetzt ist, prüft das System, ob sich an diesem Punkt ein interaktives Element befindet. Ist dies der Fall, wird das entsprechende Element selektiert. Ist kein interaktives Element vorhanden, wird stattdessen die Kamera auf die Position des Schnittpunktes ausgerichtet und die Navigation durchgeführt.
+    \item Navigations- und Selektionsmodus: Es stehen zwei getrennt nutzbare Modi zur Verfügung, ein Navigationsmodus und ein Selektionsmodus. Im Navigationsmodus führt das Setzen eines Schnittpunktes immer zu einer Navigation, unabhängig davon, ob sich hinter dem Schnittpunkt ein interaktives Element befindet oder nicht. Im Selektionsmodus hingegen wird der Schnittpunkt ausschließlich zur Selektion von Interaktionselementen verwendet. Befindet sich kein interaktives Element hinter dem Schnittpunkt, wird keine Aktion ausgeführt. Diese klare Trennung der Modi stellt sicher, dass im Navigationsmodus keine Selektion und im Selektionsmodus keine Navigation möglich ist.
 \end{itemize}
 
-Bei der Auswahl eines Item-Scanning-Verfahrens für die Selektion besteht die Möglichkeit, die Navigation über ein zusätzliches Navigationsmenü zu implementieren. Innerhalb des Menüs wird für jede mögliche Navigationsrichtung ein entsprechender Button bereitgestellt. In Bezug auf die Funktionsweise der Buttons lassen sich wiederum zwei mögliche Ausprägungen unterscheiden. 
+Auch in Bezug auf das Item Scanning können bereits existierende Accessibility-Techniken als Inspiration für die Entwicklung einer Navigation in VR herangezogen werden. In Computerspielen ist es z.B. möglich, Steuerungen durch Buttons auf dem Bildschirm darzustellen und so für die Auswahl durch Scanning zugänglich zu machen (vgl. z.B. \citep{10.1145/2159365.2159386, trewin_exploring_2009}).  
+Dieses Prinzip könnte auch auf VR übertragen werden. Hier könnten Buttons für die Rotationsrichtungen (links und rechts) in ein UI-Navigationsmenü integriert werden.  Hinsichtlich der genauen Funktionsweise der Buttons können wiederum zwei mögliche Ausprägungen unterschieden werden. 
 
 \begin{itemize}
-    \item Schrittweise Rotation: Die Selektion eines Buttons bewirkt eine Rotation um einen festen Winkel. Um eine größere Rotation zu erzielen, ist eine wiederholte Selektion des entsprechenden Buttons erforderlich.
-    \item Kontinuierliche Rotation: Die Selektion eines Buttons initiiert eine kontinuierliche Rotation in die vom Nutzenden gewählte Richtung. Durch eine erneute Selektion des entsprechenden Buttons kann die Rotation jederzeit gestoppt werden. Ein vergleichbares Prinzip wurde bspw. von \citet{10.1145/2159365.2159386} entwickelt und evaluiert. 
+    \item Schrittweise Rotation: Die Selektion eines Buttons bewirkt eine Rotation um einen festen Winkel. Um eine größere Rotation zu erreichen, muss der entsprechende Button wiederholt selektiert werden.
+    \item Kontinuierliche Rotation: Die Selektion eines Buttons löst eine kontinuierliche Rotation in die vom Nutzenden gewählte Richtung aus. Durch erneute Selektion des entsprechenden Buttons kann die Rotation jederzeit gestoppt werden. Ein vergleichbares Prinzip wurde z.B. von \citet{10.1145/2159365.2159386} zur Navigation von Spielavataren entwickelt und evaluiert. 
 \end{itemize}
 
-{\normalfont \bfseries Komponenten}  
+{\normalfont \bfseries Interaktionskomponenten}  
 
 1. Display:
 
-HIER FEHLT NOCH NE KURZE EINLEITUNG 
+Die Interaktionskomponente \textit{Display} bezieht sich auf die Darstellung und Integration des Scanning-Verfahrens in die virtuelle Umgebung. Dabei ist insbesondere entscheidend, ob sich das Scanning-Verfahren auf das Sichtfeld der Nutzenden beschränkt oder die gesamte 360°-Szene einbezieht. Da es sich somit um eine VR-spezifische Komponente handelt, können diesbezüglich keine Ansätze aus anderen Bereichen wie Computerspielen oder Smartphones als Grundlage herangezogen werden. Wie bereits in \autoref{subchap:LösungenFürBarrieren} dargestellt, gibt es in der Literatur kaum Arbeiten, die sich speziell mit der Integration von binären Eingaben oder Scanning-Verfahren in VR auseinandersetzen. Eine Ausnahme bildet die Arbeit von \citet{valakou_framework_2024}, in der jedoch keine konkreten Aussagen zur Gestaltung der Interaktionskomponente Display getroffen werden. Aus diesen Gründen basieren die folgenden Überlegungen nicht auf bestehenden Forschungsarbeiten, sondern stellen eigenständige Konzepte dar.
+
+Für die Gestaltung der Komponente \textit{Display} wurden zwei grundlegende Optionen entwickelt.
 
 \begin{itemize}
-    \item Fixiert im Sichtfeld: Das Scanning-Verfahren ist wie ein HUD im Sichtfeld des Nutzenden fixiert. Dies impliziert, dass lediglich Elemente selektiert werden können, die sich auch im Sichtfeld des Nutzenden befinden. Eine Rotation des Kopfes hat demnach unmittelbaren Einfluss auf die Selektion. Im Rahmen eines Cartesian Scannings besteht dadurch die Möglichkeit, die aktuelle Position des Scans durch eine Kopfbewegung zu beeinflussen. Im Rahmen des Item Scannings besteht die Möglichkeit, die Reihenfolge der Elemente zu modifizieren.
-    \item In der gesamten Szene: Das Scanning-Verfahren stellt einen integralen Bestandteil der Szene dar. Dies bedeutet, dass sich der Scan bei einer Rotation nicht aktiv mitdreht und impliziert, dass stets die vollen 360° der Szene abgedeckt werden. Folglich werden auch Interaktionselemente hervorgehoben, die sich außerhalb des Sichtfelds der nutzenden Person befinden. Somit hat eine mögliche Bewegung des Kopfes keinerlei Einfluss auf den Verlauf des Scans.
-    \item Beschränkt auf das Sichtfeld mit Unterbrechung des Scans: Im Rahmen dieser Option findet eine Beschränkung des Scanning-Verfahrens auf das Sichtfeld des Nutzenden statt. Allerdings wird der Scan-Vorgang unterbrochen, sobald der Kopf des Nutzers eine Rotation vollzieht. Mit erneutem Innehalten der Kopfbewegung wird ein neuer Scan initiiert. 
+    \item Fixiert im Sichtfeld: Das Scanning-Verfahren ist wie ein Head-Up-Display (HUD) im Sichtfeld des Nutzers fixiert. Das bedeutet, dass das Verfahren an die Blickrichtung des Nutzenden gekoppelt ist, sodass nur Elemente ausgewählt werden können, die sich innerhalb des Sichtfeldes befinden. Dies ermöglicht es, beim Cartesian Scanning die Position der Scan-Linien durch Kopfbewegungen direkt zu beeinflussen. Beim Item Scanning wirken sich Kopfbewegungen ebenfalls auf das Scanning aus, da hier das Scan-Set dynamisch angepasst wird. Elemente, die durch eine Kopfbewegung aus dem Sichtfeld verschwinden, werden aus dem Scan-Set entfernt, wodurch sich dessen Größe dynamisch verändert.
+    \item In der gesamten Szene: Der Scanning-Verfahren ist ein integraler Bestandteil der Szene. Das Scanning kann daher nicht durch Kopfbewegungen beeinflusst werden. Beim Cartesian Scanning bewegen sich die Scanlinien unabhängig von der Blickrichtung in einem Radius von 360° um den Nutzenden. Beim Item Scanning werden alle Interaktionselemente der Szene, auch außerhalb des Sichtfeldes, einbezogen und hervorgehoben. 
 \end{itemize}
 
 2. Transition: 
 
-Die Rotation der Kamera kann auf unterschiedliche Arten realisiert werden. In der Literatur (vgl. \citet{10.1145/3441852.3471230, 10.1007/s10055-020-00425-x, 8797722}) werden insbesondere die beiden folgenden Optionen diskutiert, die auch in der Praxis Anwendung finden: 
+Die Rotation der Kamera bei der Navigation kann auf verschiedene Arten realisiert werden. In der Literatur (vgl. z.B. \citet{10.1145/3441852.3471230, 10.1007/s10055-020-00425-x, 8797722}) werden insbesondere die beiden folgenden Varianten diskutiert.
 
 \begin{itemize}
     \item Direkte Rotation: Bei der direkten Rotation erfolgt eine unmittelbare Rotation der Kamera um einen vorgegebenen Winkel ohne intermediäre Schritte. 
     \item Kontinuierliche Rotation: Die zweite Option umfasst eine kontinuierliche Bewegung der Kamera. In diesem Fall erfolgt eine fließende Drehung der Szene um den Nutzenden, wodurch eine natürliche Kopfbewegung simuliert wird. 
 \end{itemize}
 
-3. Bestätigung 
+3. Initialisierung 
 
-HIER FEHLT NOCH NE KURZE EINLEITUNG
-
-\begin{itemize}
-    \item Keine Bestätigung: Eine zusätzliche Bestätigung der Interaktion ist nicht erforderlich. Die Reaktion der Anwendung erfolgt unmittelbar nach Betätigung des Schalters.
-    \item Pop-Up-Menü: Bei Betätigung des Schalters wird ein Pop-Up-Menü angezeigt, welches dem Nutzenden die Möglichkeit bietet, eine Bestätigung der zuvor ausgelösten Interaktion vorzunehmen oder diese abzubrechen. 
-    \item Bestätigungszeit: Wird durch Betätigung des Schalters eine Interaktion initialisiert, ist innerhalb eines vorgegebenen Zeitintervalls eine weitere Betätigung desselben Schalters erforderlich, um die zuvor initiierte Auswahl zu bestätigen und die entsprechende Funktion zu aktivieren. Eine Nicht-Wiederholung der Interaktion führt zur Nicht-Ausführung der Interaktion. 
-\end{itemize}
-
-4. Initialisierung 
-
-HIER FEHLT NOCH NE KURZE EINLEITUNG
+Die Komponente \textit{Initialisierung} beschreibt, wie das Scanning Verfahren aktiviert wird und ob die Aktivierung durch die Nutzenden gesteuert werden kann. Dabei sind zwei Möglichkeiten denkbar. 
 
 \begin{itemize}
     \item Automatisch: Das Scanning-Verfahren wird automatisch aktiviert und lässt sich auch nicht durch den Nutzenden deaktivieren. Das Verfahren läuft kontinuierlich durch die Szene sowie die gesamte Anwendung hindurch.
-    \item Ein-/Ausschaltbares Scanning: Das Scanning-Verfahren muss durch eine initiale Betätigung des Schalters aktiviert werden. Des Weiteren existiert ein UI-Element in der Szene, welches eine Deaktivierung bzw. eine Pausierung des Scanning-Verfahrens ermöglicht. 
+    \item Initialisierung: Das Scanning-Verfahren muss durch eine initiale Eingabe aktiviert werden. 
 \end{itemize}
 
 \section{Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}
+
+In diesem Abschnitt werden die zuvor beschriebenen Gestaltungsoptionen der Interaktionsaufgaben und -komponenten systematisch anhand der definierten Parameter bewertet und eingeordnet. Durch soll eine fundierte Grundlage für die Auswahl der finalen Konzepte geschaffen werden.
+Die Bewertung erfolgt auf einer Skala von 1 bis 5, wobei 1 für eine sehr niedrige und 5 für eine sehr hohe Ausprägung des jeweiligen Parameters steht. Diese Einschätzung basiert auf den Erkenntnissen der Literatur sowie einer Analyse der vorgestellten Optionen. Es ist jedoch wichtig zu betonen, dass die Bewertungen anhand der Skala nicht durch empirische Daten belegt oder validiert sind, sondern auf einer fundierten, jedoch subjektiven Einschätzung beruhen. 
 
 {\normalfont \bfseries Interaktionsaufgaben}  
 
@@ -138,30 +129,28 @@ HIER FEHLT NOCH NE KURZE EINLEITUNG
 
 \begin{table}[ht]
  \centering
- \begin{tabular}{r|c|c|c}
- Parameter & Cartesian & Automatic & Step \\
+ \begin{tabular}{r|c|c|c|c}
+ Parameter & Cartesian & Automatic & Step & Inverse\\
  \hline
- Effizienz & Hoch & Hoch & Gering-Mittel\\
- Effektivität & Mittel & Hoch & Hoch\\
- Erlernbarkeit & Hoch & Hoch & Hoch\\
- Robustheit & Mittel & Mittel & Hoch\\
- Geschwindigkeit & Mittel & Langsam & Mittel\\
- Realismus & - & - & - \\
+ Effizienz & Hoch & Hoch & Gering & Gering\\
+ Effektivität & Mittel & Hoch & Hoch & jjj\\
+ Erlernbarkeit & Hoch & Hoch & Hoch & iii\\
+ Robustheit & Mittel & Mittel & Hoch & iii\\
+ Geschwindigkeit & Mittel & Langsam & Mittel & hhh\\
  Komfort & Mittel & Mittel & Gering \\
- Visuelle Komplexität & Mittel & Mittel & Gering
  \end{tabular}
- \caption{Parameterbewertung Selektion}
+ \caption{Bewertung der Gestaltungsoptionen der Selektion anhand der definierten Parameter}
  \label{tab:Selektion}
 \end{table}
 
 \textit{Effizienz:}
-Eine effiziente binäre Interaktionsmethode für PaneoVR zeichnet sich durch eine möglichst geringe Anzahl an erforderlichen Aktivierungen des Schalters aus. Beim Cartesian Scanning sind grundsätzlich zwei Aktivierungen erforderlich, um eine gewünschte Interaktion auszuführen. Folglich kann die Effizienz dieser Selektionsmethode als hoch eingestuft werden. Demgegenüber weist das Automatic Item Scanning lediglich eine geringfügig höhere Effizienz auf. Die Selektion eines Elements erfolgt durch einmalige Aktivierung des Schalters. Eine Gruppierung der Elemente, etwa mit dem Ziel einer Erhöhung der Interaktionsgeschwindigkeit, bedingt eine größere Anzahl an Interaktionen, was zu einer leichten Reduzierung der Effizienz führt. Das Step Item Scanning zeigt die geringste Effizienz, da mehrere Aktivierungen erforderlich sind, um ein Element gezielt auszuwählen. Eine Gruppierung der Elemente kann in diesem Fall die Effizienz der Selektionsmethode erhöhen, da insbesondere bei einer großen Anzahl an Interaktionselementen in der Szene die Anzahl der erforderlichen Interaktionen deutlich verringert werden kann.
+Ein effizientes binäres Selektionsverfahren sollte eine geringe Anzahl von Schalterbetätigungen und einen möglichst geringen physischen Aufwand für die Interaktion erfordern. Die verschiedenen Auswahlverfahren unterscheiden sich in dieser Hinsicht deutlich. Cartesian Scanning erfordert zwei Schalteraktivierungen, um eine Interaktion durchzuführen. Die klare Struktur und die relativ geringe Anzahl an Aktivierungen ermöglichen eine gute Effizienz, die mit 4 von 5 bewertet werden kann. Automatic Item Scanning zeichnet sich durch eine besonders geringe Anzahl von Aktivierungen aus, da die Selektion eines Elements in der Regel durch eine einzige Schalteraktivierung erfolgt. Dies macht die Methode besonders effizient, weshalb sie mit 5/5 bewertet wird. Wird allerdings eine Gruppierung von Elementen zur Beschleunigung der Interaktionsgeschwindigkeit eingesetzt, wirkt sich dies leicht negativ auf die Effizienz aus, da die Anzahl der erforderlichen Aktivierungen steigt. Step Item Scanning zeigt eine Effizienz, die stark von der Anzahl der Elemente in der Szene abhängt. Bei einer großen Anzahl von Elementen benötigt das Verfahren entsprechend viele Aktivierungen, um ein Ziel zu erreichen, was die Effizienz deutlich verringert. Eine Gruppierung der Elemente kann jedoch die Effizienz in Szenen mit vielen Elementen erhöhen, da weniger Schritte notwendig sind, um eine Auswahl zu treffen. In Szenarien mit wenigen Elementen ist der Aufwand geringfügig höher als bei Cartesian Scanning oder Automatic Item Scanning, bleibt aber im Vergleich akzeptabel. Die Effizienz wird daher mit 3/5 bewertet. Inverse Item Scanning ist ebenfalls stark von der Anzahl der Elemente in der Szene abhängig. Je mehr Elemente vorhanden sind, desto länger muss der Schalter gehalten werden, um das gewünschte Zielobjekt zu erreichen. Dies führt zu einem proportionalen Anstieg der körperlichen Anstrengung und verringert die Effizienz in Szenen mit vielen Elementen. Bei wenigen Elementen ist der Aufwand entsprechend geringer. Dennoch bleibt das kontinuierliche Halten des Schalters eine körperlich anstrengendere Interaktionsform. Die Effizienz wird daher mit 2/5 bewertet. 
 
 \textit{Effektivität:}
-Die Effektivität des Cartesian Scanning wird insgesamt als mittel bewertet. Das Timing spielt eine entscheidende Rolle bei der Auswahl des gewünschten Interaktionselements. Ein Verfehlen des Elements ist insbesondere bei ungenauem Timing eine potenzielle Gefahr. Demgegenüber weist das Item Scanning eine leicht höhere Effektivität auf, da ausschließlich interaktive Elemente selektiert werden können und keine leeren Eingaben möglich sind. Beim Automatic Item Scanning ist jedoch auch ein gutes Timing von entscheidender Bedeutung, um das gewünschte Element nicht zu verpassen. Insgesamt weist das Step Item Scanning die höchste Effektivität auf, da den Nutzenden hier die größte Kontrolle über das Timing und die Auswahl gegeben ist \citep{COOK2015117}.
+Die Effektivität beschreibt, wie zuverlässig und präzise ein gewünschtes Interaktionselement ausgewählt werden kann. Beim Cartesian Scanning wird die Effektivität insgesamt als moderat bewertet (3/5). Das Verfahren erfordert präzises Timing, da der Nutzende den Schnittpunkt der Linien genau im richtigen Moment setzen muss. Ein Verfehlen des Zielobjekts ist möglich, insbesondere bei geringer Übung oder hohen Geschwindigkeiten des Scannings. Das Automatic Item Scanning erzielt eine leicht höhere Effektivität (4/5). Da nur interaktive Elemente selektiert werden können, sind Fehlselektionen weniger wahrscheinlich. Dennoch spielt auch hier das Timing eine wesentliche Rolle, da das gewünschte Element verpasst werden kann, wenn die Aktivierung nicht rechtzeitig erfolgt. Das Step Item Scanning wird als das effektivste Verfahren eingeschätzt (5/5). Die Nutzenden haben die volle Kontrolle über die Auswahl und können in ihrem eigenen Tempo navigieren. Dies minimiert die Wahrscheinlichkeit von Fehlselektionen und gibt ihnen mehr Sicherheit, insbesondere in komplexen Szenarien mit vielen Elementen. Das Inverse Item Scanning zeigt eine Effektivität, die mit der des Automatic Item Scannings vergleichbar ist (4/5). Auch hier ist das Timing entscheidend, da der Schalter zum richtigen Zeitpunkt losgelassen werden muss, um das gewünschte Ziel zu erreichen. Die Möglichkeit von Fehlselektionen durch ungenaues Timing ist ein potenzieller Nachteil \citep{COOK2015117}.
 
 \textit{Erlernbarkeit:}
-Personen, die bereits Erfahrung mit Schaltersteuerungen an anderen Geräten gesammelt haben, dürften alle beschriebenen Scanning-Verfahren als vertraut wahrnehmen, da sie bspw. in gängigen Betriebssystemen Anwendung finden. Die Verfahren sind sowohl in den Betriebssystemen iOS und macOS von Apple \citep{apple_einfuhrung_2024} als auch in Android \citep{noauthor_tips_nodate} integriert. Daher wird die Erlernbarkeit aller drei Verfahren als hoch bewertet.
+Personen, die bereits Erfahrung mit Schaltersteuerungen an anderen Geräten gesammelt haben, dürften alle beschriebenen Scanning-Verfahren als vertraut wahrnehmen, da sie bspw. in gängigen Betriebssystemen Anwendung finden. Die Verfahren sind sowohl in den Betriebssystemen iOS und macOS von Apple \citep{apple_einfuhrung_2024} als auch in Android \citep{Google-Switch-Access} integriert. Daher wird die Erlernbarkeit aller drei Verfahren als hoch bewertet.
 
 \textit{Robustheit:}
 Der Einsatz von Scanning-Verfahren kann zu Fehlern führen, sofern die Scan Rate nicht den individuellen Bedürfnissen des jeweiligen Nutzenden entspricht. Diesbezüglich ist insbesondere eine zu hohe Scan-Rate problematisch, da den Nutzer:innen keine ausreichende Zeit zur Verfügung steht, um eine präzise Auswahl zu treffen \citep{COOK2015117}. Dies trifft insbesondere auf die Optionen des Cartesian Scanning sowie des Automatic Item Scanning zu. Um dem zuvor beschriebenen Problem entgegenzuwirken, sollte den Nutzenden die Möglichkeit gegeben werden, die Scan Rate individuell einzustellen, um sie somit an die spezifischen Bedürfnisse anzupassen. 
@@ -173,14 +162,11 @@ Als weitere Maßnahme zur Erhöhung der Robustheit kann die Implementierung eine
 Scanning-Verfahren führen im Vergleich zu direkten Interaktionsmethoden in der Regel zu einer langsameren Interaktion \citep{COOK2015117}. Es ist zu berücksichtigen, dass die folgenden Bewertungen lediglich einen Vergleich der verschiedenen Scanning-Methoden darstellen. Auch ein schnelles Scanning-Verfahren weist grundsätzlich eine geringere Geschwindigkeit auf als eine direkte Interaktion.
 In Bezug auf die Interaktionsgeschwindigkeit lassen sich Unterschiede zwischen Cartesian Scanning und Item Scanning hinsichtlich der Anzahl der Interaktionselemente in einer Szene feststellen. Insbesondere bei einer geringen Anzahl an Interaktionselementen in einer Szene ist die Interaktionsgeschwindigkeit beim Cartesian Scanning vergleichsweise langsam. Die Dauer des Scan-Vorgangs ist insbesondere davon abhängig, an welcher Stelle sich das gesuchte Element innerhalb der Szene befindet. Es kann zu einer gewissen Verzögerung kommen, bis die Scanning-Linie die gewünschte Position des Interaktionselements erreicht. In diesem Fall erweist sich die Selektion mittels Item Scanning als schneller. Bei einer hohen Anzahl an Interaktionselementen ist das Item Scanning hingegen relativ langsam.  Die Anzahl der in einer Szene enthaltenen Interaktionselemente wirkt sich direkt auf die Geschwindigkeit des Scans aus. Mit einer größeren Anzahl von Elementen muss eine entsprechend größere Anzahl von Elementen während des Scans durchlaufen werden, was zu einer Verlangsamung der gesamten Interaktionsgeschwindigkeit führt. Eine Maßnahme, um diesem Umstand entgegenzuwirken, besteht in der Gruppierung räumlich oder semantisch zusammenliegender Elemente. Die Geschwindigkeit des Item Scannings lässt sich dadurch deutlich erhöhen \citep{COOK2015117}. Das Step Item Scanning kann insgesamt als schneller bewertet werden als das Automatic Item Scanning, da die Nutzenden hier schneller zum Zielobjekt gelangen und überflüssige Wartezeiten umgehen können \citep{COOK2015117}.  
 
-\textit{Realismus:} In Bezug auf die Selektion ist der Parameter Realismus als unerheblich zu betrachten. Insgesamt weisen Scanning-Verfahren im Vergleich zu direkten Interaktionsmethoden einen geringen Realismus auf. In Bezug auf den Grad des Realismus zeigen sich zwischen den einzelnen Scanning-Verfahren lediglich geringfügige Unterschiede. 
-
 \textit{Komfort:} 
 In Hinsicht auf den Komfort der Selektion ist insbesondere die Wahrscheinlichkeit für das Auftreten einer motorischen Ermüdung zu betrachten. Des Weiteren findet die erforderliche Konzentration des Nutzenden zur korrekten Ausführung der Selektion Berücksichtigung. Das Cartesian Scanning erfordert eine geringe Anzahl an Aktivierungen des Schalters durch den Nutzenden. Daher kann das Risiko einer motorischen Ermüdung als relativ gering eingestuft werden. Von entscheidender Bedeutung für das Scanning-Verfahren ist jedoch ein exaktes Timing. Daher wird die erforderliche Konzentration als erhöht angenommen. 
 Beim Automatic Item Scanning sind wenige Aktivierungen des Schalters erforderlich, sodass die Wahrscheinlichkeit für das Auftreten von motorischer Ermüdung als gering bewertet werden kann. Allerdings ist hier eine hohe visuelle Aufmerksamkeit sowie ein exaktes Timing erforderlich, was eine gesteigerte Konzentration erfordert. Beim Step Item Scanning ist die Anzahl der erforderlichen Aktivierungen gegenüber den anderen Scanning-Verfahren um ein Vielfaches höher. Infolgedessen wird der physische Aufwand als hoch bewertet, was zu einer raschen motorischen Ermüdung führen kann. Dafür ist der Aufwand an visueller Aufmerksamkeit seitens des Nutzenden gering und die erforderliche Konzentration niedriger \citep{COOK2015117}. 
 
-\textit{Visuelle Komplexität:}
-Die visuelle Komplexität der Szene wird durch den Einsatz eines Scanning-Verfahrens insgesamt erhöht. Die Erhöhung der visuellen Komplexität erfolgt beim Item Scanning durch das kontinuierliche Hervorheben von Interaktionselementen, beim Cartesian Scanning hingegen durch die Bewegung der Scanning-Linie. Das Step Item Scanning weist die geringste visuelle Komplexität auf, da den Nutzenden hier die größte Kontrolle über das Scanning gegeben ist und der Wechsel der Hervorhebungen eigenständig gesteuert werden kann.
+Die visuelle Komplexität der Szene wird durch den Einsatz eines Scanning-Verfahrens insgesamt erhöht. Die Erhöhung der visuellen Komplexität erfolgt beim Automatic und Inverse Item Scanning durch das kontinuierliche Hervorheben von Interaktionselementen, beim Cartesian Scanning hingegen durch die Bewegung der Scanning-Linie. Das Step Item Scanning weist die geringste visuelle Komplexität auf, da den Nutzenden hier die größte Kontrolle über das Scanning gegeben ist und der Wechsel der Hervorhebungen eigenständig gesteuert werden kann.
 
 2. Navigation 
 

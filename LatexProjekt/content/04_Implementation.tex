@@ -1,7 +1,7 @@
 \chapter{Implementierung}
 \label{chap:Implementierung}
 
-%To DO für dieses Kapitel: Abbildung überarbeiten, Abbildung zur Visualisierung der fertigen Verfahren einbinden (Screenshot aus VR), Referenz zum Unity Asset Store, Code schön machen, bei "Strategien zur Fehlervermeidung und Debugging" reflexion ergänzen, wie hilfreich die Ansätze waren, Installation & Nutzerdokumentation ergänzen, Bezug zu FF2 herstellen
+%To DO für dieses Kapitel: Abbildung überarbeiten, Abbildung zur Visualisierung der fertigen Verfahren einbinden (Screenshot aus VR), Referenz zum Unity Asset Store, Code schön machen, bei "Strategien zur Fehlervermeidung und Debugging" reflexion ergänzen, wie hilfreich die Ansätze waren (oder weglassen?), Installation & Nutzerdokumentation ergänzen (Verweis auf Anhang mit GitRepo), Bezug zu FF2 herstellen
 
 In diesem Kapitel wird die technische Umsetzung der erarbeiten Konzepte beschrieben. Dabei wird zunächst die grundlegende Architektur beschrieben, gefolgt von Grundlagen, die für beide Konzepte gleichermaßen entscheidend sind. Anschließend wird die spezifische Implementierung der beiden Konzepte tiefergehend vorgestellt. Hierbei wird zunächst das Item Scanning beschrieben und anschließend das Cartesain Scanning. Danach werden allgemeine Strategien zur Fehlerbehandlung sowie in der Entwicklung genutzte Debugging-Methoden vorgestellt. Abschließend werden Limitationen aufgezeigt und es wird ein kurzer Ausblick auf mögliche zukünftige Erweiterungen der Implementierung eröffnet. 
 
@@ -12,8 +12,8 @@ Die für die Implementierung relevanten Erweiterungen im Rahmen dieser Arbeit wu
 
 \begin{itemize}
     \item \textit{Interaction Sphere:} Ein GameObject, an dem beim Laden einer neuen Szene alle interaktiven Paneo-Elemente als Child-Objekte angehängt werden.
-    \item \textit{Scene Manager:} Enthält unter anderem das Script Scene Loader, das für das dynamische Laden der interaktiven Elemente verantwortlich ist. Dieses Script wurde zur Implementierung des Item Scanning erweitert. 
-    \item \textit{XRRigMultiplayer:} Wird beim Start der Szene gespawnt und enthält unter anderem die Main Camera sowie den UI-Anchor. Dem UI-Anchor sind zentrale UI-Komponenten wie das Ingame-Menü und die Elemente für Nachrichten (Hint-Panel und Verify-Panel) untergeordnet.    
+    \item \textit{Scene Manager:} Enthält u. a. das Script Scene Loader, das für das dynamische Laden der interaktiven Elemente verantwortlich ist. Dieses Script wurde zur Implementierung des Item Scanning erweitert. 
+    \item \textit{XRRigMultiplayer:} Wird beim Start der Szene gespawnt und enthält u. a. die Main Camera sowie den UI-Anchor. Dem UI-Anchor sind zentrale UI-Komponenten wie das Ingame-Menü und die Elemente für Nachrichten (Hint-Panel und Verify-Panel) untergeordnet.    
 \end{itemize}
 
 {\normalfont \bfseries Erweiterungen der ursprüglichen Szene im Rahmen dieser Arbeit}
@@ -48,7 +48,7 @@ Der grundlegende Informationsfluss, der zwischen diesen vorgestellten Skripten b
 
 \section {Gemeinsame Komponenten beider Konzepte}
 
-Die Implementierung der beiden Scanning-Methoden basiert unter anderem auf gemeinsam genutzten Komponenten, die Funktionalitäten beider Verfahren unterstützen. Dazu gehören die Eingabeverarbeitung, die Audioausgabe sowie ein zusätzliches Highlight-GameObject, das allen interaktiven Objekten als Kindsobjekt hinzugefügt wird. 
+Die Implementierung der beiden Scanning-Methoden basiert u. a. auf gemeinsam genutzten Komponenten, die Funktionalitäten beider Verfahren unterstützen. Dazu gehören die Eingabeverarbeitung, die Audioausgabe sowie ein zusätzliches Highlight-GameObject, das allen interaktiven Objekten als Kindsobjekt hinzugefügt wird. 
 
 {\normalfont \bfseries Eingabeverarbeitung}
 
@@ -158,7 +158,7 @@ Die Animation wird als Coroutine umgesetzt. Der Startpunkt der Linie ist die Pos
 
 \textbf{Herausforderungen}
 
-Die Herausforderungen bei der Implementierung des Item Scanning lagen insbesondere in der Unterscheidung der verschiedenen Ebenen. Wird z.B. ein Menü oder ein Dialogfeld geöffnet, so muss das Scanning auf diese Teilauswahl von Items beschränkt werden. Die Lösung dieses Problems wird im Folgenden exemplarisch an einem Dialog-Interactable beschrieben. 
+Die Herausforderungen bei der Implementierung des Item Scanning lagen insbesondere in der Unterscheidung der verschiedenen Ebenen. Wird z. B.  ein Menü oder ein Dialogfeld geöffnet, so muss das Scanning auf diese Teilauswahl von Items beschränkt werden. Die Lösung dieses Problems wird im Folgenden exemplarisch an einem Dialog-Interactable beschrieben. 
 Wird das Dialog-Objekt innerhalb des Item Scanning ausgewählt, wird das OnClick-Ereignis ausgelöst. Dadurch wird die Methode DialogScan aufgerufen. Dieser Methode werden beim Aufruf die Buttons der Antwortoptionen übergeben. Aus diesen Optionen wird ein Array erstellt, das dann mit der oben beschriebenen Logik durchlaufen werden kann. Die Auswahloptionen müssen also dynamisch angepasst werden, je nachdem welches Objekt aktiv ist bzw. sich auf der vordersten Ebene befindet. Dies erfordert besondere Aufmerksamkeit bei der Implementierung, da verschiedene Fälle berücksichtigt werden müssen. Für jedes Objekt, das eine weitere Ebene öffnet, muss geprüft werden, wie sich die Auswahl der Scan-Optionen dadurch ändert. 
 
 \subsection{Konzept 2 - Cartesian Scanning}
@@ -242,7 +242,7 @@ Die Methode \textit{ScanningFirstLine} aktiviert das GameObject der horizontalen
 
 \end{lstlisting}
 
-Je nachdem, welcher Modus aktiv ist, wird anschließend unterschiedlich verfahren. Ist der Selektionsmodus aktiviert, wird mit Hilfe der Methode \textit{CheckForInteractiveElement} überprüft, ob sich hinter dem Schnittpunkt der Linien ein interaktives Objekt befindet. Dazu wird mittels eines SphereCasts ein Ray von der Kameraposition durch den berechneten Schnittpunkt erzeugt. An dieser Stelle wurde ein SphereCast anstelle eines einfachen Rays gewählt, um einen Toleranzbereich in Form eines Radius einführen zu können. Dadurch wird ein Objekt auch dann ausgewählt, wenn der Schnittpunkt das Objekt knapp verfehlt. Es wird geprüft, ob dieser Ray den Collider eines Highlight-Objektes getroffen hat. Ist dies der Fall, wird wie beim Item Scanning das OnClick-Event der Button-Komponente des entsprechenden Objekts ausgelöst. Trifft der Ray auf mehrere Objekte, z.B. wenn zwei Ebenen mit interaktiven Elementen übereinander liegen, wird stets das Objekt ausgewählt, auf das der Ray zuerst trifft. Das heißt, es wird das Element ausgewählt, das näher an der Kamera positioniert ist. Dadurch wird sichergestellt, dass UI-Elemente wie das Ingame-Menü oder das Hint-Panel bevorzugt ausgewählt werden und keine unbeabsichtigten Selektionen bei Verdeckungen auftreten. Wurde kein Objekt getroffen, wird lediglich ein Audio-Feedback ausgelöst. 
+Je nachdem, welcher Modus aktiv ist, wird anschließend unterschiedlich verfahren. Ist der Selektionsmodus aktiviert, wird mit Hilfe der Methode \textit{CheckForInteractiveElement} überprüft, ob sich hinter dem Schnittpunkt der Linien ein interaktives Objekt befindet. Dazu wird mittels eines SphereCasts ein Ray von der Kameraposition durch den berechneten Schnittpunkt erzeugt. An dieser Stelle wurde ein SphereCast anstelle eines einfachen Rays gewählt, um einen Toleranzbereich in Form eines Radius einführen zu können. Dadurch wird ein Objekt auch dann ausgewählt, wenn der Schnittpunkt das Objekt knapp verfehlt. Es wird geprüft, ob dieser Ray den Collider eines Highlight-Objektes getroffen hat. Ist dies der Fall, wird wie beim Item Scanning das OnClick-Event der Button-Komponente des entsprechenden Objekts ausgelöst. Trifft der Ray auf mehrere Objekte, z. B.  wenn zwei Ebenen mit interaktiven Elementen übereinander liegen, wird stets das Objekt ausgewählt, auf das der Ray zuerst trifft. Das heißt, es wird das Element ausgewählt, das näher an der Kamera positioniert ist. Dadurch wird sichergestellt, dass UI-Elemente wie das Ingame-Menü oder das Hint-Panel bevorzugt ausgewählt werden und keine unbeabsichtigten Selektionen bei Verdeckungen auftreten. Wurde kein Objekt getroffen, wird lediglich ein Audio-Feedback ausgelöst. 
 
 Im Navigationsmodus hingegen wird die Methode \textit{turn} im Skript ModeNavigation aufgerufen. Hier wird die y-Koordinate des Schnittpunkts genutzt, um die Rotation des XRRigs entsprechend anzupassen.
 
@@ -257,7 +257,7 @@ Eine Herausforderung bei der Implementierung war die Berechnung des korrekten Sc
 
 \section{Strategien zur Fehlervermeidung und Debugging}
 
-Um Fehlermeldungen vorzubeugen und die Anwendung robuster zu gestalten, wurde an vielen Stellen im Code mit try and catch Abfragen gearbeitet. Insbesondere NullPointerExceptions werden so abgefangen. Dies wird z.B. beim Item Scanning verwendet. Wenn bspw. ein Objekt kein Highlight-Objekt hat oder das Objekt zur Laufzeit der Coroutine gelöscht wird, wird dies abgefangen und das Objekt kann problemlos übersprungen werden. Des Weiteren wurde viel mit boolschen Variablen gearbeitet, um die Abläufe besser verfolgen und steuern zu können. So wird z.B. verhindert, dass zwei Item Scanning Prozesse gleichzeitig gestartet werden. Beim Cartesian Scanning geben die Funktionen bei der Selektion, also CheckForInteractiveElement und modeNav.turn, boolsche Werte zurück, die eine Rückmeldung darüber liefern, ob die Ausführung erfolgreich war. So können die verschiedenen Ausgänge mit unterschiedlichem Audio-Feedback kommuniziert werden. 
+Um Fehlermeldungen vorzubeugen und die Anwendung robuster zu gestalten, wurde an vielen Stellen im Code mit try and catch Abfragen gearbeitet. Insbesondere NullPointerExceptions werden so abgefangen. Dies wird z. B.  beim Item Scanning verwendet. Wenn bspw. ein Objekt kein Highlight-Objekt hat oder das Objekt zur Laufzeit der Coroutine gelöscht wird, wird dies abgefangen und das Objekt kann problemlos übersprungen werden. Des Weiteren wurde viel mit boolschen Variablen gearbeitet, um die Abläufe besser verfolgen und steuern zu können. So wird z. B.  verhindert, dass zwei Item Scanning Prozesse gleichzeitig gestartet werden. Beim Cartesian Scanning geben die Funktionen bei der Selektion, also CheckForInteractiveElement und modeNav.turn, boolsche Werte zurück, die eine Rückmeldung darüber liefern, ob die Ausführung erfolgreich war. So können die verschiedenen Ausgänge mit unterschiedlichem Audio-Feedback kommuniziert werden. 
 
 Für das Debugging wurde insbesondere die Debug-Klasse von Unity verwendet. An mehreren Stellen wurden Debug.Logs eingefügt, um den Ablauf besser nachvollziehen zu können und schneller zu erkennen, an welcher Stelle im Code Fehler auftreten. Für das Cartesian Scanning wurden zusätzlich einzelne Schritte visuell veranschaulicht. So wurde bspw. während der Entwicklung ein Testobjekt in Form eines einfachen Würfels an die Position des berechneten Schnittpunktes gelegt, um leichter überprüfen zu können, ob dieser korrekt berechnet wird. Ebenso wurde der SphereCast mittels Debug.DrawRay visualisiert, um in der Scene View überprüfen zu können, ob dieser korrekt gezeichnet wird.
 

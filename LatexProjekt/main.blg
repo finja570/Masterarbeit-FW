@@ -5,6 +5,8 @@ Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: literature.bib
+Warning--entry type for "Google-Switch-Access" isn't style-file defined
+--line 1475 of file literature.bib
 Warning--to sort, need author or key in noauthor_paneovr_nodate
 Warning--to sort, need author or key in noauthor_virdipa-_nodate
 Warning--empty year in noauthor_paneovr_nodate
@@ -21,45 +23,45 @@ Warning--empty year in DINISO9241
 Warning--empty publisher in laugwitz_construction_2008
 Warning--empty booktitle in milgram_augmented_1995
 Warning--empty institution in wong_survey_2017
-You've used 62 entries,
+You've used 64 entries,
             2773 wiz_defined-function locations,
-            1101 strings with 22499 characters,
-and the built_in function-call counts, 33104 in all, are:
-= -- 3264
-> -- 1792
-< -- 42
-+ -- 608
-- -- 544
-* -- 2862
-:= -- 5045
-add.period$ -- 346
-call.type$ -- 62
-change.case$ -- 369
-chr.to.int$ -- 60
-cite$ -- 142
-duplicate$ -- 1423
-empty$ -- 2520
-format.name$ -- 629
-if$ -- 7078
-int.to.chr$ -- 3
+            1124 strings with 23302 characters,
+and the built_in function-call counts, 34189 in all, are:
+= -- 3376
+> -- 1841
+< -- 44
++ -- 624
+- -- 559
+* -- 2952
+:= -- 5213
+add.period$ -- 359
+call.type$ -- 64
+change.case$ -- 380
+chr.to.int$ -- 63
+cite$ -- 146
+duplicate$ -- 1472
+empty$ -- 2607
+format.name$ -- 646
+if$ -- 7315
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 54
-newline$ -- 463
-num.names$ -- 237
-pop$ -- 602
+missing$ -- 56
+newline$ -- 479
+num.names$ -- 245
+pop$ -- 617
 preamble$ -- 1
-purify$ -- 305
+purify$ -- 314
 quote$ -- 0
-skip$ -- 1084
+skip$ -- 1120
 stack$ -- 0
-substring$ -- 1223
-swap$ -- 249
-text.length$ -- 18
+substring$ -- 1267
+swap$ -- 256
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 667
+type$ -- 689
 warning$ -- 16
-while$ -- 270
+while$ -- 280
 width$ -- 0
-write$ -- 1125
-(There were 16 warnings)
+write$ -- 1166
+(There were 17 warnings)
