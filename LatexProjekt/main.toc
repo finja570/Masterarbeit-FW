@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.2.1}Barrieren für Menschen mit motorischen Beeinträchtigungen bei der Nutzung von VR}{12}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Lösungsansätze zur Überwindung von Barrieren}{14}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Binäre Interaktionsschnittstellen}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Arten von Schaltern}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Arten von Schaltern}{16}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Scanning-Verfahren}{18}{subsection.2.3.2}%
 \contentsline {section}{\numberline {2.4}Usability und User Experience}{20}{section.2.4}%
 \contentsline {section}{\numberline {2.5}PaneoVR}{22}{section.2.5}%
@@ -24,38 +24,38 @@
 \contentsline {section}{\numberline {3.1}Definition des Design Space}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{30}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{33}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Finale Konzepte}{46}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Implementierung}{48}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architektur}{48}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{51}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Scanning Methoden}{52}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{52}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{56}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{60}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{60}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{62}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Evaluation}{63}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{63}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{63}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{66}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Durchführung}{68}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ergebnisse}{71}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{71}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{73}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Verfahren}{77}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{78}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Robustheit}{82}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{84}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{87}{subsection.5.3.7}%
-\contentsline {chapter}{\numberline {6}Diskussion}{90}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fazit und Ausblick}{104}{section.6.1}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{105}{chapter*.47}%
-\contentsline {chapter}{Anhang}{113}{chapter*.47}%
-\contentsline {chapter}{\numberline {A}Test-Anhang}{114}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{114}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{114}{subsection.A.1.1}%
-\contentsline {section}{\numberline {A.2}Zeitplanung}{114}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Test-Anhang 2}{115}{appendix.B}%
-\contentsline {chapter}{\nonumberline Erklärung}{116}{chapter*.48}%
-\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{116}{chapter*.49}%
+\contentsline {section}{\numberline {3.4}Finale Konzepte}{47}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementierung}{49}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architektur}{49}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{52}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Scanning Methoden}{53}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{53}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{57}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{61}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{61}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{63}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Evaluation}{64}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{64}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{64}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{67}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Durchführung}{69}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{72}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{72}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{74}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Verfahren}{78}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{79}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Robustheit}{83}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{85}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{88}{subsection.5.3.7}%
+\contentsline {chapter}{\numberline {6}Diskussion}{91}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fazit und Ausblick}{105}{section.6.1}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{106}{chapter*.46}%
+\contentsline {chapter}{Anhang}{114}{chapter*.46}%
+\contentsline {chapter}{\numberline {A}Test-Anhang}{115}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{115}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{115}{subsection.A.1.1}%
+\contentsline {section}{\numberline {A.2}Zeitplanung}{115}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Test-Anhang 2}{116}{appendix.B}%
+\contentsline {chapter}{\nonumberline Erklärung}{117}{chapter*.47}%
+\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{117}{chapter*.48}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
