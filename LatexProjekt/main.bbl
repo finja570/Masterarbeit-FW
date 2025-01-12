@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{67}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -107,6 +107,13 @@ John Brooke.
 \newblock In \emph{P. {W}. {Jordan}, {B}. {Thomas}, {B}. {A}. {Weermeester} und
   {McClelland} ({Hg}.): {Usability} {Evaluation} in {Industry}}, pages
   189--194. London: Taylor \& Francis, 1996.
+
+\bibitem[{Chris Nolet}(2022)]{chris_nolet_quick_2022}
+{Chris Nolet}.
+\newblock Quick {Outline} {\textbar} {Particles}/{Effects} {\textbar} {Unity}
+  {Asset} {Store}, March 2022.
+\newblock URL
+  \url{https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488?srsltid=AfmBOoq6CrS1BbxrAXyWrK9F2zahK5r5DKs3pDxYBNQNR-1aZTUK0hX7}.
 
 \bibitem[Ciccone et~al.(2023)Ciccone, Bailey, and Lewis]{ciccone_next_2023}
 Brendan~A. Ciccone, Shannon K.~T. Bailey, and Joanna~E. Lewis.
@@ -634,5 +641,14 @@ Bei Yuan, Eelke Folmer, and Frederick~C. Harris.
 \newblock ISSN 1615-5297.
 \newblock \doi{10.1007/s10209-010-0189-5}.
 \newblock URL \url{https://doi.org/10.1007/s10209-010-0189-5}.
+
+\bibitem[Zwicky(1967)]{10.1007/978-3-642-87617-2_14}
+F.~Zwicky.
+\newblock The morphological approach to discovery, invention, research and
+  construction.
+\newblock In Fritz Zwicky and Albert~G. Wilson, editors, \emph{New Methods of
+  Thought and Procedure}, pages 273--297, Berlin, Heidelberg, 1967. Springer
+  Berlin Heidelberg.
+\newblock ISBN 978-3-642-87617-2.
 
 \end{thebibliography}

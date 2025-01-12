@@ -21,41 +21,43 @@
 \contentsline {section}{\numberline {2.5}PaneoVR}{22}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Zusammenfassung}{24}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Konzeption}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Definition des Design Space}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.1}Definition des Design Space}{28}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Ausprägungen der Interaktionsaufgaben und Komponenten}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{33}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Finale Konzepte}{47}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Implementierung}{49}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Architektur}{49}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{52}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Scanning Methoden}{53}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{53}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{57}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{61}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{61}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{63}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Evaluation}{64}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{64}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{64}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{67}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Durchführung}{69}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ergebnisse}{72}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{72}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{74}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Verfahren}{78}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{79}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Robustheit}{83}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{85}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{88}{subsection.5.3.7}%
-\contentsline {chapter}{\numberline {6}Diskussion}{91}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Fazit und Ausblick}{105}{section.6.1}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{106}{chapter*.46}%
-\contentsline {chapter}{Anhang}{114}{chapter*.46}%
-\contentsline {chapter}{\numberline {A}Test-Anhang}{115}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Hinweise zum Layout}{115}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Druckseiten}{115}{subsection.A.1.1}%
-\contentsline {section}{\numberline {A.2}Zeitplanung}{115}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Test-Anhang 2}{116}{appendix.B}%
-\contentsline {chapter}{\nonumberline Erklärung}{117}{chapter*.47}%
-\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{117}{chapter*.48}%
+\contentsline {section}{\numberline {3.3}Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}{34}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Ableitung der finalen Konzepte}{49}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Implementierung}{53}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Architektur}{53}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{56}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Scanning Methoden}{58}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{58}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{61}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{65}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{66}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{67}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Evaluation}{68}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{68}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{68}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{71}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Durchführung}{73}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{76}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{76}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{78}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Interaktionsschnittstellen}{82}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{84}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Robustheit}{87}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{89}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{92}{subsection.5.3.7}%
+\contentsline {chapter}{\numberline {6}Diskussion}{95}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Fazit und Ausblick}{110}{section.6.1}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{111}{chapter*.49}%
+\contentsline {chapter}{Anhang}{119}{chapter*.49}%
+\contentsline {chapter}{\numberline {A}Test-Anhang}{120}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Unity Projekt}{120}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Evaluation}{120}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Screenshots aus den technischen Szenarien}{120}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}Screenshots aus den inhaltsbasieren Szenarien}{120}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}Evaluationsprotokoll}{120}{subsection.A.2.3}%
+\contentsline {chapter}{\numberline {B}Test-Anhang 2}{121}{appendix.B}%
+\contentsline {chapter}{\nonumberline Erklärung}{122}{chapter*.50}%
+\contentsline {chapter}{\nonumberline Eidesstaatliche Versicherung}{122}{chapter*.51}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
