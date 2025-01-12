@@ -1,4 +1,4 @@
-\begin{thebibliography}{67}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -82,15 +82,6 @@ Susie Blackstien-Adler, Fraser Shein, Janet Quintal, Shae Birch, and Patrice
 \newblock \doi{10.1080/10400435.2004.10132072}.
 \newblock URL \url{https://doi.org/10.1080/10400435.2004.10132072}.
 \newblock PMID: 15359467.
-
-\bibitem[Bluhm et~al.(2009)Bluhm, Eickmeyer, Feith, Mattar, and
-  Pfeiffer]{Bluhm:Sonar:2009}
-Andreas Bluhm, Jens Eickmeyer, Tobias Feith, Nikita Mattar, and Thies Pfeiffer.
-\newblock {E}xploration von sozialen {N}etzwerken im {3D} {R}aum am {B}eispiel
-  von $\mbox{SoN}\forall \mbox{R\ }$ f\"ur {L}ast.fm.
-\newblock In Andreas Gerndt and Marc~Erich Latoschik, editors, \emph{Virtuelle
-  und Erweiterte Realit\"at - Sechster Workshop der GI-Fachgruppe VR/AR}, pages
-  269--280, Aachen, 2009. Shaker Verlag.
 
 \bibitem[Bowman and McMahan(2007)]{bowman_virtual_2007}
 Doug~A. Bowman and Ryan~P. McMahan.
