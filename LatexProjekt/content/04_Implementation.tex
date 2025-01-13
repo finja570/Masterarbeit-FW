@@ -6,7 +6,7 @@
 In diesem Kapitel wird die technische Umsetzung der erarbeiten Konzepte beschrieben. Dabei wird zunächst die grundlegende Architektur beschrieben, gefolgt von Grundlagen, die für beide Konzepte gleichermaßen entscheidend sind. Anschließend wird die spezifische Implementierung der beiden Konzepte tiefergehend vorgestellt. Hierbei wird zunächst das Item Scanning beschrieben und anschließend das Cartesain Scanning. Danach werden allgemeine Strategien zur Fehlerbehandlung sowie in der Entwicklung genutzte Debugging-Methoden vorgestellt. Abschließend werden Limitationen aufgezeigt und es wird ein kurzer Ausblick auf mögliche zukünftige Erweiterungen der Implementierung eröffnet. 
 
 \section{Architektur}
-Die Implementierung der konzipierten Interaktionsschnittstellen erfolgt innerhalb des Tools PaneoVR. Die Entwicklung dieses Tools erfolgte in der Game Engine Unity, dementsprechend werden auch die Implementierungen im Rahmen dieser Arbeit in Unity durchgeführt. 
+Die Implementierung der konzipierten Interaktionsschnittstellen erfolgt innerhalb des Tools PaneoVR. Die Entwicklung dieses Tools erfolgte in der \textit{Game Engine Unity}, dementsprechend werden auch die Implementierungen im Rahmen dieser Arbeit in Unity durchgeführt. 
 
 Die für die Implementierung relevanten Erweiterungen im Rahmen dieser Arbeit wurden in der IngameScene vorgenommen. Nachfolgend sind die zentralen Komponenten dieser Szene aufgeführt, die für die Weiterentwicklung im Rahmen dieser Arbeit relevant waren. 
 
@@ -65,7 +65,7 @@ Die Anwendung bietet Nutzenden akustisches Feedback, das über den \textit{Audio
 
 {\normalfont \bfseries Highlight Objekt}
 
-Allen interaktiven Objekten wurde ein Highlight-Objekt als Child-Objekt hinzugefügt. Dieses Highlight besteht aus einer einfachen geometrischen Form (Sphere oder Cube), die mit einem transparenten Material versehen ist. Die Geometrie dient dazu, die Darstellung von Outlines zu ermöglichen, da diese nur an sichtbaren Meshes generiert werden können. Das Highlight-Objekt enthält zudem einen Mesh Renderer (initial deaktiviert), einen Collider und eine Outline, die mithilfe des kostenlosen Plugins Quick Outline \citep{chris_nolet_quick_2022} aus dem Unity Asset Store realisiert wurde.
+Allen interaktiven Objekten wurde ein Highlight-Objekt als Child-Objekt hinzugefügt. Dieses Highlight besteht aus einer einfachen geometrischen Form (Sphere oder Cube), die mit einem transparenten Material versehen ist. Die Geometrie dient dazu, die Darstellung von Outlines zu ermöglichen, da diese nur an sichtbaren Meshes generiert werden können. Das Highlight-Objekt enthält zudem einen Mesh Renderer (initial deaktiviert), einen Collider und eine Outline, die mithilfe des kostenlosen Plugins Quick Outline \citep{chris_nolet_quick_2022} aus dem \textit{Unity Asset Store} realisiert wurde.
 Das Highlight-Objekt wird von beiden Scanning-Methoden unterschiedlich genutzt. Beim Item Scanning wird die Outline durch Aktivieren des Mesh Renderers sichtbar gemacht, um zu visualisieren, dass dieses Objekt ausgewählt werden kann. Zusätzlich wird der Collider verwendet, um zu prüfen, ob das Objekt im Sichtfeld der Kamera liegt. Beim Cartesian Scanning wird der Collider ebenfalls verwendet. In diesem Zusammenhang jedoch um zu prüfen, ob hinter dem Schnittpunkt der Linien ein interaktives Objekt liegt. Auf die genaue Funktionsweise des Highlight-Objekts in den spezifischen Kontexten wird folgend in der Vorstellung der beiden Konzepte genauer eingegangen. 
 
 \section{Scanning-Verfahren}
