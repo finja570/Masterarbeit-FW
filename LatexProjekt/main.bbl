@@ -27,12 +27,13 @@ Dmitry Alexandrovsky, Susanne Putze, Valentin Schwind, Elisa~D. Mekler,
 \newblock \doi{10.1145/3411763.3441337}.
 \newblock URL \url{https://doi.org/10.1145/3411763.3441337}.
 
-\bibitem[{Apple}(2024)]{apple_einfuhrung_2024}
-{Apple}.
+\bibitem[{Apple Inc.}(2024)]{apple_einfuhrung_2024-2}
+{Apple Inc.}
 \newblock Einführung in die {Funktionen} der {Bedienungshilfen} auf dem
   {iPhone}, 2024.
 \newblock URL
   \url{https://support.apple.com/de-de/guide/iphone/iph3e2e4367/ios}.
+\newblock Accessed: 28.06.2024.
 
 \bibitem[Bangor et~al.(2008)Bangor, Kortum, and Miller]{bangor_empirical_2008}
 Aaron Bangor, Philip~T. Kortum, and James~T. Miller.
@@ -110,12 +111,9 @@ John Brooke.
 Brendan~A. Ciccone, Shannon K.~T. Bailey, and Joanna~E. Lewis.
 \newblock The {Next} {Generation} of {Virtual} {Reality}: {Recommendations} for
   {Accessible} and {Ergonomic} {Design}.
-\newblock \emph{Ergonomics in Design}, 31\penalty0 (2):\penalty0 24--27, April
-  2023.
-\newblock ISSN 1064-8046.
+\newblock \emph{Ergonomics in Design}, 31\penalty0 (2):\penalty0 24--27, 2023.
 \newblock \doi{10.1177/10648046211002578}.
 \newblock URL \url{https://doi.org/10.1177/10648046211002578}.
-\newblock Publisher: SAGE Publications Inc.
 
 \bibitem[Cook and Polgar(2015{\natexlab{a}})]{COOK2015117}
 Albert~M. Cook and Janice~M. Polgar.
@@ -423,17 +421,17 @@ Martez Mott, Edward Cutrell, Mar Gonzalez~Franco, Christian Holz, Eyal Ofek,
 \newblock URL \url{https://ieeexplore.ieee.org/document/8951960}.
 
 \bibitem[Mott et~al.(2020)Mott, Tang, Kane, Cutrell, and
-  Ringel~Morris]{mott_i_2020}
+  Ringel~Morris]{10.1145/3373625.3416998}
 Martez Mott, John Tang, Shaun Kane, Edward Cutrell, and Meredith Ringel~Morris.
-\newblock “{I} just went into it assuming that {I} wouldn't be able to have
-  the full experience”: {Understanding} the {Accessibility} of {Virtual}
-  {Reality} for {People} with {Limited} {Mobility}.
-\newblock In \emph{Proceedings of the 22nd {International} {ACM} {SIGACCESS}
-  {Conference} on {Computers} and {Accessibility}}, pages 1--13, Virtual Event
-  Greece, October 2020. ACM.
-\newblock ISBN 978-1-4503-7103-2.
+\newblock “i just went into it assuming that i wouldn't be able to have the
+  full experience”: Understanding the accessibility of virtual reality for
+  people with limited mobility.
+\newblock In \emph{Proceedings of the 22nd International ACM SIGACCESS
+  Conference on Computers and Accessibility}, ASSETS '20, New York, NY, USA,
+  2020. Association for Computing Machinery.
+\newblock ISBN 9781450371032.
 \newblock \doi{10.1145/3373625.3416998}.
-\newblock URL \url{https://dl.acm.org/doi/10.1145/3373625.3416998}.
+\newblock URL \url{https://doi.org/10.1145/3373625.3416998}.
 
 \bibitem[Oman(1990)]{oman_motion_1990}
 Charles~M. Oman.

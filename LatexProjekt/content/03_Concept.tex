@@ -5,33 +5,33 @@
 
 In diesem Kapitel wird die Konzeption der beiden binären Interaktionsschnittstellen dargelegt. Diese Konzeption bildet das Fundament dieser Arbeit, da sie die Grundlage für die spätere Implementierung und Evaluation legt. Der Prozess folgt einem systematischen Ablauf, der auf den Grundprinzipien der morphologischen Analyse von \citet{10.1007/978-3-642-87617-2_14} basiert und für den spezifischen Kontext dieser Arbeit angepasst wurde. Diese Methode ermöglicht eine strukturierte und umfassende Betrachtung des Design Space. Der Ablauf besteht aus vier zentralen Schritten:
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Definition des Design Space:}
     In diesem Schritt werden die grundlegenden Gestaltungsmöglichkeiten und Anforderungen für die Interaktionen erarbeitet. Dazu werden die für die Zielsetzung dieser Arbeit relevanten Interaktionsaufgaben abgeleitet sowie Interaktionskomponenten und -Parameter identifiziert.
     \item \textbf{Erarbeitung konkreter Ausprägungen:}
     Auf Grundlage des definierten Design Space werden spezifische Ausprägungen für die Interaktionsaufgaben und -komponenten entwickelt, die die Bandbreite möglicher Ansätze abbilden.
     \item \textbf{Einordnung anhand der Parameter:}
-    Die erarbeiteten Optionen werden systematisch anhand der zuvor identifizierten Parameter eingeordnet. Dieser Schritt dient dazu, die Designentscheidungen transparent darzulegen und zu begründen.
+    Die erarbeiteten Optionen werden systematisch anhand der zuvor (1.) identifizierten Parameter eingeordnet. Dieser Schritt dient dazu, die Designentscheidungen transparent darzulegen und zu begründen.
     \item \textbf{Ableitung der finalen Konzepte:}
     Abschließend werden die finalen Konzepte für die beiden binären Interaktionsschnittstellen abgeleitet, die anschließend im Prototyp implementiert werden.
-\end{itemize}
+\end{enumerate}
  
 Durch diese strukturierte Vorgehensweise wird die erste Forschungsfrage (FF1) adressiert.   
 
 \section{Definition des Design Space}
+\label{subchap:DesignSpace}
 
-Die Beschreibung des Design Space für binäre Interaktionen in PaneoVR basiert auf einer hierarchischen Struktur mit drei Ebenen. Die grundlegende Ebene wird durch die Interaktionsaufgaben definiert, die die für die Nutzung der Anwendung erforderlichen Interaktionsarten umfassen. Die zweite Ebene umfasst die Interaktionskomponenten, die spezifische Teilaspekte der Interaktion näher bestimmen. Die letzte Ebene bilden die Parameter. Parameter beschreiben in diesem Kontext Designüberlegungen, anhand derer die Interaktionstechniken und -ausprägungen bewertet werden. Die definierten Parameter beeinflussen dabei das gesamte VR-Erlebnis \citep{10.1145/3441852.3471230}. Die Kombination verschiedener Ausprägungen von Interaktionsaufgaben und -komponenten aus diesem Design Space kann anschließend als Grundlage für die Entwicklung neuartiger Interaktionstechniken verwendet werden.
+Der Design Space für binäre Interaktionen in PaneoVR wird anhand von drei aufeinander aufbauenden Ebenen beschrieben. Die grundlegende Ebene wird durch die Interaktionsaufgaben definiert, die die für die Nutzung der Anwendung erforderlichen Interaktionsarten umfassen. Die zweite Ebene umfasst die Interaktionskomponenten, die spezifische Teilaspekte der Interaktion näher bestimmen. Die letzte Ebene bilden die Parameter, die in diesem Zusammenhang Designüberlegungen beschreiben, anhand derer die Interaktionstechniken und -ausprägungen bewertet werden. Die definierten Parameter beeinflussen dabei nicht nur den Zeitpunkt der Interaktion, sondern das gesamte VR-Erlebnis \citep{10.1145/3441852.3471230}. Die Kombination verschiedener Ausprägungen von Interaktionsaufgaben und -komponenten aus diesem Design Space kann anschließend als Grundlage für die Entwicklung neuartiger Interaktionstechniken verwendet werden.
 
 {\normalfont \bfseries Interaktionsaufgaben:}  
 
-Die Nutzung der mit PaneoVR erstellten Trainings basiert auf zwei grundlegenden Interaktionsaufgaben. Die erste Interaktionsaufgabe besteht in der Selektion von Interaktionselementen innerhalb der Szene, d.h. von Elementen wie z. B.  Wegpunkten oder Dialogfeldern, sowie von UI-Elementen, z. B. innerhalb des Hauptmenüs. Die zweite Interaktionsaufgabe umfasst die Navigation innerhalb der Szene. Dies umfasst die Änderung der Blickrichtung innerhalb der Szene. Da PaneoVR keinen dreidimensionalen Navigationsraum bereitstellt, sondern lediglich 360°-Videos präsentiert, ist eine klassische Navigation im 3D-Raum nicht notwendig. Stattdessen genügt eine Rotation der Szene, um die Blickrichtung zu ändern und damit innerhalb der virtuellen Welt zu navigieren. Da davon auszugehen ist, dass Nutzende mit motorischen Beeinträchtigungen Kopfbewegungen nicht frei und ohne Einschränkungen ausführen können, ist die Entwicklung einer alternativen Navigationsform unabdingbar. 
+Die Nutzung der mit PaneoVR erstellten Trainings basiert auf zwei grundlegenden Interaktionsaufgaben. Die erste Interaktionsaufgabe besteht in der Selektion von Interaktionselementen innerhalb der Szene, d.h. von Elementen wie z. B.  Wegpunkten oder Dialogfeldern, sowie von UI-Elementen z. B. innerhalb des Hauptmenüs. Die zweite Interaktionsaufgabe umfasst die Navigation innerhalb der Szene, einschließlich der Änderung der Blickrichtung. Da PaneoVR keinen dreidimensionalen Navigationsraum bereitstellt, sondern lediglich 360°-Videos präsentiert, ist eine klassische Navigation im 3D-Raum nicht notwendig. Stattdessen genügt eine Rotation der Szene, um die Blickrichtung zu ändern und damit innerhalb der virtuellen Welt zu navigieren. Da davon auszugehen ist, dass Nutzende mit motorischen Beeinträchtigungen Kopfbewegungen nicht frei und ohne Einschränkungen ausführen können, ist die Entwicklung einer alternativen Navigationsform unabdingbar. 
 
 {\normalfont \bfseries Interaktionskomponenten:} 
-%Überlegung: Ist Fehlerkorrektur eine Komponente? 
 
-In Bezug auf die Interaktionen in PaneoVR lassen sich insgesamt drei verschiedene Komponenten identifizieren, deren konkrete Ausgestaltung einen direkten Einfluss auf die Erfahrung nimmt. 
+In Bezug auf die Interaktionen in PaneoVR lassen sich assen sich die drei Komponenten Display, Transition und Initialisierung identifizieren. Deren konkrete Ausgestaltung nimmt einen direkten Einfluss auf die Erfahrung. 
 
-Die Komponente Display definiert Darstellung und Integration des Interaktionsverfahren in die virtuelle Umgebung. Im Rahmen der Festlegung der Interaktionskomponente ist insbesondere zu bestimmen, ob sich die Interaktion auf das Sichtfeld des Nutzenden beschränkt. Die Relevanz dieser Komponente zeigt sich insbesondere in Kontexten, in denen Nutzende in der Lage sind, ihren Kopf zu bewegen und damit ihr Blickfeld unabhängig von der binären Interaktionsschnittstelle zu verschieben.
+Die Komponente Display definiert Darstellung und Integration des Interaktionsverfahren in die virtuelle Umgebung. Im Rahmen der Festlegung dieser Interaktionskomponente ist insbesondere zu bestimmen, ob sich die Interaktion auf das Sichtfeld des Nutzenden beschränkt. Die Relevanz dieser Komponente zeigt sich insbesondere in Kontexten, in denen Nutzende in der Lage sind, ihren Kopf zu bewegen und damit ihr Blickfeld unabhängig von der binären Interaktionsschnittstelle zu verschieben.
 
 Eine weitere zu berücksichtigende Komponente ist die Transition. Diese ist insbesondere bei der Betrachtung des Navigationsprozesses von Bedeutung. Die Transition beschreibt die Art und Weise, wie die Drehung der First-Person-Kamera erfolgt, wenn Nutzende eine navigationsbezogene Interaktion durchführen. Das heißt, Transition beschreibt den Übergang zwischen der aktuellen und der neuen Blickrichtung.
 
@@ -41,9 +41,9 @@ Die letzte relevante Komponente ist die Initialisierung. Dabei wird festgelegt, 
 
 Die Entwicklung und Bewertung von Interaktionen basiert in der Regel auf der Berücksichtigung verschiedener Parameter, welche das Gesamterlebnis einer VR-Anwendung maßgeblich beeinflussen \citep{10.1145/3441852.3471230}. Die relevanten Parameter für die Interaktionen in PaneoVR werden auf Basis vorangegangener Forschungsarbeiten identifiziert. Da die Gewährleistung einer guten Usability das primäre Ziel der Gestaltung von Interaktionen in VR darstellt \citep{dorner_virtual_2019}, werden die Parameter Effizienz \citep{DINISO9241-11}, Effektivität \citep{DINISO9241-11}, Erlernbarkeit \citep{DINISO9241-110} sowie Robustheit \citep{DINISO9241-110} definiert. Darüber hinaus werden die Parameter Interaktionsgeschwindigkeit \citep{COOK2015117} und Komfort \citep{jerald_vr_2016} berücksichtigt. 
 
-\textit{Effizienz} beschreibt das Verhältnis zwischen den eingesetzten Ressourcen und dem damit erreichten Ziel \citep{DINISO9241-11}. Im Anwendungskontext ist  insbesondere der benötigte Aufwand als relevante Ressource zu betrachten.
+\textit{Effizienz} beschreibt das Verhältnis zwischen den eingesetzten Ressourcen und dem damit erreichten Ziel \citep{DINISO9241-11}. Im Anwendungskontext ist insbesondere der benötigte Aufwand als relevante Ressource zu betrachten.
 
-\textit{Effektivität} bezeichnet die Genauigkeit und Vollständigkeit, mit der Benutzer ihre Ziele erreichen. Sie beschreibt, inwieweit die tatsächlichen Ergebnisse mit den angestrebten übereinstimmen. Je nach Kontext kann die Genauigkeit entweder anhand der Korrektheit eines Ergebnisses oder anhand des Erreichens eines akzeptablen Grads der Übereinstimmung mit dem Ziel bewertet werden \citep{DINISO9241-11}.
+\textit{Effektivität} bezeichnet die Genauigkeit und Vollständigkeit, mit der Benutzer ihre Ziele erreichen. Sie beschreibt, inwieweit die tatsächlichen Ergebnisse mit den angestrebten übereinstimmen. Je nach Kontext kann die Genauigkeit entweder anhand der Korrektheit eines Ergebnisses oder anhand des Erreichens eines akzeptablen Grads der Übereinstimmung mit dem Ziel bewertet werden \citep{DINISO9241-11}. Im Anwendungskontext ist insbesondere die Präzision der Interaktion im Hinblick auf die Effektivität zu betrachten. 
 
 \textit{Erlernbarkeit} beschreibt das Ausmaß, in dem eine Interaktion ohne vorherige Einarbeitung verstanden und genutzt werden kann. In diesem Kontext ist von Relevanz, dass insbesondere ein hoher Wiedererkennungswert der Interaktion eine einfache und intuitive Bedienbarkeit bedingt \citep{jerald_vr_2016}.
 
@@ -76,7 +76,7 @@ Aus diesem Grundprinzip lassen sich zwei konkrete Optionen für die Navigation a
     \item Navigations- und Selektionsmodus: Es stehen zwei getrennt nutzbare Modi zur Verfügung, ein Navigationsmodus und ein Selektionsmodus. Im Navigationsmodus führt das Setzen eines Schnittpunktes immer zu einer Navigation, unabhängig davon, ob sich hinter dem Schnittpunkt ein interaktives Element befindet oder nicht. Im Selektionsmodus hingegen wird der Schnittpunkt ausschließlich zur Selektion von Interaktionselementen verwendet. Befindet sich kein interaktives Element hinter dem Schnittpunkt, wird keine Aktion ausgeführt. Diese klare Trennung der Modi stellt sicher, dass im Navigationsmodus keine Selektion und im Selektionsmodus keine Navigation möglich ist.
 \end{itemize}
 
-Auch in Bezug auf das Item Scanning können bereits existierende Accessibility-Techniken als Inspiration für die Entwicklung einer Navigation in VR herangezogen werden. In Computerspielen ist es z. B. möglich, Steuerungen durch Buttons auf dem Bildschirm darzustellen und so für die Auswahl durch Scanning zugänglich zu machen (vgl. z. B. \citep{10.1145/2159365.2159386, trewin_exploring_2009}).  
+Auch in Bezug auf das Item Scanning können bereits existierende Accessibility-Techniken als Inspiration für die Entwicklung einer Navigation in VR herangezogen werden. In Computerspielen ist es z. B. möglich, Steuerungen durch auf dem Bildschirm platzierte Buttons darzustellen und so der Auswahl durch Scannen zugänglich zu machen (vgl. z. B. \citep{10.1145/2159365.2159386, trewin_exploring_2009}).  
 Dieses Prinzip könnte auch auf VR-Anwendungen übertragen werden. Hier könnten Buttons für die Rotationsrichtungen (links und rechts) in ein UI-Navigationsmenü integriert werden.  Hinsichtlich der genauen Funktionsweise der Buttons können wiederum zwei mögliche Ausprägungen unterschieden werden. 
 
 \begin{itemize}
@@ -88,7 +88,7 @@ Dieses Prinzip könnte auch auf VR-Anwendungen übertragen werden. Hier könnten
 
 1. Display:
 
-Die Interaktionskomponente \textit{Display} bezieht sich auf die Darstellung und Integration des Scanning-Verfahrens in die virtuelle Umgebung. Dabei ist insbesondere entscheidend, ob sich das Scanning-Verfahren auf das Sichtfeld der Nutzenden beschränkt oder die gesamte 360°-Szene einbezieht. Da es sich somit um eine VR-spezifische Komponente handelt, können diesbezüglich keine Ansätze aus anderen Bereichen wie Computerspielen oder Smartphones als Grundlage herangezogen werden. Wie bereits in \autoref{subchap:LösungenFürBarrieren} dargestellt, gibt es in der Literatur kaum Arbeiten, die sich speziell mit der Integration von binären Eingaben oder Scanning-Verfahren in VR auseinandersetzen. Eine Ausnahme bildet die Arbeit von \citet{valakou_framework_2024}, in der jedoch keine konkreten Aussagen zur Gestaltung der Interaktionskomponente Display getroffen werden. Aus diesen Gründen basieren die folgenden Überlegungen nicht auf bestehenden Forschungsarbeiten, sondern stellen eigenständige Konzepte dar.
+Die Interaktionskomponente \textit{Display} bezieht sich auf die Darstellung und Integration des Scanning-Verfahrens in die virtuelle Umgebung. Dabei ist insbesondere entscheidend, ob sich das Scanning-Verfahren auf das Sichtfeld der Nutzenden beschränkt oder die gesamte 360°-Szene einbezieht. Da es sich somit um eine VR-spezifische Komponente handelt, können diesbezüglich keine Ansätze aus anderen Bereichen wie Computerspielen oder Smartphones als Grundlage herangezogen werden. Wie bereits in \autoref{subchap:LösungenFürBarrieren} dargestellt, gibt es in der Literatur kaum Arbeiten, die sich speziell mit der Integration von binären Eingaben oder Scanning-Verfahren in VR auseinandersetzen. Eine Ausnahme bildet die Arbeit von \citet{valakou_framework_2024}, in der jedoch keine konkreten Aussagen zur Gestaltung der Interaktionskomponente Display getroffen werden. Aus diesen Gründen müssen eigenständige Konzepte entwickelt werden.
 
 Für die Gestaltung der Komponente \textit{Display} wurden zwei grundlegende Optionen entwickelt.
 
@@ -121,7 +121,7 @@ Die erarbeiteten Ausprägungen der Interaktionsaufgaben und -komponenten werden 
 
 \begin{figure}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/MorphKasten-Ausgang2.png}
+    \includegraphics[width=1.0\textwidth]{images/MorphKasten-Ausgang2.png}
     \caption{Darstellung der möglichen Ausprägungen der Interaktionsaufgaben und -komponenten}
     \label{fig:MorphKasten-Leer}
 \end{figure}
@@ -129,7 +129,7 @@ Die erarbeiteten Ausprägungen der Interaktionsaufgaben und -komponenten werden 
 \section{Einordnung und Bewertung der Interaktionsaufgaben und Komponenten anhand der Parameter}
 \label{subchap:EinordnungNachParameter}
 
-In diesem Abschnitt werden die zuvor beschriebenen Gestaltungsoptionen der Interaktionsaufgaben und -komponenten systematisch anhand der definierten Parameter bewertet und eingeordnet. Durch soll eine fundierte Grundlage für die Auswahl der finalen Konzepte geschaffen werden. Diese Einschätzung basiert auf den Erkenntnissen der Literatur sowie einer Analyse der vorgestellten Optionen. Es ist jedoch wichtig zu betonen, dass nicht alle Bewertungen durch empirische Daten belegt oder validiert sind, sondern auf einer fundierten, jedoch subjektiven Einschätzung beruhen. 
+In diesem Abschnitt werden die zuvor beschriebenen Gestaltungsoptionen der Interaktionsaufgaben und -komponenten systematisch anhand der definierten Parameter (siehe \autoref{subchap:DesignSpace} bewertet und eingeordnet. Dadurch soll eine fundierte Grundlage für die Auswahl der finalen Konzepte geschaffen werden. Diese Einschätzung basiert auf den Erkenntnissen der Literatur sowie sowie der in diesem Kapitel durchgeführten Analyse der vorgestellten Optionen. Es ist jedoch wichtig zu betonen, dass nicht alle Bewertungen durch empirische Daten belegt oder validiert sind, sondern auf einer fundierten, jedoch subjektiven Einschätzung beruhen. 
 
 {\normalfont \bfseries Interaktionsaufgaben}  
 
@@ -140,12 +140,12 @@ Im Folgenden erfolgt die Einordnung der für die Selektion erarbeiteten Gestaltu
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Netzdiagramm-Selektion.png}
-    \caption{Einordnung der Gestaltungsoptionen der Interaktionsaufgabe Selektion}
+    \caption{Einordnung der Gestaltungsoptionen der Interaktionsaufgabe Selektion anhand der definierten Parameter}
     \label{fig:Netz-Selektion}
 \end{figure}
 
 \textit{Effizienz:}
-Ein effizientes binäres Selektionsverfahren sollte eine geringe Anzahl von Schalterbetätigungen und einen möglichst geringen physischen Aufwand für die Interaktion erfordern. Die verschiedenen Auswahlverfahren unterscheiden sich in dieser Hinsicht deutlich. Cartesian Scanning erfordert zwei Schalteraktivierungen, um eine Interaktion durchzuführen. Die klare Struktur und die relativ geringe Anzahl an Aktivierungen ermöglichen eine gute Effizienz.. Automatic Item Scanning zeichnet sich durch eine besonders geringe Anzahl von Aktivierungen aus, da die Selektion eines Elements in der Regel durch eine einzige Schalteraktivierung erfolgt. Dies macht die Methode besonders effizient. Wird allerdings eine Gruppierung von Elementen zur Beschleunigung der Interaktionsgeschwindigkeit eingesetzt, wirkt sich dies leicht negativ auf die Effizienz aus, da die Anzahl der erforderlichen Aktivierungen steigt. Step Item Scanning zeigt eine Effizienz, die stark von der Anzahl der Elemente in der Szene abhängt. Bei einer großen Anzahl von Elementen benötigt das Verfahren entsprechend viele Aktivierungen, um ein Ziel zu erreichen, was die Effizienz deutlich verringert. Eine Gruppierung der Elemente kann jedoch die Effizienz in Szenen mit vielen Elementen erhöhen, da weniger Schritte notwendig sind, um eine Auswahl zu treffen. Auch in Szenarien mit wenigen Elementen ist der Aufwand höher als bei Cartesian Scanning oder Automatic Item Scanning. Inverse Item Scanning ist ebenfalls stark von der Anzahl der Elemente in der Szene abhängig. Je mehr Elemente vorhanden sind, desto länger muss der Schalter gehalten werden, um das gewünschte Zielobjekt zu erreichen. Dies führt zu einem proportionalen Anstieg der körperlichen Anstrengung und verringert die Effizienz in Szenen mit vielen Elementen. Bei wenigen Elementen ist der Aufwand entsprechend geringer. Dennoch bleibt das kontinuierliche Halten des Schalters eine körperlich anstrengendere Interaktionsform. 
+Ein effizientes binäres Selektionsverfahren sollte eine geringe Anzahl von Schalterbetätigungen und einen möglichst geringen physischen Aufwand für die Interaktion erfordern. Die verschiedenen Auswahlverfahren unterscheiden sich in dieser Hinsicht deutlich. Cartesian Scanning erfordert zwei Schalteraktivierungen, um eine Interaktion durchzuführen. Die klare Struktur und die relativ geringe Anzahl an Aktivierungen ermöglichen eine gute Effizienz. Automatic Item Scanning zeichnet sich durch eine besonders geringe Anzahl von Aktivierungen aus, da die Selektion eines Elements in der Regel durch eine einzige Schalteraktivierung erfolgt. Dies macht die Methode besonders effizient. Wird allerdings eine Gruppierung von Elementen zur Beschleunigung der Interaktionsgeschwindigkeit eingesetzt, wirkt sich dies leicht negativ auf die Effizienz aus, da die Anzahl der erforderlichen Aktivierungen steigt. Step Item Scanning zeigt eine Effizienz, die stark von der Anzahl der Elemente in der Szene abhängt. Bei einer großen Anzahl von Elementen benötigt das Verfahren entsprechend viele Aktivierungen, um ein Ziel zu erreichen, was die Effizienz deutlich verringert. Eine Gruppierung der Elemente kann jedoch die Effizienz in Szenen mit vielen Elementen erhöhen, da weniger Schritte notwendig sind, um eine Auswahl zu treffen. Auch in Szenarien mit wenigen Elementen ist der Aufwand höher als bei Cartesian Scanning oder Automatic Item Scanning. Inverse Item Scanning ist ebenfalls stark von der Anzahl der Elemente in der Szene abhängig. Je mehr Elemente vorhanden sind, desto länger muss der Schalter gehalten werden, um das gewünschte Zielobjekt zu erreichen. Dies führt zu einem proportionalen Anstieg der körperlichen Anstrengung und verringert die Effizienz in Szenen mit vielen Elementen. Bei wenigen Elementen ist der Aufwand entsprechend geringer. Dennoch bleibt das kontinuierliche Halten des Schalters eine körperlich anstrengendere Interaktionsform. 
 
 \textit{Effektivität:}
 Die Effektivität beschreibt, wie zuverlässig und präzise ein gewünschtes Interaktionselement ausgewählt werden kann. Das Cartesian Scanning erfordert präzises Timing, da der Nutzende den Schnittpunkt der Linien im richtigen Moment setzen muss. Ein Verfehlen des Zielobjekts ist möglich, insbesondere bei geringer Übung oder hohen Geschwindigkeiten des Scannings. Das Cartesian Scanning ermöglicht jedoch eine sehr präzise Selektion, insbesondere mit etwas Erfahrung. 
@@ -153,7 +153,7 @@ Das Automatic Item Scanning erzielt eine leicht höhere Effektivität. Da nur in
 
 \textit{Erlernbarkeit:}
 Die Erlernbarkeit beschreibt, wie schnell und intuitiv ein Scanning-Verfahren von den Nutzenden verstanden und angewendet werden kann. Das Step Item Scanning weist die höchste Erlernbarkeit auf. Es ermöglicht den Nutzenden die größte Kontrolle über das Scanning, da sie in ihrem eigenen Tempo navigieren können. Diese direkte Steuerbarkeit reduziert die kognitiven und sensorischen Anforderungen \citep{cook_chapter_2015}, was sich positiv auf das Verständnis der Funktionsweise auswirken könnte. Automatic Item Scanning und Inverse Item Scanning sind in ihrer Erlernbarkeit vergleichbar. Beide Verfahren erfordern die Fähigkeit, das richtige Timing zu finden, um das gewünschte Element auszuwählen. Cartesian Scanning wird als das herausforderndste Verfahren eingestuft. Hier müssen die Nutzenden sowohl der horizontalen als auch der vertikalen Bewegung der Scan-Linien folgen, was ein höheres Maß an Aufmerksamkeit erfordert. Darüber hinaus sind genauere Eingaben erforderlich. Insbesondere für Personen, die mit Scanning-Verfahren weniger vertraut sind, könnte dies anfangs zu Schwierigkeiten führen.
-Insgesamt dürften Personen mit Vorerfahrung im Umgang mit Schaltersteuerungen alle beschriebenen Verfahren als vertraut wahrnehmen. Scanning-Verfahren sind aus gängigen Betriebssystemen bekannt (z. B. \citep{apple_einfuhrung_2024, Google-Switch-Access}), was die Erlernbarkeit für diese Zielgruppe deutlich erleichtern kann.
+Insgesamt dürften Personen mit Vorerfahrung im Umgang mit Schaltersteuerungen alle beschriebenen Verfahren als vertraut wahrnehmen. Diesen Personen sind Scanning-Verfahren vermutlich aus gängigen Betriebssystemen bekannt (z. B. \citep{apple_einfuhrung_2024-2, Google-Switch-Access}), was die Erlernbarkeit für diese Zielgruppe deutlich erleichtern kann.
 
 \textit{Robustheit:}
 Die Robustheit beschreibt, wie zuverlässig ein Scanning-Verfahren funktioniert und das Auftreten von Fehlern vermeidet. Die Festlegung einer geeigneten Scan-Rate ist ein wesentlicher Faktor für die Robustheit von Scanning-Verfahren. Eine zu hohe Scan-Rate kann dazu führen, dass den Nutzenden nicht ausreichend Zeit zur Verfügung steht, um eine präzise Selektion durchzuführen \citep{COOK2015117}. Dieses Problem betrifft insbesondere das Cartesian Scanning sowie das Automatic und Inverse Item Scanning. Das Step Item Scanning hingegen wird als das robusteste Verfahren eingestuft, da die Nutzenden die Scan-Rate jederzeit selbst steuern können. Fehler, die aus einer zu schnellen oder zu langsamen Scan-Rate resultieren, können so vermieden werden. Diese Steuerbarkeit stellt sicher, dass das Verfahren flexibel auf unterschiedliche Anforderungen der Nutzenden ausgerichtet werden kann \citep{COOK2015117}.
@@ -176,7 +176,7 @@ Im Folgenden erfolgt die Einordnung der für die Navigation erarbeiteten Gestalt
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Netzdiagramm-Navigation.png}
-    \caption{Einordnung der Gestaltungsoptionen der Interaktionsaufgabe Navigation}
+    \caption{Einordnung der Gestaltungsoptionen der Interaktionsaufgabe Navigation anhand der definierten Parameter}
     \label{fig:Netz-Navigation}
 \end{figure}
 
@@ -216,7 +216,7 @@ Folgend werden die erarbeiteten Gestaltungsoptionen für die Komponente Display 
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Netzdiagramm-Display.png}
-    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Display}
+    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Display anhand der definierten Parameter}
     \label{fig:Netz-Display}
 \end{figure}
 
@@ -251,7 +251,7 @@ Im Folgenden erfolgt die Einordnung der erarbeiteten Gestaltungsoptionen für di
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Netzdiagramm-Transition.png}
-    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Transition}
+    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Transition anhand der definierten Parameter}
     \label{fig:Netz-Transition}
 \end{figure}
 
@@ -283,7 +283,7 @@ Im Folgenden werden die erarbeiteten Gestaltungsoptionen für die Komponente Ini
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Netzdiagramm-Initialisierung.png}
-    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Initialisierung}
+    \caption{Einordnung der Gestaltungsoptionen der Interaktionskomponente Initialisierung anhand der definierten Parameter}
     \label{fig:Netz-Initialisierung}
 \end{figure}
 
@@ -317,7 +317,7 @@ Der Komfort steht dabei besonders im Vordergrund, da das Auftreten von Motion Si
 
 \begin{figure}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/MorphKasten-Item.png}
+    \includegraphics[width=1.0\textwidth]{images/MorphKasten-Item.png}
     \caption{Darstellung des Konzept 1: Item Scanning}
     \label{fig:MorphKasten-Item}
 \end{figure}
@@ -333,7 +333,7 @@ Um mögliche Schwächen der gewählten Gestaltungsoptionen zu minimieren, wird d
 
 \begin{figure}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/MorphKasten-Cartesian.png}
+    \includegraphics[width=1.0\textwidth]{images/MorphKasten-Cartesian.png}
     \caption{Darstellung des Konzept 2: Cartesian Scanning}
     \label{fig:MorphKasten-Cartesian}
 \end{figure}

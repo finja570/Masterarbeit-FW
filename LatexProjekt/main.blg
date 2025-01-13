@@ -6,7 +6,7 @@ The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: literature.bib
 Warning--entry type for "Google-Switch-Access" isn't style-file defined
---line 1475 of file literature.bib
+--line 1471 of file literature.bib
 Warning--to sort, need author or key in noauthor_paneovr_nodate
 Warning--to sort, need author or key in noauthor_virdipa-_nodate
 Warning--empty year in noauthor_paneovr_nodate
@@ -25,43 +25,43 @@ Warning--empty booktitle in milgram_augmented_1995
 Warning--empty institution in wong_survey_2017
 You've used 67 entries,
             2773 wiz_defined-function locations,
-            1140 strings with 23888 characters,
-and the built_in function-call counts, 35531 in all, are:
-= -- 3513
+            1137 strings with 23823 characters,
+and the built_in function-call counts, 35406 in all, are:
+= -- 3496
 > -- 1890
-< -- 48
+< -- 47
 + -- 642
 - -- 573
-* -- 3049
-:= -- 5418
-add.period$ -- 376
+* -- 3037
+:= -- 5405
+add.period$ -- 375
 call.type$ -- 67
 change.case$ -- 393
 chr.to.int$ -- 65
 cite$ -- 152
-duplicate$ -- 1539
-empty$ -- 2724
+duplicate$ -- 1534
+empty$ -- 2716
 format.name$ -- 665
-if$ -- 7610
+if$ -- 7579
 int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 58
-newline$ -- 501
+newline$ -- 500
 num.names$ -- 259
-pop$ -- 641
+pop$ -- 642
 preamble$ -- 1
 purify$ -- 324
 quote$ -- 0
-skip$ -- 1170
+skip$ -- 1165
 stack$ -- 0
-substring$ -- 1305
-swap$ -- 273
-text.length$ -- 20
+substring$ -- 1286
+swap$ -- 266
+text.length$ -- 19
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 722
 warning$ -- 16
-while$ -- 293
+while$ -- 290
 width$ -- 0
-write$ -- 1220
+write$ -- 1218
 (There were 17 warnings)
