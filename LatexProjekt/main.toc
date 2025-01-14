@@ -29,35 +29,35 @@
 \contentsline {section}{\numberline {4.2}Gemeinsame Komponenten beider Konzepte}{56}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Scanning-Verfahren}{58}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Konzept 1 - Item Scanning}{58}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{61}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{65}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.2}Konzept 2 - Cartesian Scanning}{62}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Strategien zur Fehlervermeidung und Debugging}{66}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Limitationen und mögliche Erweiterungen}{66}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Installation, Nutzerdokumentation}{67}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Evaluation}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{68}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{68}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{71}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Durchführung}{73}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Ergebnisse}{75}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{75}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{79}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Interaktionsschnittstellen}{83}{subsection.5.3.3}%
-\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{84}{subsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.3.5}Robustheit}{87}{subsection.5.3.5}%
-\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{90}{subsection.5.3.6}%
-\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{93}{subsection.5.3.7}%
-\contentsline {chapter}{\numberline {6}Diskussion}{96}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Diskussion der Ergebnisse der Evaluation}{96}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Zusammenfassung und Schlussfolgerungen}{108}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{113}{chapter.7}%
-\contentsline {chapter}{\nonumberline Literaturverzeichnis}{116}{chapter*.48}%
-\contentsline {chapter}{Anhang}{124}{chapter*.48}%
-\contentsline {chapter}{\numberline {A}Ergänzungen}{125}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Evaluation}{125}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}Screenshots aus den technischen Szenarien}{125}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}Screenshots aus den inhaltsbasieren Szenarien}{125}{subsection.A.1.2}%
-\contentsline {subsection}{\numberline {A.1.3}Evaluationsprotokoll}{125}{subsection.A.1.3}%
-\contentsline {subsection}{\numberline {A.1.4}Ergebnisse}{125}{subsection.A.1.4}%
-\contentsline {chapter}{\numberline {B}Projektdateien}{129}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Unity Projekt}{129}{section.B.1}%
+\contentsline {chapter}{\numberline {5}Evaluation}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Konzeption der Evaluation}{69}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Technische Evaluation}{69}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Inhaltsbasierte Evaluation}{72}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Durchführung}{74}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ergebnisse}{76}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Usability (SUS) und User Experience (UEQ)}{76}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Motion Sickness (SSQ)}{80}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Ablenkung durch die Interaktionsschnittstellen}{84}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Geschwindigkeit und Effizienz}{85}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Robustheit}{88}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Korrelationen und Zusammenhänge}{91}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Qualitative Beobachtungen und Feedback der Teilnehmenden}{94}{subsection.5.3.7}%
+\contentsline {chapter}{\numberline {6}Diskussion}{97}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Diskussion der Ergebnisse der Evaluation}{97}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Zusammenfassung und Schlussfolgerungen}{109}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Zusammenfassung und Ausblick}{114}{chapter.7}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{117}{chapter*.48}%
+\contentsline {chapter}{Anhang}{125}{chapter*.48}%
+\contentsline {chapter}{\numberline {A}Ergänzungen}{126}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Evaluation}{126}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}Screenshots aus den technischen Szenarien}{126}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}Screenshots aus den inhaltsbasieren Szenarien}{126}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}Evaluationsprotokoll}{126}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}Ergebnisse}{126}{subsection.A.1.4}%
+\contentsline {chapter}{\numberline {B}Projektdateien}{130}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Unity Projekt}{130}{section.B.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
