@@ -2,7 +2,7 @@
 \label{chap:Evaluation}
 % TO DO: Abbildungen optimieren, ggf. Abkürzungen für die statistischen Sachen 
 
-Die Evaluation der entwickelten Interaktionsschnittstellen erfolgt in zwei Hauptabschnitten: einer technischen und einer inhaltsbasierten Evaluation. Ziel ist es, sowohl die technische Leistungsfähigkeit der Schnittstellen als auch deren Wechselwirkung mit den Inhalten zu analysieren. Im folgenden wird zunächst die technische Evaluation gefolgt von der inhaltsbasierten Evaluation beschrieben. Anschließend wird die Durchführung der Evaluation geschildert und die Ergebnisse werden vorgestellt. 
+Die Evaluation der entwickelten Interaktionsschnittstellen erfolgt in zwei Hauptabschnitten: einer technischen und einer inhaltsbasierten Evaluation. Ziel ist es, anhand spezifisch entwickelter Szenarien sowohl die technische Leistungsfähigkeit der Schnittstellen als auch deren Wechselwirkung mit den Inhalten zu analysieren. Im folgenden wird zunächst die technische Evaluation gefolgt von der inhaltsbasierten Evaluation beschrieben. Anschließend wird die Durchführung der Evaluation geschildert und die Ergebnisse werden vorgestellt. 
 
 \section{Konzeption der Evaluation}
 
@@ -14,13 +14,13 @@ Der technische Abschnitt der Evaluation dient insbesondere der Überprüfung der
 
 Als Herausforderung bei der Verwendung von Item Scanning wird zunächst eine hohe Anzahl von Elementen in der Szene betrachtet, deren Reihenfolge im Scanning nicht unmittelbar ersichtlich ist. Dies erfordert ein aktives und konzentriertes Verfolgen der Reihenfolge, um das gewünschte Element auswählen zu können. Darüber hinaus wird die Positionierung von Elementen am Rand des Sichtfeldes als Herausforderung angesehen. Diese Elemente könnten von den Nutzenden leicht übersehen oder in der Scan-Reihenfolge nicht erwartet werden, was zu fehlerhaften oder unbeabsichtigten Selektionen führen könnte. Darüber hinaus stellen längere Wartezeiten für Elemente, die erst spät in der Scanning-Reihenfolge erscheinen, eine weitere potenzielle Herausforderung dar. Diese könnten zu Ungeduld und damit zu fehlerhaften Eingaben führen. Auch die Interaktion auf mehreren Ebenen, z. B.  das Schließen von Pop-Ups oder das Navigieren in Dialogfeldern, wird als weitere Herausforderung angesehen.
 
-Im Gegensatz dazu ist beim Cartesian Scanning vermutlich die größte Herausforderung, das gewünschte Element bei nahe beieinander liegenden Elementen auszuwählen. Je näher die Elemente beieinander liegen, desto präziser muss die Selektion erfolgen. Dies erfordert dementsprechend ein genaues Timing und eine hohe Konzentration. Darüber hinaus könnte auch bei diesem Scanning-Verfahren die Positionierung von Elementen am Rand des Sichtfeldes als Herausforderung darstellen. Insbesondere wenn sich Objekte weit oben oder weit links befinden, kann es schnell passieren, dass Nutzende die Selektion verpassen und auf einen weiteren Durchlauf der Scan-Linie warten müssen. Als letzte Herausforderung wird die Interaktion auf mehreren Ebenen gesehen. Insbesondere bei beweglichen Pop-Ups oder Menüs, die sich mit der Kopfposition im Sichtfeld bewegen, könnte es schnell zu Verschiebungen und damit zu Fehleingaben kommen. Auch hier ist somit eine erhöhte Konzentration erforderlich. 
+Im Gegensatz dazu ist anzunehmen, dass die größte Herausforderung beim Cartesian Scanning darin besteht, das gewünschte Element aus nahe beieinander liegenden Elementen auszuwählen. Je näher die Elemente beieinander liegen, desto präziser muss die Selektion erfolgen. Dies erfordert dementsprechend ein genaues Timing und eine hohe Konzentration. Darüber hinaus könnte auch bei diesem Scanning-Verfahren die Positionierung von Elementen am Rand des Sichtfeldes als Herausforderung darstellen. Insbesondere wenn sich Objekte weit oben oder weit links befinden, kann es schnell passieren, dass Nutzende die Selektion verpassen und auf einen weiteren Durchlauf der Scan-Linie warten müssen. Als letzte Herausforderung wird die Interaktion auf mehreren Ebenen gesehen. Insbesondere bei beweglichen Pop-Ups oder Menüs, die sich mit der Kopfposition im Sichtfeld bewegen, könnte es schnell zu Verschiebungen und damit zu Fehleingaben kommen. Auch hier ist somit eine erhöhte Konzentration erforderlich. 
 
 Die Szenarien für den technischen Abschnitt der Evaluation werden so gestaltet, dass diese Herausforderungen gezielt getestet werden. Während im ersten Abschnitt die Positionierung der Elemente im Vordergrund steht, werden im zweiten Abschnitt die Nähe und die Ebenenstruktur der Objekte aufgegriffen. Zur Minimierung von Zufallseffekten wurde eine Mindestanzahl von fünf gleichartigen Objekten pro Szenario integriert. \autoref{Anhang:screenTechnisch} beinhaltet Abbildungen der erstellten Szenarien. 
 
 \textbf{Fragestellungen und Datenerhebnung}
 
-Durch die Datenerhebnung im technischen Abschnitt sollen insbesondere folgende Fragestellungen zu den genannten Parametern beantwortet werden können:
+Durch die Datenerhebung im technischen Abschnitt sollen insbesondere folgende Fragestellungen zu den genannten Parametern beantwortet werden können:
 
 \textit{Geschwindigkeit} 
     \begin{itemize}
@@ -49,7 +49,7 @@ Durch die Datenerhebnung im technischen Abschnitt sollen insbesondere folgende F
     \item Gibt es deutliche Unterschiede in der Bewertung der Usability zwischen den beiden Schnittstellen? 
     \end{itemize}
 
-Die Erfassung der technischen Daten erfolgt durch die Kombination von automatischem Logging direkt aus Unity und einem Evaluationsprotokoll (siehe \autoref{Anhang:protokoll}). Es wird für jede durchgeführte Selektion die Interaktionsgeschwindigkeit ausgegeben. Außerdem wird die benötigte Zeit von Start bis Abschluss des Szenarios gespeichert. Fehler werden manuell gezählt und kategorisiert und zusätzliche Beobachtungen dokumentiert. Zur Evaluation der Usability wird die SUS in digitaler Form verwendet.
+Die Erfassung der technischen Daten erfolgt durch die Kombination von automatischem Logging direkt aus Unity und einem Evaluationsprotokoll (siehe \autoref{Anhang:protokoll}). Es wird für jede durchgeführte Selektion die Interaktionsgeschwindigkeit ausgegeben. Außerdem wird die benötigte Zeit von Start bis Abschluss des Szenarios gespeichert. Fehler werden manuell gezählt und kategorisiert und zusätzliche Beobachtungen dokumentiert. Zur Evaluation der Usability wird die SUS \citep{brooke_sus_1996} in digitaler Form verwendet.
 
 \textbf{Erwartete Ergebnisse der technischen Evaluation}
 
@@ -58,8 +58,8 @@ Gleichzeitig wird angenommen, dass das Item Scanning bei der Navigation insgesam
 
 \subsection{Inhaltsbasierte Evaluation}
 
-Der zweite Abschnitt der Evaluation widmet sich der Wechselwirkung zwischen Interaktionsschnittstelle und Inhalt. Hier stehen die Parameter Komfort und Effizienz im Vordergrund . Darüber hinaus wird die UX der Schnittstellen betrachtet. Die inhaltsbasierte Evaluation ergänzt den technischen Abschnitt, indem die Schnittstellen in realistischeren Anwendungsszenarien getestet werden.
-Es werden zwei Szenarien in Form einfacher Rätsel nach dem Prinzip von \textit{Escape Rooms} erstellt. Die Aufgabe der Testpersonen besteht darin, einen hinter interaktiven Objekten wie Bildern oder Audiodateien versteckten Zahlencode zu ermitteln bzw. einen Schlüssel zur Lösung des Szenarios zu finden. Die Rätsel sind bewusst einfach gehalten, um die kognitiven Fähigkeiten der Testpersonen außerhalb der Verwendung der Schnittstellen nicht zu sehr fordern, da dies nicht im Fokus der Evaluation steht. Die Szenarien werden so gestaltet, dass sie realistische Bedingungen für die Nutzung der Interaktionsschnittstellen simulieren. Anzahl und Art der interaktiven Elemente sind in beiden Szenarien gleich, um die Vergleichbarkeit zu gewährleisten. Die Platzierung der Objekte erfolgt in Abstimmung mit den 360°-Videos der Szene. \autoref{Anhang:screenInhalt} beinhaltet Abbildungen der erstellten Szenarien. 
+Der zweite Abschnitt der Evaluation widmet sich der Wechselwirkung zwischen Interaktionsschnittstelle und Inhalt. Hier stehen die Parameter Komfort und Effizienz im Vordergrund. Darüber hinaus wird die UX der Schnittstellen betrachtet. Die inhaltsbasierte Evaluation ergänzt den technischen Abschnitt, indem die Schnittstellen in realistischeren Anwendungsszenarien getestet werden.
+Es werden zwei Szenarien in Form einfacher Rätsel nach dem Prinzip von \textit{Escape Rooms} erstellt. Die Aufgabe der Testpersonen besteht darin, einen hinter interaktiven Objekten wie Bildern oder Audiodateien versteckten Zahlencode zu ermitteln (Szenario Code) bzw. einen Schlüssel zur Lösung des Szenarios zu finden (Szenario Schlüssel). Die Rätsel sind bewusst einfach gehalten, um die kognitiven Fähigkeiten der Testpersonen außerhalb der Verwendung der Schnittstellen nicht zu sehr fordern, da dies nicht im Fokus der Evaluation steht. Die Szenarien werden so gestaltet, dass sie realistische Bedingungen für die Nutzung der Interaktionsschnittstellen simulieren. Anzahl und Art der interaktiven Elemente sind in beiden Szenarien gleich, um die Vergleichbarkeit zu gewährleisten. Die Platzierung der Objekte erfolgt in Abstimmung mit den 360°-Videos der Szene. \autoref{Anhang:screenInhalt} beinhaltet Abbildungen der erstellten Szenarien. 
 
 \textbf{Fragestellungen und Datenerhebnung}
 
@@ -84,7 +84,7 @@ Ziel der inhaltsbasierten Evaluation ist es, die folgenden Aspekte zu untersuche
     \item Bestehen Korrelationen zwischen dem Auftreten von Motion Sickness Symptomen und der Bewertung der Usability/UX sowie der Interaktionsgeschwindigkeit? 
 \end{itemize}
 
-Die Erhebung der Daten erfolgt über standardisierte Fragebögen. Zur Messung der UX wird der UEQ verwendet. Der SSQ erfasst Symptome von Motion Sickness. Um Aussagen hinsichtlich der Ablenkung und Presence tätigen zu können, werden zusätzlich spezifische Fragen zur Wechselwirkung zwischen Interaktion und Inhalt gestellt. Diese werden in Anlehnung an Fragen aus dem Presence Questionnaire von \citet{witmer_measuring_1998} formuliert. Die gestellten Fragen lauten dabei:
+Die Erhebung der Daten erfolgt über standardisierte Fragebögen. Zur Messung der UX wird der UEQ \citep{laugwitz_construction_2008} verwendet. Der SSQ \citep{kennedy_simulator_1993}erfasst Symptome von Motion Sickness. Um Aussagen hinsichtlich der Ablenkung und Presence tätigen zu können, werden zusätzlich spezifische Fragen zur Wechselwirkung zwischen Interaktion und Inhalt gestellt. Diese werden in Anlehnung an Fragen aus dem Presence Questionnaire von \citet{witmer_measuring_1998} formuliert. Die gestellten Fragen lauten dabei:
 
 \begin{itemize}
     \item Wie sehr warst Du in die Erfahrung der virtuellen Umgebung involviert?
@@ -92,7 +92,9 @@ Die Erhebung der Daten erfolgt über standardisierte Fragebögen. Zur Messung de
     \item Wie gut konntest Du Dich auf den Inhalt und die visuellen Darstellungen in der Szene konzentrieren?
 \end{itemize}
 
-Zusätzlich wird auch für den inhaltsbasierten Abschnitt ein automatisierter Log erstellt. Auch hier werden, wie zuvor im technischen Abschnitt, Daten zur Interaktionsgeschwindigkeit erfasst. Auch Fehler werden weiterhin im Evaluationsprotokoll vermerkt. 
+Der Bewertung der Fragen erfolgte auf einer Skala von 0 (Gar nicht) bis 5 (Vollständig). 
+
+Zusätzlich wird auch für den inhaltsbasierten Abschnitt ein automatisierter Log erstellt. Auch hier werden, wie zuvor im technischen Abschnitt, Daten zur Interaktionsgeschwindigkeit erfasst. Auch Fehler werden weiterhin im Evaluationsprotokoll vermerkt. Dadurch werden zusätzliche Daten generiert, die insbesondere für eine genauere Untersuchung der Erlernbarkeit der Interaktionsschnittstellen herangezogen werden können.
 
 \textbf{Erwartete Ergebnisse der inhaltsbasierten Evaluation}
 
@@ -103,7 +105,7 @@ Darüber hinaus sollten beide Schnittstellen nur eine minimale Ablenkung vom Inh
 
 \section{Durchführung}
 
-Die Evaluation der entwickelten Interaktionsschnittstellen wurde im Zeitraum vom 11. bis zum 15. Dezember 2024 an der Technischen Hochschule Lübeck durchgeführt. Insgesamt nahmen 16 Personen (10 männlich, 5 weiblich, 1 nicht-binär) ohne motorische Beeinträchtigungen an der Evaluation teil. Obwohl die Teilnehmenden nicht aus der primären Zielgruppe rekrutiert wurden, liefert ihre Teilnahme wertvolle Informationen über die Funktionalität und Benutzerfreundlichkeit der Implementierungen. Die Auswahl einer heterogenen Gruppe ohne motorische Beeinträchtigungen ermöglicht eine Bewertung der allgemeinen Nutzbarkeit der Interaktionsschnittstellen. Darüber hinaus können potenzielle Schwachstellen in der Interaktion und technische Herausforderungen unabhängig von spezifischen Beeinträchtigungen identifiziert werden. Dies schafft eine solide Basis für weitere Optimierungen und ermöglicht es, die Implementierungen so anzupassen, dass sie zukünftig sowohl für die Zielgruppe als auch für einen breiteren Kreis von Nutzenden geeignet sind.
+Die Evaluation der entwickelten Interaktionsschnittstellen wurde im Zeitraum vom 11. bis zum 15. Dezember 2024 an der Technischen Hochschule Lübeck durchgeführt. Insgesamt nahmen 16 Personen (10 männlich, 5 weiblich, 1 nicht-binär) ohne motorische Beeinträchtigungen an der Evaluation teil. Obwohl die Teilnehmenden nicht aus der primären Zielgruppe rekrutiert wurden, liefert ihre Teilnahme wertvolle Informationen über die Funktionalität und Usability der Implementierungen. Die Auswahl einer heterogenen Gruppe ohne motorische Beeinträchtigungen ermöglicht eine Bewertung der allgemeinen Nutzbarkeit der Interaktionsschnittstellen. Darüber hinaus können potenzielle Schwachstellen in der Interaktion und technische Herausforderungen unabhängig von spezifischen Beeinträchtigungen identifiziert werden. Dies schafft eine solide Grundlage für weitere Optimierungen, die auf eine verbesserte allgemeine Usability der Schnittstellen abzielen. Dennoch bleibt eine zielgruppenspezifische Evaluation unverzichtbar, um sicherzustellen, dass die entwickelten Schnittstellen den spezifischen Anforderungen von Personen mit motorischen Beeinträchtigungen gerecht werden
 
 Jede Evaluationssitzung folgte einem standardisierten Ablauf und dauerte zwischen 45 und 60 Minuten pro Person. Der genaue Ablauf gliederte sich wie folgt:
 
@@ -129,7 +131,7 @@ Nach dem Ausfüllen des Fragebogens wurde den Teilnehmenden die Aufgabe des inha
 
 {\normalfont \bfseries 6. Wechsel zur zweiten Interaktionsschnittstelle:}
 
-Die gleiche Prozedur wurde danach für die zweite Schnittstelle wiederholt.
+Die gleiche Prozedur (Schritte 2-5) wurde danach für die zweite Schnittstelle wiederholt.
 
 {\normalfont \bfseries 7. Abschließendes Feedback und Danksagung:}
 
@@ -137,25 +139,25 @@ Am Ende der Evaluation hatten die Teilnehmenden die Möglichkeit, sowohl anonym 
 
 Die Evaluation wurde stationär an einem Tisch durchgeführt, an dem die Teilnehmenden saßen. Vor ihnen stand ein Laptop, auf dem die Anwendung direkt über den Unity-Editor gestartet wurde. Die VR-Brille (Meta Quest 3) war über \textit{LinkCable} mit dem Laptop verbunden. Aufgrund der begrenzten Kabellänge wurden die Teilnehmenden angewiesen, die Bewegungen des Kopfes und des Oberkörpers innerhalb des Aktionsradius zu halten. Der Aufbau mit einem eingeschränkten Bewegungsradius wurde gewählt, um die Teilnehmenden zu einem Einsatz der implementierten Navigationsmethoden zu animieren. Moderate Kopfbewegungen waren jedoch ausdrücklich erlaubt, solange sie den vorgegebenen Rahmen nicht überschritten.
 
-Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsschnittstellen noch die spezifischen Inhalte der Szenarien die Ergebnisse der Evaluation beeinflussen, wurden die Teilnehmenden in vier Testgruppen eingeteilt. Jede Gruppe begann mit einer anderen Kombination von Interaktionsschittstelle und Szenario. Dadurch wurde eine gleichmäßige Verteilung der Bedingungen erreicht und mögliche Verzerrungen minimiert. \autoref{tab:Testgruppen} veranschaulicht die festgelegten Testgruppen und zeigt, welche Gruppe mit welcher Schnittstelle und welchem inhaltsbasierten Szenario startete. 
-
 \begin{table}
     \centering
     \includegraphics[scale=0.9]{images/Tabelle-Evaluationsgruppen.png}
-    \caption{Testgruppen der Evaluation}
+    \caption{Beschreibung der Testgruppen anhand der zuerst verwendeten Interaktionsschnittstelle und des zuerst durchgeführten inhaltsbasierten Szenarios}
     \label{tab:Testgruppen}
 \end{table}
+
+Um sicherzustellen, dass weder die Reihenfolge der getesteten Interaktionsschnittstellen noch die spezifischen Inhalte der inhaltsbasierten Szenarien die Ergebnisse der Evaluation beeinflussen, wurden die Teilnehmenden in vier Testgruppen eingeteilt. Jede Gruppe begann mit einer anderen Kombination aus Interaktionsschnittstelle und inhaltsbasiertem Szenario. Dadurch wurde eine gleichmäßige Verteilung der Bedingungen erreicht und mögliche Verzerrungen minimiert. \autoref{tab:Testgruppen} veranschaulicht die festgelegten Testgruppen und zeigt, welche Gruppe mit welcher Schnittstelle und welchem inhaltsbasierten Szenario startete. 
 
 \section{Ergebnisse}
 
 \subsection{Usability (SUS) und User Experience (UEQ)}
 
-Die Ergebnisse der SUS zeigen deutliche Unterschiede zwischen den beiden Schnittstellen. Der Mittelwert des SUS-Scores für das Item Scanning beträgt 73,44 (SD = 16,28) bei einem Median von 73,75. Für das Cartesian Scanning liegt der Mittelwert hingegen bei 85,63 (SD = 11,96) mit einem Median von 90. Die Ergebnisse werden in der \autoref{fig:resultsSUS} dargestellt. 
+Die Ergebnisse der SUS zeigen deutliche Unterschiede zwischen den beiden Schnittstellen (vgl. \autoref{fig:resultsSUS}). Der Mittelwert des SUS-Scores für das Item Scanning beträgt 73,44 (SD = 16,28) bei einem Median von 73,75. Für das Cartesian Scanning liegt der Mittelwert hingegen bei 85,63 (SD = 11,96) mit einem Median von 90. 
 
 \begin{figure}[tbh]
     \centering
     \includegraphics[scale=0.75]{images/Results/SUS-Scores.png}
-    \caption{Mittelwerte und Median der SUS-Scores beider Interaktionsschnittstellen}
+    \caption{Mittelwerte (inklusive SD) und Median der SUS-Scores beider Interaktionsschnittstellen}
     \label{fig:resultsSUS}
 \end{figure}
 
@@ -165,17 +167,17 @@ Die detaillierte Verteilung der Scores ist in \autoref{fig:histoSUS} dargestellt
     \centering
     \begin{subfigure} {.5\textwidth}
         \centering
-        \includegraphics[width=.95\linewidth]{images/Results/Histogramm-SUS-Item.png}
+        \includegraphics[width=0.99\linewidth]{images/Results/Histogramm-SUS-Item.png}
         \caption{Item Scanning}
         \label{fig:histoSUSItem}
        \end{subfigure}%
        \begin{subfigure}{.5\textwidth}
         \centering
-       \includegraphics[width=.98\linewidth]{images/Results/Histogramm-SUS-Cartesian.png}
+       \includegraphics[width=.99\linewidth]{images/Results/Histogramm-SUS-Cartesian.png}
         \caption{Cartesian Scanning}
         \label{fig:histoSUSCartesian}
        \end{subfigure}
-       \caption{Verteilung der SUS Scores beider Interaktionsschnittstellen}
+       \caption{Verteilung der SUS-Scores der beiden Interaktionsschnittstellen. Der SUS-Score liegt im Wertebereich zwischen 0 und 100 }
        \label{fig:histoSUS}
 \end{figure}
 
@@ -185,14 +187,14 @@ Die Ergebnisse des UEQ wurden mit Hilfe des Auswertungstools der Autoren analysi
 \begin{table}[tbh]
     \centering
     \includegraphics{images/Results/UEQ-Table-Means-Item.png}
-    \caption{UEQ-Ergebnisse des Item Scanning}
+    \caption{UEQ-Ergebnisse des Item Scannings: Mittelwerte und Varianzen der Faktoren}
     \label{tab:ueqScalesItem}
 \end{table}
 
 \begin{figure}[tbh]
     \centering
     \includegraphics{images/Results/UEQ-Item.png}
-    \caption{Visualisierung der UEQ-Ergebnisse des Item Scanning}
+    \caption{Visualisierung der UEQ-Ergebnisse des Item Scannings}
     \label{fig:ueqScoreItem}
 \end{figure}
 
@@ -207,28 +209,28 @@ Im Anhang in \autoref{Anhang:Ergebnisse} sind ergänzend die detaillierten Verte
 \begin{table}[tbh]
     \centering
     \includegraphics{images/Results/UEQ-Table-Means-Cartesian.png}
-    \caption{UEQ-Ergebnisse des Cartesian Scanning}
+    \caption{UEQ-Ergebnisse des Cartesian Scannings: Mittelwerte und Varianzen der Faktoren}
     \label{tab:ueqScalesCartesian}
 \end{table}
 
 \begin{figure}[tbh]
     \centering
     \includegraphics{images/Results/UEQ-Cartesian.png}
-    \caption{Ergebnisse UEQ Cartesian Scanning}
+    \caption{Visualisierung der UEQ-Ergebnisse des Cartesian Scannings}
     \label{fig:ueqScoreCartesian}
 \end{figure}
 
 
 \subsection{Motion Sickness (SSQ)} 
 
-Die Ergebnisse des SSQ werden in \autoref{tab:tableSymptomsSSQ} dargestellt. Die Tabelle zeigt die im Fragebogen erfassten Symptome sowie die jeweilige Symptomkategorie (N: Nausea, O: Oculomotor, D: Disorientation). Für beide Schnittstellen wird für jedes Symptom die Häufigkeit angegeben, mit der es auftrat. Dies entspricht der Anzahl der Personen, die einen Wert >0 angaben. Zusätzlich wird in einer weiteren Spalte dargestellt, wie viele dieser Personen in der Auswertung jeweils einen Wert >1 angegeben haben und somit eine moderate bis starke Ausprägung des Symptoms empfunden haben. 
+Die Ergebnisse des SSQ werden in \autoref{tab:tableSymptomsSSQ} dargestellt. Die Tabelle zeigt die im Fragebogen erfassten Symptome sowie die jeweilige Symptomkategorie. Für beide Schnittstellen wird für jedes Symptom die Häufigkeit angegeben, mit der es auftrat. Dies entspricht der Anzahl der Personen, die einen Wert >0 angaben. Zusätzlich wird in einer weiteren Spalte dargestellt, wie viele dieser Personen in der Auswertung jeweils einen Wert >1 angegeben haben und somit eine moderate bis starke Ausprägung des Symptoms empfunden haben. 
 Es zeigt sich, dass beim Item Scanning die Symptome angestrengte Augen (11 Personen, davon vier mit moderater Ausprägung) sowie Ermüdung, Kopfdruck und verschwommenes Sehen (sechs Personen, keine moderaten Ausprägungen) am häufigsten auftraten. Vereinzelt wurde von allgemeinem Unwohlsein, Konzentrationsschwierigkeiten, Schwitzen, erhöhtem Speichelfluss, Schwindel und Übelkeit berichtet, wobei diese Symptome jeweils nur eine oder zwei Personen betrafen und nur in leichter Ausprägung auftraten. Symptome wie Aufstoßen oder Gleichgewichtsstörungen wurden nicht genannt.
-Beim Cartesian Scanning ergab sich eine ähnliche Verteilung. Am häufigsten wurden angestrengte Augen (11 Personen, davon zwei mit moderater Ausprägung) und Ermüdung (acht Personen, keine moderaten Ausprägungen) berichtet. Im Vergleich zum Item Scanning traten verschwommenes Sehen und Kopfdruck etwas seltener auf (drei bzw. vier Personen). Weitere Symptome wie Konzentrationsschwierigkeiten oder Schwitzen traten ebenfalls nur vereinzelt auf, während allgemeines Unwohlsein, Übelkeit und Gleichgewichtsstörungen nicht aufgetreten sind.
+Beim Cartesian Scanning ergab sich eine ähnliche Verteilung. Am häufigsten wurden angestrengte Augen (elf Personen, davon zwei mit moderater Ausprägung) und Ermüdung (acht Personen, keine moderaten Ausprägungen) berichtet. Im Vergleich zum Item Scanning traten verschwommenes Sehen und Kopfdruck etwas seltener auf (drei bzw. vier Personen). Weitere Symptome wie Konzentrationsschwierigkeiten oder Schwitzen traten ebenfalls nur vereinzelt auf, während allgemeines Unwohlsein, Übelkeit und Gleichgewichtsstörungen nicht aufgetreten sind.
 
 \begin{table}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/Results/SSQ-Table-2.png}
-    \caption{Häufigkeit der SSQ-Symptome beider Interaktionsschnittstellen}
+    \includegraphics[width=1.0\textwidth]{images/Results/SSQ-Table-2.png}
+    \caption{Häufigkeit der SSQ-Symptome beider Interaktionsschnittstellen. Die Symptome sind den Kategorien N: Nausea, O: Oculomotor und D: Disorientation zugeteilt}
     \label{tab:tableSymptomsSSQ}
 \end{table}
 
@@ -236,8 +238,8 @@ Die weitere Auswertung des SSQ erfolgte nach der Beschreibung der Autoren \citep
 
 \begin{table}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/Results/Tabelle-Ergebnisse-SSQ.png}
-    \caption{Mittelwerte der SSQ-Ergebnisse nach Interaktionsschnittstelle und Kategorie}
+    \includegraphics[width=1.0\textwidth]{images/Results/Tabelle-Ergebnisse-SSQ.png}
+    \caption{Mittelwerte, Median und SD der SSQ-Ergebnisse nach Interaktionsschnittstelle und Kategorie}
     \label{tab:tableErgebnisseSSQ}
 \end{table}
 
@@ -255,11 +257,11 @@ Die weitere Auswertung des SSQ erfolgte nach der Beschreibung der Autoren \citep
          \caption{Cartesian Scanning}
          \label{fig:histoSSQCartesian}
     \end{subfigure}
-    \caption{Verteilung der SSQ-Scores beider Interaktionsschnittstellen}
+    \caption{Verteilung der SSQ-Scores beider Interaktionsschnittstellen. Der SSQ-Score liegt im Wertebereich }
     \label{fig:histoSSQScore}
 \end{figure}
 
-Die Histogramme zeigen, dass die meisten Teilnehmenden bei beiden Schnittstellen einen SSQ-Wert zwischen 0 und 5 aufwiesen (jeweils sechs Personen). Beim Cartesian Scanning liegt der höchste Score bei 37,40 und damit deutlich höher als beim Item Scanning (29,92). Allerdings erreichten beim Item Scanning insgesamt mehr Personen einen Score größer 10 (acht Personen gegenüber sechs Personen). Der Mittelwert des Gesamtscores liegt beim Item Scanning bei 12,155 (SD = 10,174) und beim Cartesain Scanning bei 10,051 (SD = 9,916) (vgl. \autoref{tab:tableErgebnisseSSQ}).
+Die Histogramme zeigen, dass die meisten Teilnehmenden bei beiden Schnittstellen einen SSQ-Wert zwischen 0 und 5 aufwiesen (jeweils sechs Personen). Beim Cartesian Scanning liegt der höchste Score bei 37,40 und damit deutlich höher als beim Item Scanning (29,92). Allerdings erreichten beim Item Scanning insgesamt mehr Personen einen Score größer 10 (acht Personen gegenüber sechs Personen). Der Mittelwert des Gesamtscores liegt beim Item Scanning bei 12,155 (SD = 10,174) und beim Cartesian Scanning bei 10,051 (SD = 9,916) (vgl. \autoref{tab:tableErgebnisseSSQ}).
 
 Um genauere Aussagen darüber treffen zu können, in welchen Kategorien die meisten Symptome auftraten, werden die Ergebnisse der Scores der Kategorien folgend genauer betrachtet.
 
@@ -281,7 +283,7 @@ Um genauere Aussagen darüber treffen zu können, in welchen Kategorien die meis
     \label{fig:histoNausea}
 \end{figure}
 
-In der Kategorie Nausea (vgl. \autoref{fig:histoNausea}) berichteten beim Item Scanning neun Personen keine Symptome. Fünf Teilnehmende zeigten Scores zwischen 8 und 10, was dem Auftreten eines einzigen Symptoms in leichter Ausprägung entspricht. Zwei Personen erreichten Scores über 15, was dem Auftreten mehrerer Symptome oder mindestens einem Symptom in moderater bis starker Ausprägung entspricht. Der Mittelwert der Scores dieser Kategorie liegt bei 5,366 (SD = 6,940) (vgl. \autoref{tab:tableErgebnisseSSQ}). Beim Cartesian Scanning hingegen zeigten 12 Personen keine Symptome. Drei Personen erreichten einen Score zwischen 5 und 10 und eine Person einen Score über 15. Der Mittelwert für das Cartesian Scanning in dieser Kategorie liegt bei 2,981 (SD = 5,744) (vgl. \autoref{tab:tableErgebnisseSSQ}).
+In der Kategorie Nausea (vgl. \autoref{fig:histoNausea}) berichteten beim Item Scanning neun Personen keine Symptome. Fünf Teilnehmende zeigten Scores zwischen 8 und 10, was dem Auftreten eines einzigen Symptoms in leichter Ausprägung entspricht. Zwei Personen erreichten Scores über 15, was dem Auftreten mehrerer Symptome oder mindestens einem Symptom in moderater bis starker Ausprägung entspricht. Der Mittelwert der Scores dieser Kategorie liegt bei 5,366 (SD = 6,940) (vgl. \autoref{tab:tableErgebnisseSSQ}). Beim Cartesian Scanning hingegen zeigten zwölf Personen keine Symptome. Drei Personen erreichten einen Score zwischen 5 und 10 und eine Person einen Score über 15. Der Mittelwert für das Cartesian Scanning in dieser Kategorie liegt bei 2,981 (SD = 5,744) (vgl. \autoref{tab:tableErgebnisseSSQ}).
 
 \begin{figure}
     \centering
@@ -301,7 +303,7 @@ In der Kategorie Nausea (vgl. \autoref{fig:histoNausea}) berichteten beim Item S
     \label{fig:histoOculomotor}
 \end{figure}
 
-In der Kategorie Oculomotor (vgl. \autoref{fig:histoOculomotor}) traten häufiger Symptome auf. Während beim Item Scanning sechs Personen keine bis nur sehr leichte Symptome (Score <10) aufwiesen, erreichten sieben Teilnehmende einen Score zwischen 15 und 35. Dies entspricht dem Auftreten von zwei oder mehr leichten oder mindestens einem moderaten Symptom. Drei Teilnehmende erreichten einen Score über 35, was auf das Auftreten mehrerer Symptome und mindestens einem Symptom in moderater Ausprägung hinwiest. Der Mittelwert der Scores dieser Kategorie liegt bei 18,476 (SD = 15,892) (vgl. \autoref{tab:tableErgebnisseSSQ}). Beim Cartesian Scanning zeigten sieben Personen keine bis leichte Symptome. Fünf Personen wiesen einen Score zwischen 15 und 20 auf. Vier Personen erreichten einen Score größer 20, wobei zwei Personen einen Score von über 45 erreichten. Der Mittelwert der Scores dieser Kategorie für das Cartesain Scnning liegt bei 16,108 (SD = 14,873) (vgl. \autoref{tab:tableErgebnisseSSQ}).
+In der Kategorie Oculomotor (vgl. \autoref{fig:histoOculomotor}) traten häufiger Symptome auf. Während beim Item Scanning sechs Personen keine bis nur sehr leichte Symptome (Score <10) aufwiesen, erreichten sieben Teilnehmende einen Score zwischen 15 und 35. Dies entspricht dem Auftreten von zwei oder mehr leichten oder mindestens einem moderaten Symptom. Drei Teilnehmende erreichten einen Score über 35, was auf das Auftreten mehrerer Symptome und mindestens einem Symptom in moderater Ausprägung hinwiest. Der Mittelwert der Scores dieser Kategorie liegt bei 18,476 (SD = 15,892) (vgl. \autoref{tab:tableErgebnisseSSQ}). Beim Cartesian Scanning zeigten sieben Personen keine bis leichte Symptome. Fünf Personen wiesen einen Score zwischen 15 und 20 auf. Vier Personen erreichten einen Score größer 20, wobei zwei Personen einen Score von über 45 erreichten. Der Mittelwert der Scores dieser Kategorie für das Cartesian Scnning liegt bei 16,108 (SD = 14,873) (vgl. \autoref{tab:tableErgebnisseSSQ}).
 
 \begin{figure}
     \centering
@@ -325,12 +327,12 @@ In der Kategorie Desorientierung (vgl. \autoref{fig:histoDisorientation}) zeigte
 
 \subsection{Ablenkung durch die Interaktionsschnittstellen}
 
-Die Ergebnisse zur Ablenkung bzw. Presence wurden anhand von drei Fragen erhoben, deren Mittelwerte für beide Schnittstellen in der \autoref{fig:presence} dargestellt sind.
+Die Ergebnisse zur Ablenkung bzw. Presence wurden anhand von drei Fragen erhoben, deren Mittelwerte für beide Schnittstellen in der \autoref{fig:presence} dargestellt sind. Der Bewertung der Fragen erfolgte auf einer Skala zwischen 0 und 5.  
 
 \begin{figure}[tbh]
     \centering
     \includegraphics{images/Results/Fragen-zur-Presence-Ablenkung.png}
-    \caption{Ergebnisse der Fragen zur Ablenkung durch die Interaktionsschnittstellen}
+    \caption{Ergebnisse (MW und SD) der Fragen zur Ablenkung durch die Interaktionsschnittstellen. Die Bewertung erfolgte auf einer Skala zwischen 0 und 5}
     \label{fig:presence}
 \end{figure}
 
@@ -345,8 +347,8 @@ Die Ergebnisse für das Item Scanning zeigen einen Mittelwert von 4,250 (SD = 0,
 
 \subsection{Geschwindigkeit und Effizienz}
 
-Die durchschnittlichen Zeiten für die Durchführung der Evaluationsabschnitte zeigen Unterschiede zwischen den beiden Schnittstellen, dargestellt in \autoref{fig:zeit} Beim Item Scanning benötigten die Teilnehmenden im technischen Abschnitt durchschnittlich 6 Minuten und 42 Sekunden (SD = 1 Minute und 26 Sekunden). Im inhaltsbasierten Abschnitt betrug die benötigte Zeit durchschnittlich 5 Minuten und 35 Sekunden (SD = 1 Minute und 43 Sekunden).
-Beim Cartesian Scanning hingegen betrug die für den technischen Abschnitt benötigte Zeit durchschnittlich 8 Minuten und 5 Sekunden (SD = 1 Minute und 41 Sekunden). Für den inhaltsbasierten Abschnitt wurden durchschnittlich 8 Minuten 50 Sekunden benötigt (SD = 2 Minuten 52 Sekunden).
+Die durchschnittlichen Zeiten für die Durchführung der Evaluationsabschnitte zeigen Unterschiede zwischen den beiden Schnittstellen, dargestellt in \autoref{fig:zeit} Beim Item Scanning benötigten die Teilnehmenden im technischen Abschnitt durchschnittlich 6 Minuten und 42 Sekunden (SD = 1 Minute und 26 Sekunden). Der schnellste Durchlauf dauerte 4 Minuten und 45 Sekunden, während der längste Durchlauf 8 Minuten und 56 Sekunden dauerte. Im inhaltsbasierten Abschnitt betrug die benötigte Zeit durchschnittlich 5 Minuten und 35 Sekunden (SD = 1 Minute und 43 Sekunden). Der schnellste Durchlauf dauerte hier 2 Minuten und 39 Sekunden, während der längste Durlauflauf 9 Minuten und 17 Sekunden dauerte. 
+Beim Cartesian Scanning hingegen betrug die für den technischen Abschnitt benötigte Zeit durchschnittlich 8 Minuten und 5 Sekunden (SD = 1 Minute und 41 Sekunden). Der schnellste Durchlauf dauerte 5 Minuten und 52 Sekunden, während der längste Durchlauf 11 Minuten und 04 Sekunden dauerte. Für den inhaltsbasierten Abschnitt wurden durchschnittlich 8 Minuten 50 Sekunden benötigt (SD = 2 Minuten 52 Sekunden). Der schnellste Durchlauf dauerte 4 Minuten und 26 Sekunden, während der längste Durchlauf 15 Minuten und 42 Sekunden dauerte.
 
 \begin{figure}[tbh]
     \centering
@@ -363,7 +365,7 @@ Beim Cartesian Scanning werden im technischen Abschnitt durchschnittlich 8,733s 
 \begin{table}[tbh]
     \centering
     \includegraphics[width=0.95\textwidth]{images/Results/Interaktionsgeschwindigkeiten-Table.png}
-    \caption{Interaktionsgeschwindigkeiten beider Interaktionsschnittstellen nach Evalauationsabschnitt}
+    \caption{Mittelwerte, Varianzen und Spannweiten der Interaktionsgeschwindigkeiten beider Interaktionsschnittstellen nach Evalauationsabschnitt in Sekunden}
     \label{tab:InteraktionsgeschwindigkeitenTable}
 \end{table}
 
@@ -374,14 +376,14 @@ Beim Cartesian Scanning werden im technischen Abschnitt durchschnittlich 8,733s 
     \label{fig:Interaktionsgeschwindigkeiten}
 \end{figure}
 
-Um die Veränderung der Interaktionsgeschwindigkeit über die Zeit bzw. über die Anzahl der durchgeführten Interaktionen zu untersuchen, wurde eine lineare Regressionsanalyse durchgeführt und anschließend die Korrelation zwischen den beiden Variablen berechnet. Die Ergebnisse werden in \autoref{tab:RegressionskoeffizientenTable} aufgezeigt. Der Regressionskoeffizient beschreibt die durchschnittliche Veränderung der Interaktionszeit in Abhängigkeit von der Anzahl der bereits durchgeführten Interaktionen. Der Korrelationskoeffizient gibt an, wie eng der Zusammenhang zwischen den Variablen ist. 
-Beim Item Scanning ergibt sich für den technischen Abschnitt ein mittlerer Regressionskoeffizient von -0,839 (Varianz = 0,503) bei einem Korrelationskoeffizienten von -0,219. Im inhaltsbasierten Abschnitt beträgt der mittlere Regressionskoeffizient -0,391 (Varianz = 0,754) bei einem Korrelationskoeffizienten von -0,066. Über beide Abschnitte hinweg ergibt sich ein mittlerer Regressionskoeffizient von -2,539 (Varianz = 1,105) und ein Korrelationskoeffizient von -0,263.
-Beim Cartesian Scanning ergibt sich für den technischen Abschnitt ein durchschnittlicher Regressionskoeffizient von 0,180 (Varianz = 0,326) mit einem Korrelationskoeffizienten von 0,038. Im inhaltsbasierten Abschnitt beträgt der Regressionskoeffizient 0,241 (Varianz = 1,177) und der Korrelationskoeffizient -0,019. Über beide Abschnitte hinweg beträgt der Regressionskoeffizient -0,492 (Varianz = 1,461) und der Korrelationskoeffizient -0,085.
+Um die Veränderung der Interaktionsgeschwindigkeit über die Zeit bzw. über die Anzahl der durchgeführten Interaktionen zu untersuchen, wurde eine lineare Regressionsanalyse durchgeführt und anschließend die Korrelation zwischen den beiden Variablen berechnet. Die Ergebnisse werden in \autoref{tab:RegressionskoeffizientenTable} aufgezeigt. Der Regressionskoeffizient \textit{b} beschreibt die durchschnittliche Veränderung der Interaktionszeit in Abhängigkeit von der Anzahl der bereits durchgeführten Interaktionen. Der Korrelationskoeffizient \textit{r} gibt an, wie eng der Zusammenhang zwischen den Variablen ist. 
+Beim Item Scanning ergibt sich für den technischen Abschnitt ein mittlerer Regressionskoeffizient von b = -0,839 (Varianz = 0,503) bei einem Korrelationskoeffizienten von r = -0,219. Im inhaltsbasierten Abschnitt beträgt der mittlere Regressionskoeffizient b = -0,391 (Varianz = 0,754) bei einem Korrelationskoeffizienten von r = -0,066. Über beide Abschnitte hinweg ergibt sich ein mittlerer Regressionskoeffizient von b = -2,539 (Varianz = 1,105) und ein Korrelationskoeffizient von r = -0,263.
+Beim Cartesian Scanning ergibt sich für den technischen Abschnitt ein durchschnittlicher Regressionskoeffizient von b = 0,180 (Varianz = 0,326) mit einem Korrelationskoeffizienten von r = 0,038. Im inhaltsbasierten Abschnitt beträgt der Regressionskoeffizient b = 0,241 (Varianz = 1,177) und der Korrelationskoeffizient r = -0,019. Über beide Abschnitte hinweg beträgt der Regressionskoeffizient b = -0,492 (Varianz = 1,461) und der Korrelationskoeffizient r = -0,085.
 
 \begin{table}[tbh]
     \centering
-    \includegraphics[width=0.95\textwidth]{images/Results/Regressionskoeffizienten-Korrelation-Table-Lernkurve-Geschwindigkeit.png}
-    \caption{Ergebnisse der linearen Regressionsanalyse}
+    \includegraphics[width=1.0\textwidth]{images/Results/Regressionskoeffizienten-Table.png}
+    \caption{Ergebnisse der linearen Regressionsanalyse (Mittelwert und Varianz der Regressionskoeffizienten b und Korrelationskoeffizienten r)}
     \label{tab:RegressionskoeffizientenTable}
 \end{table}
 
@@ -398,7 +400,7 @@ Neben der Interaktionsgeschwindigkeit wurde auch die Anzahl der benötigten Scan
 
 \subsection{Robustheit}
 
-In beiden Evalauationsabschnitten wurden die aufgetretenen Fehler im Evaluationsprotokoll erfasst. Als Fehler werden in diesem Zusammenhang Eingaben verstanden, die nicht zum gewünschten Ergebnis geführt haben. 
+In beiden Evaluationsabschnitten wurden die aufgetretenen Fehler im Evaluationsprotokoll erfasst. Als Fehler werden in diesem Zusammenhang Eingaben verstanden, die nicht zum gewünschten Ergebnis geführt haben. 
 
 Die Ergebnisse des Item Scannings sind in \autoref{fig:anzahlFehlerItem} dargestellt. Im technischen Abschnitt (vgl. \autoref{fig:anzahlFehlerItemTechnisch}) traten bei der Mehrheit der Teilnehmenden Fehler auf. Nur drei Personen konnten den Abschnitt ohne Fehler abschließen. Sieben Personen machten einen Fehler, zwei Personen machten jeweils drei Fehler. Eine Person hat fünf Fehler gemacht. Somit wurden in diesem Abschnitt über alle Testpersonen hinweg insgesamt 18 Fehler erfasst.
 Im inhaltsbasierten Abschnitt (vgl. \autoref{fig:anzahlFehlerItemInhalt}) haben sechs Personen keinen Fehler gemacht, während weitere sechs Personen jeweils einen Fehler machten. Vier Personen machten zwei Fehler. Keine Testperson hat in diesem Abschnitt mehr als zwei Fehler gemacht. Insgesamt wurden in diesem Abschnitt 14 Fehler verzeichnet.
@@ -407,13 +409,13 @@ Im inhaltsbasierten Abschnitt (vgl. \autoref{fig:anzahlFehlerItemInhalt}) haben 
     \centering
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-item.png}
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-item.png}
         \caption{Technischer Abschnitt}
         \label{fig:anzahlFehlerItemTechnisch}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png}
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-item.png}
         \caption{Inhaltsbasierter Abschnitt}
         \label{fig:anzahlFehlerItemInhalt}
    \end{subfigure}
@@ -427,7 +429,7 @@ Im Evaluationsprotokoll wurde für jeden aufgetretenen Fehler der jeweilige Grun
 \begin{figure}[tbh]
     \centering
     \includegraphics{images/Results/Gründe-Fehler-Item.png}
-    \caption{Gründe für Fehler beim Item Scanning}
+    \caption{Gründe und Häufigkeit von Fehlern beim Item Scanning}
     \label{fig:gründeFehlerItem}
 \end{figure}
 
@@ -439,13 +441,13 @@ Im inhaltsbasierten Abschnitt (vgl. \autoref{fig:anzahlFehlerCartesianInhalt}) b
     \centering
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png}
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Anzahl-Fehler-technisch-cartesian.png}
         \caption{Technischer Abschnitt}
         \label{fig:anzahlFehlerCartesianTechnisch}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png}
+        \includegraphics[width=0.99\textwidth]{images/Results/Histogramm-Anzahl-Fehler-inhalt-cartesian.png}
         \caption{Inhaltsbasierter Abschnitt}
         \label{fig:anzahlFehlerCartesianInhalt}
     \end{subfigure}
@@ -458,7 +460,7 @@ Die Gründe für Fehler beim Cartesian Scanning sind in \autoref{fig:gründeFehl
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.95\textwidth]{images/Results/Gründe-Fehler-Cartesian.png}
-    \caption{Gründe für Fehler beim Cartesian Scanning}
+    \caption{Gründe und Häufigkeit von Fehlern beim Cartesian Scanning}
     \label{fig:gründeFehlerCartesian}
 \end{figure}
 
@@ -489,23 +491,23 @@ Zunächst wurde für das Cartesian Scanning untersucht, ob die Position der ausg
     \centering
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-technisch.png}
+        \includegraphics[width=1.0\textwidth]{images/Results/bubbleplot-technisch.png}
         \caption{Technischer Abschnitt}
         \label{fig:bubbleKorrPosGeschwindigkeitTechnisch}
     \end{subfigure}%
     \begin{subfigure}{.5\textwidth}
         \centering
-        \includegraphics[width=0.95\textwidth]{images/Results/bubbleplot-inhalt.png}
+        \includegraphics[width=1.0\textwidth]{images/Results/bubbleplot-inhalt.png}
         \caption{Inhaltsbasierter Abschnitt}
         \label{fig:bubbleKorrPosGeschwindigkeitInhalt}
     \end{subfigure}
-    \caption{Zusammenhang zwischen der Position des Objektes im Sichtfeld und der Interaktionsgeschwindigkeit beim Cartesain Scanning}
+    \caption{Zusammenhang zwischen der Position des Objektes im Sichtfeld und der Interaktionsgeschwindigkeit beim Cartesian Scanning}
     \label{fig:bubbleKorrPosGeschwindigkeit}
 \end{figure}
 
-Für den technischen Abschnitt zeigt sich eine positive Korrelation zwischen der horizontalen Position (x-Koordinate) und der Interaktionsgeschwindigkeit (Korrelationskoeffizient = 0,7395), während die vertikale Position (y-Koordinate) negativ mit der Geschwindigkeit korreliert (Korrelationskoeffizient = -0,8249). Ähnliche Tendenzen lassen sich im inhaltsbasierten Abschnitt beobachten, wo die Korrelationskoeffizienten für die x-Koordinate 0,6156 und für die y-Koordinate -0,6849 betragen. Werden beide Abschnitte zusammen betrachtet, ergeben sich Korrelationskoeffizienten von 0,6804 für die x-Koordinate und -0,7562 für die y-Koordinate. Alle Korrelationen zeigen dabei einen p-Wert <0,00. Die \autoref{fig:bubbleKorrPosGeschwindigkeit} veranschaulicht diese Zusammenhänge. Punkte, die eine schnelle Selektion repräsentieren, befinden sich oben links im Sichtfeld und sind klein und dunkelblau dargestellt. Mit zunehmender Entfernung nach rechts oder unten im Sichtfeld werden die Punkte größer und heller. Darüber hinaus ist in dieser Abbildung zu erkennen, dass die meisten Selektionen in der Mitte des Sichtfeldes durchgeführt wurden.
+Für den technischen Abschnitt zeigt sich eine positive Korrelation zwischen der horizontalen Position (x-Koordinate) und der Interaktionsgeschwindigkeit (r = 0,739), während die vertikale Position (y-Koordinate) negativ mit der Geschwindigkeit korreliert (r = -0,824). Ähnliche Tendenzen lassen sich im inhaltsbasierten Abschnitt beobachten, wo die Korrelationskoeffizienten für die x-Koordinate r = 0,616 und für die y-Koordinate r = -0,685 betragen. Werden beide Abschnitte zusammen betrachtet, ergeben sich Korrelationskoeffizienten von r = 0,680 für die x-Koordinate und r = -0,756 für die y-Koordinate. Alle Korrelationen zeigen dabei einen p-Wert <0,000. \autoref{fig:bubbleKorrPosGeschwindigkeit} veranschaulicht diese Zusammenhänge. Punkte, die eine schnelle Selektion repräsentieren, befinden sich oben links im Sichtfeld und sind klein und dunkelblau dargestellt. Mit zunehmender Entfernung nach rechts oder unten im Sichtfeld werden die Punkte größer und heller. Darüber hinaus ist in dieser Abbildung zu erkennen, dass die meisten Selektionen in der Mitte des Sichtfeldes durchgeführt wurden.
 
-Anschließend wurde für beide Schnittstellen untersucht, ob es Korrelationen zwischen den Ergebnissen des SSQ und den Bewertungen der SUS, des UEQ und der Interaktionsgeschwindigkeit gibt. Die Ergebnisse dieser Untersuchungen sind in \autoref{tab:tableSymptomsSSQ} dargestellt.
+Anschließend wurde für beide Schnittstellen untersucht, ob es Korrelationen zwischen den Ergebnissen des SSQ und den Bewertungen der SUS, des UEQ und der Interaktionsgeschwindigkeit gibt. Die Ergebnisse dieser Untersuchungen sind in \autoref{tab:TableKorrelationenSSQ} dargestellt.
 
 \begin{table}[tbh]
     \centering
@@ -514,9 +516,9 @@ Anschließend wurde für beide Schnittstellen untersucht, ob es Korrelationen zw
     \label{tab:TableKorrelationenSSQ}
 \end{table}
 
-Für die Korrelation zwischen SSQ und SUS ergab sich beim Item Scanning ein Korrelationskoeffizient von 0,17 (p-Wert = 0,53), während beim Cartesian Scanning ein Korrelationskoeffizient von -0,33 (p-Wert = 0,21) festgestellt wurde. 
+Für die Korrelation zwischen SSQ und SUS ergab sich beim Item Scanning ein Korrelationskoeffizient von r = 0,17 (p-Wert = 0,53), während beim Cartesian Scanning ein Korrelationskoeffizient von r = -0,33 (p-Wert = 0,21) festgestellt wurde. 
 
-Beim Vergleich des SSQ mit dem UEQ-Faktor Attraktivität ergab sich für das Item Scanning ein Korrelationskoeffizient von 0,24 (p-Wert = 0,36) und für das Cartesian Scanning ein Wert von -0,11 (p-Wert = 0,69). Für den UEQ-Faktor Durchschaubarkeit wurden Korrelationskoeffizienten von -0,20 (p-Wert = 0,45) für das Item Scanning und -0,66 (p-Wert = 0,01) für das Cartesian Scanning berechnet. Der Zusammenhang zwischen dem SSQ und der Interaktionsgeschwindigkeit war beim Item Scanning durch einen Korrelationskoeffizienten von 0,32 (p-Wert = 0,23) und beim Cartesian Scanning durch einen Korrelationskoeffizienten von 0,54 (p-Wert = 0,03) gekennzeichnet.
+Beim Vergleich des SSQ mit dem UEQ-Faktor Attraktivität ergab sich für das Item Scanning ein Korrelationskoeffizient von r = 0,24 (p-Wert = 0,36) und für das Cartesian Scanning ein Wert von r = -0,11 (p-Wert = 0,69). Für den UEQ-Faktor Durchschaubarkeit wurden Korrelationskoeffizienten von r = -0,20 (p-Wert = 0,45) für das Item Scanning und r = -0,66 (p-Wert = 0,01) für das Cartesian Scanning berechnet. Der Zusammenhang zwischen dem SSQ und der Interaktionsgeschwindigkeit war beim Item Scanning durch einen Korrelationskoeffizienten von r = 0,32 (p-Wert = 0,23) und beim Cartesian Scanning durch einen Korrelationskoeffizienten von r = 0,54 (p-Wert = 0,03) gekennzeichnet.
 
 Darüber hinaus wurden die Zusammenhänge zwischen der Interaktionsgeschwindigkeit im technischen Abschnitt und der Bewertung der SUS sowie zwischen der Interaktionsgeschwindigkeit beider Abschnitte und der Bewertung des UEQ-Faktors Effizienz untersucht. Die Ergebnisse sind in \autoref{tab:TableKorrelationen} dargestellt. 
 
@@ -527,11 +529,11 @@ Darüber hinaus wurden die Zusammenhänge zwischen der Interaktionsgeschwindigke
     \label{tab:TableKorrelationen}
 \end{table}
 
-Die Korrelationskoeffizienten zwischen der Interaktionsgeschwindigkeit im technischen Abschnitt und dem UEQ-Faktor Effizienz betragen 0,19 (p-Wert = 0,49) für das Item Scanning und -0,29 (p-Wert = 0,28) für das Cartesian Scanning. Für die Interaktionsgeschwindigkeit über alle Abschnitte und den UEQ-Faktor Effizienz wurden Korrelationskoeffizienten von 0,38 (p-Wert = 0,14) für das Item Scanning und -0,15 (p-Wert = 0,58) für das Cartesian Scan errechnet.
+Die Korrelationskoeffizienten zwischen der Interaktionsgeschwindigkeit im technischen Abschnitt und dem UEQ-Faktor Effizienz betragen r = 0,186 (p-Wert = 0,490) für das Item Scanning und r = -0,289 (p-Wert = 0,278) für das Cartesian Scanning. Für die Interaktionsgeschwindigkeit über alle Abschnitte und den UEQ-Faktor Effizienz wurden Korrelationskoeffizienten von r = 0,385 (p-Wert = 0,141) für das Item Scanning und r = -0,148 (p-Wert = 0,584) für das Cartesian Scan errechnet.
 
 \subsection{Qualitative Beobachtungen und Feedback der Teilnehmenden}
 
-Neben den erhobenen Daten wurden während der Evaluation auch Beobachtungen notiert. Besonders auffällig war, dass viele Testpersonen gezielt Kopfbewegungen einsetzten, um das Cartesian Scanning zu beschleunigen oder kleine Fehler zu korrigieren. In \autoref{fig:kopfbewegungenCartesian} ist dargestellt, wie viele Personen gezielte Kopfbewegungen zu welchem Zweck einsetzten. Neun Personen setzten Kopfbewegungen für beide Zwecke ein, vier Personen ausschließlich zur Fehlerkorrektur und eine Person ausschließlich zur Beschleunigung. Zwei Personen setzten keine gezielten Kopfbewegungen ein.
+Neben den erhobenen Daten wurden während der Evaluation Beobachtungen notiert. Besonders auffällig war, dass viele Testpersonen gezielt Kopfbewegungen einsetzten, um das Cartesian Scanning zu beschleunigen oder kleine Fehler zu korrigieren. In \autoref{fig:kopfbewegungenCartesian} ist dargestellt, wie viele Personen gezielte Kopfbewegungen zu welchem Zweck einsetzten. Neun Personen setzten Kopfbewegungen für beide Zwecke ein, vier Personen ausschließlich zur Fehlerkorrektur und eine Person ausschließlich zur Beschleunigung. Zwei Personen setzten keine gezielten Kopfbewegungen ein.
 
 \begin{figure}[tbh]
     \centering
@@ -544,12 +546,12 @@ Darüber hinaus hatten die Teilnehmenden die Möglichkeit, freies Feedback zu de
 
 \textbf{Einschätzungen zur Scan Rate:}
 
-Die meisten Testpersonen äußerten sich bezüglich der Scan Rate der beiden Schnittstellen. \autoref{fig:scanrate} gibt die diesbezügliche Einschätzung der Testpersonen wider. Beim Item Scanning empfanden die meisten Testpersonen die Scan Rate als angenehm. Fünf Personen empfanden sie jedoch als zu langsam, eine Person als zu schnell und zwei Personen machten hierzu keine Angabe. Beim Cartesian Scanning empfand keine Person die Scanrate als zu schnell, während sechs Personen sie als angemessen beurteilten. Die meisten Personen gaben an, dass die Scan Rate zu langsam sei. Eine Person äußerte sich nicht.
+Die meisten Teilnehmenden äußerten sich bezüglich der Scan Rate der beiden Schnittstellen. \autoref{fig:scanrate} gibt die diesbezügliche Einschätzung der Testpersonen wider. Beim Item Scanning empfanden die meisten Testpersonen die Scan Rate als angenehm. Fünf Personen empfanden sie jedoch als zu langsam, eine Person als zu schnell und zwei Personen machten hierzu keine Angabe. Beim Cartesian Scanning empfand keine Person die Scanrate als zu schnell, während sechs Personen sie als angemessen beurteilten. Die meisten Personen gaben an, dass die Scan Rate zu langsam sei. Eine Person äußerte sich nicht.
 
 \begin{figure}[tbh]
     \centering
     \includegraphics[width=0.75\textwidth]{images/Results/ScanRate.png}
-    \caption{Einschätzungen zur Scan Rate beider Interaktionsschnittstellen}
+    \caption{Einschätzungen der Teilnehmenden zur Scan Rate beider Interaktionsschnittstellen}
     \label{fig:scanrate}
 \end{figure}
 

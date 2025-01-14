@@ -15,45 +15,45 @@ Warning--empty author in DINISO9241
 Warning--empty institution in DINISO9241
 Warning--empty year in DINISO9241
 Warning--empty institution in wong_survey_2017
-You've used 67 entries,
+You've used 68 entries,
             2773 wiz_defined-function locations,
-            1113 strings with 22515 characters,
-and the built_in function-call counts, 34511 in all, are:
-= -- 3360
-> -- 1873
-< -- 47
-+ -- 637
-- -- 568
-* -- 2876
-:= -- 5296
-add.period$ -- 354
-call.type$ -- 67
-change.case$ -- 392
+            1118 strings with 22725 characters,
+and the built_in function-call counts, 35197 in all, are:
+= -- 3434
+> -- 1902
+< -- 49
++ -- 647
+- -- 576
+* -- 2929
+:= -- 5395
+add.period$ -- 361
+call.type$ -- 68
+change.case$ -- 398
 chr.to.int$ -- 65
-cite$ -- 144
-duplicate$ -- 1521
-empty$ -- 2661
-format.name$ -- 664
-if$ -- 7377
-int.to.chr$ -- 3
+cite$ -- 146
+duplicate$ -- 1554
+empty$ -- 2715
+format.name$ -- 675
+if$ -- 7534
+int.to.chr$ -- 4
 int.to.str$ -- 1
-missing$ -- 57
-newline$ -- 482
-num.names$ -- 267
-pop$ -- 663
+missing$ -- 58
+newline$ -- 490
+num.names$ -- 273
+pop$ -- 671
 preamble$ -- 1
-purify$ -- 323
+purify$ -- 327
 quote$ -- 0
-skip$ -- 1189
+skip$ -- 1214
 stack$ -- 0
-substring$ -- 1173
-swap$ -- 248
-text.length$ -- 15
+substring$ -- 1207
+swap$ -- 260
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 722
+type$ -- 733
 warning$ -- 10
-while$ -- 278
+while$ -- 285
 width$ -- 0
-write$ -- 1177
+write$ -- 1199
 (There were 10 warnings)

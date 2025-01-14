@@ -1,4 +1,4 @@
-\begin{thebibliography}{67}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -96,17 +96,28 @@ Brendan~A. Ciccone, Shannon K.~T. Bailey, and Joanna~E. Lewis.
 \newblock \doi{10.1177/10648046211002578}.
 \newblock URL \url{https://doi.org/10.1177/10648046211002578}.
 
-\bibitem[Cook and Polgar(2015)]{COOK2015117}
+\bibitem[Cook and Polgar(2015{\natexlab{a}})]{COOK2015117}
 Albert~M. Cook and Janice~M. Polgar.
 \newblock Chapter 6 - {Making} the {Connection}: {User} {Inputs} for
   {Assistive} {Technologies}.
 \newblock In Albert~M. Cook and Janice~M. Polgar, editors, \emph{Assistive
   {Technologies} ({Fourth} {Edition})}, pages 117--138. Mosby, St. Louis (MO),
-  fourth edition edition, 2015.
+  fourth edition edition, 2015{\natexlab{a}}.
 \newblock ISBN 978-0-323-09631-7.
 \newblock \doi{https://doi.org/10.1016/B978-0-323-09631-7.00006-5}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/B9780323096317000065}.
+
+\bibitem[Cook and Polgar(2015{\natexlab{b}})]{cook_chapter_2015}
+Albert~M. Cook and Janice~M. Polgar.
+\newblock Chapter 7 - {Control} {Interfaces} for {Assistive} {Technologies}.
+\newblock In Albert~M. Cook and Janice~M. Polgar, editors, \emph{Assistive
+  {Technologies} ({Fourth} {Edition})}, pages 139--170. Mosby, St. Louis (MO),
+  fourth edition edition, 2015{\natexlab{b}}.
+\newblock ISBN 978-0-323-09631-7.
+\newblock \doi{https://doi.org/10.1016/B978-0-323-09631-7.00007-7}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/B9780323096317000077}.
 
 \bibitem[Creed et~al.(2024{\natexlab{a}})Creed, Al-Kalbani, Theil, Sarcar, and
   Williams]{creed_inclusive_2023}
